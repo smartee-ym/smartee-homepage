@@ -38,20 +38,20 @@ $(function(){
     }, 340+(i*45));
     }
 
-    function splitLetters(word) {
-    var content = word.innerHTML;
-    word.innerHTML = '';
-    var letters = [];
-    for (var i = 0; i < content.length; i++) {
-        var letter = document.createElement('span');
-        letter.className = 'letter';
-        letter.innerHTML = content.charAt(i);
-        word.appendChild(letter);
-        letters.push(letter);
-    }
+    // function splitLetters(word) {
+    // var content = word.innerHTML;
+    // word.innerHTML = '';
+    // var letters = [];
+    // for (var i = 0; i < content.length; i++) {
+    //     var letter = document.createElement('span');
+    //     letter.className = 'letter';
+    //     letter.innerHTML = content.charAt(i);
+    //     word.appendChild(letter);
+    //     letters.push(letter);
+    // }
     
-    wordArray.push(letters);
-    }
+    // wordArray.push(letters);
+    // }
 
     changeWord();
     

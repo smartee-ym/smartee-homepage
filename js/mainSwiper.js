@@ -154,7 +154,7 @@ $(function(){
 
     /* ======== solution ======== */
     const swiperSolution = new Swiper('.swiper.solutionList', {
-        slidesPerView: "5",
+        slidesPerView: "4",
         spaceBetween: 0,
         // centeredSlides: true,
         // loop: true,
@@ -167,7 +167,7 @@ $(function(){
             320: { slidesPerView: 1, spaceBetween:30 },
             570: { slidesPerView: 2, spaceBetween: 60 },
             768: { slidesPerView: 3, spaceBetween: 50 },
-            1200: { slidesPerView: 5, spaceBetween: 40 }
+            1200: { slidesPerView: 4, spaceBetween: 40 }
         },
         // And if we need scrollbar
         scrollbar: {
