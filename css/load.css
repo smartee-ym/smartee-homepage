@@ -8,7 +8,9 @@
     z-index:100;
     overflow: hidden;
 }
-#contBox { display: none;}
+
+/* 배포할 때는 #contBox { display: none;} 넣어주기 */
+
 .stripe-wrap {
     position:absolute;
     top:0;

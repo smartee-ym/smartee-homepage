@@ -1,0 +1,21 @@
+#container .wrap {
+  width: 80%;
+  margin: 5rem auto 0;
+}
+
+#container .wrap .secTitle {
+  color: #0039e6;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+#container .wrap .secInform {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+#container .wrap .solutionWrap div {
+  height: 700px;
+  font-size: 100px;
+}
+/*# sourceMappingURL=solution.css.map */

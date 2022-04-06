@@ -1,0 +1,183 @@
+@charset "UTF-8";
+#container .wrap {
+  width: 80%;
+  margin: 5rem auto 0;
+}
+
+#container .wrap .secTitle {
+  color: #0039e6;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+#container .wrap .secInform {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+#container .wrap .request-head {
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+#container .wrap .requestWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#container .wrap .requestWrap .request-input {
+  width: 60%;
+  margin-right: 10%;
+}
+
+#container .wrap .requestWrap .request-input .secDefault .sub-title {
+  color: #121212;
+  font-size: 25px;
+  margin: 3rem 0 1rem;
+}
+
+#container .wrap .requestWrap .request-input .secDefault input, #container .wrap .requestWrap .request-input .secDefault button {
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 5rem;
+  width: 10rem;
+  margin: 0 1rem 1rem 0;
+  background-color: #fcfcfc;
+  border: 2px solid #ddd;
+  color: #121212;
+  font-size: 1.1rem;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+#container .wrap .requestWrap .request-input .secDefault input:hover, #container .wrap .requestWrap .request-input .secDefault button:hover {
+  background-color: #0039e6;
+  border: 2px solid #0039e6;
+  color: #fcfcfc;
+}
+
+#container .wrap .requestWrap .request-input .secDefault input.checked, #container .wrap .requestWrap .request-input .secDefault button.checked {
+  background-color: #0039e6;
+  border: 2px solid #0039e6;
+  color: #fcfcfc;
+}
+
+#container .wrap .requestWrap .request-input .prject-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container .wrap .requestWrap .request-input .prject-wrap .secSelect {
+  width: 45%;
+  position: relative;
+}
+
+#container .wrap .requestWrap .request-input .prject-wrap .secSelect .dropdown-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding: .6rem .4rem;
+}
+
+#container .wrap .requestWrap .request-input .prject-wrap .secSelect .dropdown-wrap a {
+  display: block;
+  width: 100%;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+#container .wrap .requestWrap .request-input .prject-wrap .secSelect .dropdown-wrap span {
+  width: 0;
+  height: 0;
+  border-top: .7rem solid #ccc;
+  /* 화살표 */
+  border-left: .5rem solid transparent;
+  border-right: .5rem solid transparent;
+}
+
+#container .wrap .requestWrap .request-input .prject-wrap .secSelect .dropdown {
+  width: 100%;
+  position: absolute;
+  top: 7.8rem;
+  left: 0;
+  display: none;
+  background-color: #fcfcfc;
+}
+
+#container .wrap .requestWrap .request-input .prject-wrap .secSelect .dropdown li {
+  border: 1px solid #ddd;
+  padding: .5rem .4rem;
+}
+
+#container .wrap .requestWrap .request-input .prject-wrap .secSelect .dropdown li a {
+  color: #121212;
+}
+
+#container .wrap .requestWrap .request-input .prject-wrap .secSelect .dropdown.active {
+  height: auto;
+}
+
+#container .wrap .requestWrap .request-result {
+  width: 30%;
+  position: fixed;
+  top: 50%;
+  right: 5%;
+  font-size: 22px;
+  color: #121212;
+}
+
+#container .wrap .requestWrap .request-result .request-text {
+  color: #ccc;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#container .wrap .requestWrap .request-result .request-text.result {
+  color: #0039e6;
+}
+
+#container .wrap .requestWrap .request-result p {
+  margin-bottom: 1rem;
+  line-height: 3rem;
+}
+
+#container .wrap.posR {
+  position: relative;
+}
+
+#container .wrap.posR .request-result {
+  width: 30%;
+  position: fixed;
+  top: 30%;
+  right: 5%;
+  font-size: 22px;
+  color: #121212;
+}
+
+#container .wrap.posR .request-result .request-text {
+  color: #ccc;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#container .wrap.posR .request-result p {
+  margin-bottom: 1rem;
+  line-height: 3rem;
+}
+/*# sourceMappingURL=request.css.map */
