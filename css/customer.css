@@ -1,0 +1,105 @@
+#container .wrap {
+  width: 80%;
+  margin: 5rem auto 0;
+}
+
+#container .wrap .secTitle {
+  color: #0039e6;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+#container .wrap .secInform {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+#container .wrap .customerTab {
+  margin-top: 5rem;
+}
+
+#container .wrap .customerTab ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container .wrap .customerTab ul li {
+  margin: 0 1rem 3rem;
+}
+
+#container .wrap .customerTab ul li a {
+  display: block;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 5rem;
+  padding: 0 1.5rem;
+  background-color: #fcfcfc;
+  border: 2px solid #0039e6;
+  color: #0039e6;
+  font-size: 1.1rem;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+#container .wrap .customerTab ul li:hover a {
+  background-color: #0039e6;
+  border: 2px solid #0039e6;
+  color: #fcfcfc;
+}
+
+#container .wrap .customerTab ul li.tabOn a {
+  background-color: #0039e6;
+  border: 2px solid #0039e6;
+  color: #fcfcfc;
+}
+
+#container .wrap .customerWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+#container .wrap .customerWrap .customBox {
+  width: 15.666666%;
+  height: 100px;
+  margin: 0 .5% 1%;
+  padding: 2%;
+  background-color: #fff;
+  border-radius: .2rem;
+  border: 2px solid #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container .wrap .customerWrap .customBox img {
+  width: 70%;
+}
+
+#container .wrap .customerWrap .customBox .kt-img {
+  height: 90% !important;
+  width: auto !important;
+}
+/*# sourceMappingURL=customer.css.map */

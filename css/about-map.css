@@ -1,0 +1,83 @@
+#container .wrap {
+  width: 80%;
+  margin: 5rem auto 0;
+}
+
+#container .wrap .secTitle {
+  color: #0039e6;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+#container .wrap .secInform {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+#container .wrap .mapTop {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container .wrap .mapTop .mapLeft {
+  width: 45%;
+  margin-top: 5rem;
+}
+
+#container .wrap .mapTop .mapLeft .mapInform p {
+  color: #121212;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+#container .wrap .mapTop .mapLeft .mapInform .addr {
+  color: #0039e6;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+#container .wrap .mapTop .mapRight {
+  width: 55%;
+  padding: 0 5%;
+  background-color: #0039e6;
+  height: 400px;
+}
+
+#container .wrap .mapBot {
+  border-top: 3px solid #121212;
+  width: 100%;
+  padding-top: 3rem;
+  margin-top: 5rem;
+}
+
+#container .wrap .mapBot .transWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0 6rem;
+  margin: 4rem 0;
+}
+
+#container .wrap .mapBot .transWrap .transIcon .fa-solid {
+  color: #0039e6;
+  font-size: 2rem;
+}
+
+#container .wrap .mapBot .transWrap .transInform {
+  margin-left: 8.5rem;
+  font-size: 18px;
+  color: #121212;
+}
+/*# sourceMappingURL=about-map.css.map */

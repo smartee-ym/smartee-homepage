@@ -1,0 +1,24 @@
+#container .contWrap .center {
+  width: 80%;
+  margin: 8rem auto;
+}
+
+#container .contWrap .center h3 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+#container .contWrap .center:nth-child(2)::after {
+  content: '';
+  display: block;
+  width: 110%;
+  height: 10px;
+  background-color: rgba(15, 19, 252, 0.8);
+}
+
+#container .contWrap .center .hello-wrap {
+  margin: 3rem 0 0 25%;
+  font-size: 22px;
+  line-height: 30px;
+}
+/*# sourceMappingURL=about-hello.css.map */

@@ -1,0 +1,149 @@
+#container .wrap {
+  width: 80%;
+  margin: 5rem auto 0;
+}
+
+#container .wrap .secTitle {
+  color: #0039e6;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+#container .wrap .secInform {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+#container .wrap .historyFixedWrap {
+  position: relative;
+  margin: 5rem 0;
+}
+
+#container .wrap .historyFixedWrap .historyList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-year {
+  width: 40%;
+  margin-left: 5%;
+  font-size: 120px;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-year .year {
+  display: none;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-year .year span {
+  display: block;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-year .year.show {
+  display: block;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-detail {
+  width: 55%;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-detail::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 2px;
+  height: 100%;
+  background: #DFE0E8;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-detail .yRight {
+  margin: 6% 0 0 10%;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-detail .yRight li {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dt {
+  font-size: 2rem;
+  color: #0039e6;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dt::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: .5rem;
+  left: -5.7rem;
+  background-color: #fff;
+  width: 11px;
+  height: 11px;
+  border: 3px solid #0039e6;
+  border-radius: 50%;
+}
+
+#container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dd {
+  font-size: 1rem;
+  color: #121212;
+  margin-bottom: 1rem;
+}
+
+#container.h-fixed .wrap .historyFixedWrap .historyList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#container.h-fixed .wrap .historyFixedWrap .historyList .history-year {
+  position: fixed;
+  top: 25%;
+  left: 9%;
+  font-size: 120px;
+}
+
+#container.h-fixed .wrap .historyFixedWrap .historyList .history-year .year {
+  position: absolute;
+  top: 3%;
+  left: 0%;
+  display: none;
+}
+
+#container.h-fixed .wrap .historyFixedWrap .historyList .history-year .year.show {
+  display: block;
+}
+
+#container.h-fixed .wrap .historyFixedWrap .historyList .history-detail::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 2px;
+  height: 100%;
+  background: #DFE0E8;
+}
+
+#container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight {
+  margin: 6% 0 0 10%;
+}
+
+#container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dt {
+  font-size: 2rem;
+  color: #0039e6;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+#container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dd {
+  font-size: 1rem;
+  color: #121212;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=about-history.css.map */
