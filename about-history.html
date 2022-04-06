@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 파비콘 -->
+    <!-- 웹폰트 / 웹폰트아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/about-history.css">
+
+    <!-- script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/subheader.js"></script>
+
+    <title>smartee.</title>
+</head>
+<body>
+    <!-- sub header start -->
+    <div id="header">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="#" class="logo-img">
+                    <img src="img/logo-sub.png" alt="smartee">
+                </a>
+            </h1>
+            <!-- logo-img -->
+            <ul class="gnb">
+                <li class="main1depth solution">
+                    <a href="solution.html">Solution</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu"><a href="#">개발 서비스</a></li>
+                        <li class="subMenu"><a href="#">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="#">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="#">스파이더 뷰</a></li> 
+                    </ul>
+                </li>
+                <li class="main1depth news"><a href="#">News</a></li>
+                <li class="main1depth customer"><a href="customer.html">Customer</a></li>
+                <li class="main1depth company">
+                    <a href="#">About</a>
+                    <ul class="sub2depth subCompany">
+                        <li class="subMenu"><a href="about-ceo.html">인사말</a></li>
+                        <li class="subMenu"><a href="about-history.html">연혁</a></li>
+                        <li class="subMenu"><a href="#">채용</a></li>
+                        <li class="subMenu"><a href="about-map.html">오시는 길</a></li>   
+                    </ul>
+                </li>
+                <li class="main1depth request"><a href="request.html">Request</a></li>
+            </ul>
+            <!-- main-gnb -->
+            <div class="ham-menu">
+                <a href="#" class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+            </div>
+            <!-- ham-menu -->
+
+        </div>
+    </div>
+    <!-- sub header end -->
+    <div id="container">
+        <div class="visual-head">
+            <div class="location">
+                <a href="#" class="location-text">홈</a>
+                <span class="location-arrow"></span>
+                <a href="#" class="location-text">회사소개</a>
+                <span class="location-arrow"></span>
+                <a href="#" class="location-text">연혁</a>
+            </div>
+            <div class="visual-title-wrap">
+                <h2 class="title-main">회사소개</h2>
+                <h5 class="title-sub">smart, everyday, everything</h5>
+            </div>
+
+        </div>
+        <!-- 서브메뉴  -->
+        <div class="subMenuNav">        
+            <ul class="sub-index-wrap">
+                <li class="sub-index"><a href="about-ceo.html" class="sub-index-menu">인사말</a></li>
+                <li class="sub-index"><a href="about-history.html" class="sub-index-menu on">연혁</a></li>
+                <li class="sub-index"><a href="#" class="sub-index-menu">채용</a></li>
+                <li class="sub-index"><a href="about-map.html" class="sub-index-menu">오시는길</a></li>
+            </ul>
+        </div>
+        <!-- top 버튼 -->
+        <div class="topBtn">
+            <!-- 기본 top버튼 -->
+            <a href="#" id="scroll">
+                <span class="sr_only">위로가기</span>
+                <svg x="0px" y="0px" width="22.121px" height="37.992px" viewBox="0 0 22.121 37.992" enable-background="new 0 0 22.121 37.992" xml:space="preserve">
+                    <path fill="#0f4bff" d="M12.561,37.992h-3V2.599h3V37.992z"></path>
+                    <path fill="#0f4bff" d="M2.121,13.181L0,11.06L11.061,0L22.121,11.06L20,13.181l-8.939-8.939L2.121,13.181z"></path>
+                </svg>
+            </a>   
+        </div>
+        <!-- 연혁 내용 시작 -->
+        <div class="contWrap">
+            <div class="wrap">
+                <h6 class="secTitle">history</h6>
+                <div class="secInform">
+                    스마티이가 걸어온 길을<br/>
+                    소개합니다.
+                </div>
+                <div class="historyFixedWrap">
+                    <div class="historyList">
+                        <div class="history-year">
+                            <div id="y-2021" class="year show">2022<span> ~ 2021년</span></div>
+                            <div id="y-2016" class="year">2020<span> ~ 2016년</span></div>
+                            <div id="y-2011" class="year">2015<span> ~ 2011년</span></div>
+                        </div>
+                        <div class="history-detail">
+                            <ul id="y2021" class="yRight">
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2015년
+                                        </dt>
+                                        <dd>IoT기반 사업 수행 (LG Smart Home 외 다수)</dd>
+                                        <dd>자사 사옥 이전(당산SK V1 센터)</dd>
+                                        <dd>일본 현지 파트너 크로스엑시스 계약 체결</dd>
+                                        <dd>클라우드 기반 IoT 에너지 솔루션 출시(ARGOS)</dd>
+                                        <dd>CJ대한통운 통합물류지표 관리시스템 모바일 구축(SpiderView)</dd>
+                                        <dd>토트소프트 인수 합병
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2014년
+                                        </dt>
+                                        <dd>실시간 동영상 스트리밍 솔루션 (SpiderLive) 출시</dd>
+                                        <dd>대보정보통신 우수협력업체 선정</dd>
+                                        <dd>배달의민족 서비스 개발 및 운영사업 수주</dd>
+                                        <dd>인천경제 자유구역 입주민 대상 생활문화서비스 구축 사업 수주(SpiderView)</dd>
+                                        <dd>제주특별자치도 인터넷방송국 VOD 서비스 시스템 구축 사업 수주(SpiderLive)</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2013년
+                                        </dt>
+                                        <dd>Semantic Tag를 이용한 N스크린 기술 특허 등록</dd>
+                                        <dd>기업부설연구소 설립</dd>
+                                        <dd>벤처기업 인증</dd>
+                                        <dd>LG CNS 모바일 전문기술 협력업체 선정</dd>
+                                        <dd>동부CNI 협력업체 등록</dd>
+                                        <dd>대우정보시스템 파트너 등록</dd>
+                                        <dd>나눔로또 차기 통합 프로젝트 수주 (포털, 모바일)</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2012년
+                                        </dt>
+                                        <dd>우리은행 스마트TV 환율정보 시스템 구축 사업 수주</dd>
+                                        <dd>LG전자 B2E 모바일 구축 사업 수주(운영부문)</dd>
+                                        <dd>N스크린 솔루션 (SpiderView) 개발</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2011년
+                                        </dt>
+                                        <dd>스마티이 설립</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul id="y2016" class="yRight">
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2015년
+                                        </dt>
+                                        <dd>IoT기반 사업 수행 (LG Smart Home 외 다수)</dd>
+                                        <dd>자사 사옥 이전(당산SK V1 센터)</dd>
+                                        <dd>일본 현지 파트너 크로스엑시스 계약 체결</dd>
+                                        <dd>클라우드 기반 IoT 에너지 솔루션 출시(ARGOS)</dd>
+                                        <dd>CJ대한통운 통합물류지표 관리시스템 모바일 구축(SpiderView)</dd>
+                                        <dd>토트소프트 인수 합병
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2014년
+                                        </dt>
+                                        <dd>실시간 동영상 스트리밍 솔루션 (SpiderLive) 출시</dd>
+                                        <dd>대보정보통신 우수협력업체 선정</dd>
+                                        <dd>배달의민족 서비스 개발 및 운영사업 수주</dd>
+                                        <dd>인천경제 자유구역 입주민 대상 생활문화서비스 구축 사업 수주(SpiderView)</dd>
+                                        <dd>제주특별자치도 인터넷방송국 VOD 서비스 시스템 구축 사업 수주(SpiderLive)</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2013년
+                                        </dt>
+                                        <dd>Semantic Tag를 이용한 N스크린 기술 특허 등록</dd>
+                                        <dd>기업부설연구소 설립</dd>
+                                        <dd>벤처기업 인증</dd>
+                                        <dd>LG CNS 모바일 전문기술 협력업체 선정</dd>
+                                        <dd>동부CNI 협력업체 등록</dd>
+                                        <dd>대우정보시스템 파트너 등록</dd>
+                                        <dd>나눔로또 차기 통합 프로젝트 수주 (포털, 모바일)</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2012년
+                                        </dt>
+                                        <dd>우리은행 스마트TV 환율정보 시스템 구축 사업 수주</dd>
+                                        <dd>LG전자 B2E 모바일 구축 사업 수주(운영부문)</dd>
+                                        <dd>N스크린 솔루션 (SpiderView) 개발</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2011년
+                                        </dt>
+                                        <dd>스마티이 설립</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul id="y2011" class="yRight">
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2015년
+                                        </dt>
+                                        <dd>IoT기반 사업 수행 (LG Smart Home 외 다수)</dd>
+                                        <dd>자사 사옥 이전(당산SK V1 센터)</dd>
+                                        <dd>일본 현지 파트너 크로스엑시스 계약 체결</dd>
+                                        <dd>클라우드 기반 IoT 에너지 솔루션 출시(ARGOS)</dd>
+                                        <dd>CJ대한통운 통합물류지표 관리시스템 모바일 구축(SpiderView)</dd>
+                                        <dd>토트소프트 인수 합병
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2014년
+                                        </dt>
+                                        <dd>실시간 동영상 스트리밍 솔루션 (SpiderLive) 출시</dd>
+                                        <dd>대보정보통신 우수협력업체 선정</dd>
+                                        <dd>배달의민족 서비스 개발 및 운영사업 수주</dd>
+                                        <dd>인천경제 자유구역 입주민 대상 생활문화서비스 구축 사업 수주(SpiderView)</dd>
+                                        <dd>제주특별자치도 인터넷방송국 VOD 서비스 시스템 구축 사업 수주(SpiderLive)</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2013년
+                                        </dt>
+                                        <dd>Semantic Tag를 이용한 N스크린 기술 특허 등록</dd>
+                                        <dd>기업부설연구소 설립</dd>
+                                        <dd>벤처기업 인증</dd>
+                                        <dd>LG CNS 모바일 전문기술 협력업체 선정</dd>
+                                        <dd>동부CNI 협력업체 등록</dd>
+                                        <dd>대우정보시스템 파트너 등록</dd>
+                                        <dd>나눔로또 차기 통합 프로젝트 수주 (포털, 모바일)</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2012년
+                                        </dt>
+                                        <dd>우리은행 스마트TV 환율정보 시스템 구축 사업 수주</dd>
+                                        <dd>LG전자 B2E 모바일 구축 사업 수주(운영부문)</dd>
+                                        <dd>N스크린 솔루션 (SpiderView) 개발</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2011년
+                                        </dt>
+                                        <dd>스마티이 설립</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- sub footer start -->
+    <div id="footer">
+        <div class="footer-center">
+            <div class="footer-left">
+                <h2><img src="img/logo-dark.png"></h2>
+                <ul class="smartee-info">
+                    <li>(주)스마티이</li>
+                    <li>대표 이우찬</li>
+                    <li>사업자 등록번호 123-45-67788</li>
+                </ul>
+                <ul class="smartee-contract">
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
+                    <li>Tel ) 02-123-4567</li>
+                    <li>Fax ) 02-789-7991</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><a href="#">스마티이 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                </ul>
+                <div class="footer-copy">
+                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sub footer end -->
+    <script>
+                /* ======== sub-index fixed ======== */
+
+                $(window).scroll(function(){
+
+                    //스크롤 위치값 알아내기
+                    let scTop = $(this).scrollTop();    //스크롤바 위치값 알아내는 제이쿼리 함수
+
+
+                    /* ======== history fixed ======== */
+                    let scHis = $(".historyList").offset().top - 180;
+                    if( scTop >= scHis){
+                        $("#container").addClass("h-fixed");
+                        }
+                        else{   
+                        $("#container").removeClass("h-fixed");
+                        }
+
+                    /* ======== history change ======== */
+                    let his2021 = $("#y2021").offset().top;
+                    let his2016 = $("#y2016").offset().top -300;
+                    let his2011 = $("#y2011").offset().top -300 ;
+                    if( scTop >= his2021 && scTop < his2016){
+                        $("#y-2016").fadeOut();
+                        $("#y-2011").fadeOut();
+                        $("#y-2021").fadeIn();
+                        }
+                    else if ( scTop >= his2016 && scTop < his2011){   
+                        $("#y-2021").fadeOut();
+                        $("#y-2011").fadeOut();
+                        $("#y-2016").fadeIn();
+                        }
+                    else if( scTop >= his2011){
+                            $("#y-2021").fadeOut();
+                            $("#y-2016").fadeOut();
+                            $("#y-2011").fadeIn();
+                        }
+                    });
+
+    </script>
+</body>
+</html>

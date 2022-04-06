@@ -23,11 +23,11 @@
     <script src="js/mainSwiper.js"></script>
     <script src="js/letters-animation.js"></script>
     
-    <title>swiper ver.</title>
+    <title>smartee.</title>
     
 </head>
 <body>
-
+    
     <div id="load">
         <div class="stripe-wrap">
             <span class="stripe"></span>
@@ -102,27 +102,27 @@
                 </h1>
                 <!-- logo-img -->
                 <ul class="gnb">
-                    <li class="main1depth company">
-                        <a href="#">회사소개</a>
-                        <ul class="sub2depth subCompany">
-                            <li class="subMenu"><a href="#">인사말</a></li>
-                            <li class="subMenu"><a href="#">연혁</a></li>
-                            <li class="subMenu"><a href="#">채용</a></li>
-                            <li class="subMenu"><a href="#">오시는 길</a></li>   
-                        </ul>
-                    </li>
                     <li class="main1depth solution">
-                        <a href="#">솔루션</a>
+                        <a href="solution.html">Solution</a>
                         <ul class="sub2depth subSolution">
-                            <li class="subMenu"><a href="#">동영상 스트리밍</a></li>
-                            <li class="subMenu"><a href="#">모바일·웹 개발</a></li>
+                            <li class="subMenu"><a href="#">개발 서비스</a></li>
                             <li class="subMenu"><a href="#">IT 아웃소싱 관리</a></li>
-                            <li class="subMenu"><a href="#">스파이더 뷰</a></li>
-                            <li class="subMenu"><a href="#">스파이더 라이브</a></li>   
+                            <li class="subMenu"><a href="#">스파이더 라이브</a></li> 
+                            <li class="subMenu"><a href="#">스파이더 뷰</a></li> 
                         </ul>
                     </li>
-                    <li class="main1depth news"><a href="#">뉴스</a></li>
-                    <li class="main1depth customer"><a href="#">고객</a></li>
+                    <li class="main1depth news"><a href="#">News</a></li>
+                    <li class="main1depth customer"><a href="customer.html">Customer</a></li>
+                    <li class="main1depth company">
+                        <a href="about-ceo.html">About</a>
+                        <ul class="sub2depth subCompany">
+                            <li class="subMenu"><a href="about-ceo.html">인사말</a></li>
+                            <li class="subMenu"><a href="about-history.html">연혁</a></li>
+                            <li class="subMenu"><a href="#">채용</a></li>
+                            <li class="subMenu"><a href="about-map.html">오시는 길</a></li>   
+                        </ul>
+                    </li>
+                    <li class="main1depth request"><a href="request.html">Request</a></li>
                 </ul>
                 <!-- main-gnb -->
                 <div class="ham-menu">
@@ -136,7 +136,17 @@
                 <!-- ham-menu -->
     
             </div>
-        </div>    
+        </div>
+        <a href="#" class="request-btn">
+            <svg class="icon_rq" x="0px" y="0px" width="26px" height="23px" viewBox="0 0 26 23" enable-background="new 0 0 26 23" xml:space="preserve">
+                <path fill="#fcfcfc" d="M10.55,22.929c-0.242,0-0.481-0.088-0.669-0.257l-5.022-4.521H3.941C1.769,18.152,0,16.383,0,14.21V4.013
+                    c0-2.173,1.769-3.942,3.941-3.942h18.117C24.231,0.071,26,1.839,26,4.013V14.21c0,2.173-1.769,3.942-3.941,3.942H11.55v3.777
+                    c0,0.395-0.232,0.753-0.593,0.914C10.826,22.901,10.688,22.929,10.55,22.929z M3.941,2.071C2.871,2.071,2,2.942,2,4.013V14.21
+                    c0,1.071,0.871,1.942,1.941,1.942h1.301c0.247,0,0.485,0.091,0.669,0.257l3.639,3.275v-2.532c0-0.552,0.447-1,1-1h11.509
+                    c1.07,0,1.941-0.871,1.941-1.942V4.013c0-1.071-0.871-1.942-1.941-1.942H3.941z"></path>
+            </svg>
+            <span>의뢰하기</span>
+        </a>    
         <!-- fullpage main container -->
         <div class="swiper fullpage" id="container">
             <!-- Additional required wrapper -->
@@ -169,11 +179,10 @@
                     </a> -->
                     <!-- 추가 스크롤 -->
                     <a id="scroll-down" href="#">
-                        <span class="arrow-down">
-                        <!-- css generated icon -->
-                        </span>
                         <span id="scroll-title">
                           Scroll down
+                        </span>
+                        <span class="arrow-down">
                         </span>
                     </a>
                 </div>
@@ -187,6 +196,7 @@
                                 <span>진화하는</span> 디바이스를 위한 <span>미래시장을</span> 이끌어나갑니다
                             </h5>
                         </div>
+                        <!-- 버튼 wrap 빼기
                         <div class="btnWrap ani2">
                             <button class="viewMore-btn">
                                 <span class="circle" aria-hidden="true">
@@ -196,7 +206,7 @@
                                     view more
                                 </span>
                             </button>
-                        </div>
+                        </div> -->
                         <div class="solutionListSwiper">
                         <!-- Slider main container -->
                             <div class="swiper solutionList">
@@ -206,32 +216,8 @@
                                     <div class="swiper-slide solutionWrap scale0">
                                         <div class="solutionTop">
                                             <div class="solutionTitle">
-                                                Video<br/>
-                                                Streaming
-                                            </div>
-                                            <div class="icon">
-                                                <div class="ani"></div>
-                                                <div class="iconImg">
-                                                    <img src="img/solution-icon/video-icon.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="solutionMid"></div>
-                                        <div class="solutionBot">
-                                            기업 홍보 자료 송출<br/>
-                                            타겟 마케팅<br/>
-                                            교육 및 지식 전파<br/>
-                                        </div>
-                                        <button class="moreBtn">
-                                            <a href="#">view more</a>
-                                        </button>
-                                        <div class="solutionShadow"></div>
-                                    </div>
-                                    <div class="swiper-slide solutionWrap scale0">
-                                        <div class="solutionTop">
-                                            <div class="solutionTitle">
-                                                Multi-device<br/>
-                                                Development
+                                                Development<br/>
+                                                Service
                                             </div>
                                             <div class="icon">
                                                 <div class="ani"></div>
@@ -249,7 +235,6 @@
                                         <button class="moreBtn">
                                             <a href="#">view more</a>
                                         </button>
-                                        <div class="solutionShadow"></div>
                                     </div>
                                     <div class="swiper-slide solutionWrap scale0">
                                         <div class="solutionTop">
@@ -273,32 +258,6 @@
                                         <button class="moreBtn">
                                             <a href="#">view more</a>
                                         </button>
-                                        <div class="solutionShadow"></div>
-                                    </div>
-                                    <div class="swiper-slide solutionWrap scale0">
-                                        <div class="solutionTop">
-                                            <div class="solutionTitle">
-                                                Spider<br/>
-                                                View
-                                            </div>
-                                            <div class="icon">
-                                                <div class="ani"></div>
-                                                <div class="iconImg">
-                                                    <img src="img/solution-icon/spiderview-icon.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="solutionMid"></div>
-                                        <div class="solutionBot">
-                                            빠르고 유용한 대응 솔루션<br/>
-                                            One source,<br/>
-                                            Multi screen, device<br/>
-                                            생상성 향상 및 비용 절감 효과
-                                        </div>
-                                        <button class="moreBtn">
-                                            <a href="#">view more</a>
-                                        </button>
-                                        <div class="solutionShadow"></div>
                                     </div>
                                     <div class="swiper-slide solutionWrap scale0">
                                         <div class="solutionTop">
@@ -323,7 +282,30 @@
                                         <button class="moreBtn">
                                             <a href="#">view more</a>
                                         </button>
-                                        <div class="solutionShadow"></div>
+                                    </div>
+                                    <div class="swiper-slide solutionWrap scale0">
+                                        <div class="solutionTop">
+                                            <div class="solutionTitle">
+                                                Spider<br/>
+                                                View
+                                            </div>
+                                            <div class="icon">
+                                                <div class="ani"></div>
+                                                <div class="iconImg">
+                                                    <img src="img/solution-icon/spiderview-icon.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="solutionMid"></div>
+                                        <div class="solutionBot">
+                                            빠르고 유용한 대응 솔루션<br/>
+                                            One source,<br/>
+                                            Multi screen, device<br/>
+                                            생상성 향상 및 비용 절감 효과
+                                        </div>
+                                        <button class="moreBtn">
+                                            <a href="#">view more</a>
+                                        </button>
                                     </div>
                                 </div>                   
                                 <!-- solution navigation buttons -->
@@ -343,6 +325,7 @@
                                 스마티이에서 <span>함께 커가는 더 밝은 미래로</span> 향합니다
                             </h5>
                         </div>
+                        <!-- 버튼 wrap 빼기
                         <div class="btnWrap ani4">
                             <button class="viewMore-btn">
                                 <span class="circle" aria-hidden="true">
@@ -353,6 +336,7 @@
                                 </span>
                             </button>
                         </div>
+                        -->
                         <div class="customerListSwiper">
                             <!-- Slider main container -->
                             <div class="swiper customer-list1">
@@ -465,7 +449,46 @@
                             </div>
                         </div>
                     </div>
+                    <div class="footer">
+                        <div class="footer-center">
+                            <div class="footer-left">
+                                <h2><img src="img/logo-dark.png"></h2>
+                                <ul class="smartee-info">
+                                    <li>(주)스마티이</li>
+                                    <li>대표 이우찬</li>
+                                    <li>사업자 등록번호 123-45-67788</li>
+                                </ul>
+                                <ul class="smartee-contract">
+                                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
+                                    <li>Tel ) 02-123-4567</li>
+                                    <li>Fax ) 02-789-7991</li>
+                                </ul>
+                            </div>
+                            <div class="footer-right">
+                                <ul class="footer-nav">
+                                    <li><a href="#">스마티이 소개</a></li>
+                                    <li><a href="#">개인정보처리방침</a></li>
+                                    <li><a href="#">오시는 길</a></li>
+                                </ul>
+                                <div class="footer-copy">
+                                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topBtn">
+                        <!-- 기본 top버튼 -->
+                        <a href="#" id="scroll">
+                            <span class="sr_only">위로가기</span>
+                            <svg x="0px" y="0px" width="22.121px" height="37.992px" viewBox="0 0 22.121 37.992" enable-background="new 0 0 22.121 37.992" xml:space="preserve">
+                                <path fill="#fcfcfc" d="M12.561,37.992h-3V2.599h3V37.992z"></path>
+                                <path fill="#fcfcfc" d="M2.121,13.181L0,11.06L11.061,0L22.121,11.06L20,13.181l-8.939-8.939L2.121,13.181z"></path>
+                            </svg>
+                        </a>   
+                    </div>
                 </div>
+                <!-- request page 삭제 -->
+<!-- 
                 <div class="swiper-slide request">
                     <div class="request-wrap ani5">
                         <h2 class="page-title">
@@ -514,16 +537,18 @@
                         </div>
                     </div>
                     <div class="topBtn">
-                        <!-- 기본 top버튼 -->
+                        
                         <a href="#" id="scroll">
                             <span></span>
                         </a>
     
                     </div>
                 </div>
-            <!-- full screen pagination -->
+            -->               
+            <!-- full screen pagination 임시제거 -->
+            <!-- 
             <div class="swiper-pagination"></div>
-        
+             -->
             </div>
         </div> 
     </div>

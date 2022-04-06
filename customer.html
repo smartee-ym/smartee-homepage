@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 파비콘 -->
+    <!-- 웹폰트 / 웹폰트아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/customer.css">
+
+
+    <!-- script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/subheader.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/isotope.js"></script>
+
+
+    <title>smartee.</title>
+</head>
+<body>
+    <!-- sub header start -->
+    <div id="header">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="#" class="logo-img">
+                    <img src="img/logo-sub.png" alt="smartee">
+                </a>
+            </h1>
+            <!-- logo-img -->
+            <ul class="gnb">
+                <li class="main1depth solution">
+                    <a href="solution.html">Solution</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu"><a href="#">개발 서비스</a></li>
+                        <li class="subMenu"><a href="#">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="#">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="#">스파이더 뷰</a></li> 
+                    </ul>
+                </li>
+                <li class="main1depth news"><a href="#">News</a></li>
+                <li class="main1depth customer"><a href="customer.html">Customer</a></li>
+                <li class="main1depth company">
+                    <a href="about-ceo.html">About</a>
+                    <ul class="sub2depth subCompany">
+                        <li class="subMenu"><a href="about-ceo.html">인사말</a></li>
+                        <li class="subMenu"><a href="about-history.html">연혁</a></li>
+                        <li class="subMenu"><a href="#">채용</a></li>
+                        <li class="subMenu"><a href="about-map.html">오시는 길</a></li>   
+                    </ul>
+                </li>
+                <li class="main1depth request"><a href="request.html">Request</a></li>
+            </ul>
+            <!-- main-gnb -->
+            <div class="ham-menu">
+                <a href="#" class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+            </div>
+            <!-- ham-menu -->
+
+        </div>
+    </div>
+    <!-- sub header end -->
+    <div id="container">
+        <div class="visual-head">
+            <div class="location">
+                <a href="#" class="location-text">홈</a>
+                <span class="location-arrow"></span>
+                <a href="#" class="location-text">고객사</a>
+            </div>
+            <div class="visual-title-wrap">
+                <h2 class="title-main">고객사</h2>
+                <h5 class="title-sub">Growing Together Towards a Brighter Future</h5>
+            </div>
+
+        </div>
+        <!-- 서브메뉴  -->
+        <div class="subMenuNav">        
+            <ul class="sub-index-wrap">
+                <li class="sub-index "><a href="#" class="sub-index-menu on">고객사 안내</a></li>
+            </ul>
+        </div>
+        <!-- top 버튼 -->
+        <div class="topBtn">
+            <!-- 기본 top버튼 -->
+            <a href="#" id="scroll">
+                <span class="sr_only">위로가기</span>
+                <svg x="0px" y="0px" width="22.121px" height="37.992px" viewBox="0 0 22.121 37.992" enable-background="new 0 0 22.121 37.992" xml:space="preserve">
+                    <path fill="#0f4bff" d="M12.561,37.992h-3V2.599h3V37.992z"></path>
+                    <path fill="#0f4bff" d="M2.121,13.181L0,11.06L11.061,0L22.121,11.06L20,13.181l-8.939-8.939L2.121,13.181z"></path>
+                </svg>
+            </a>   
+        </div>
+        <!-- solution 시작 -->
+        <div class="contWrap">
+            <div class="wrap">
+                <h6 class="secTitle">customer</h6>
+                <div class="secInform">
+                    스마티이는 다양한 고객에게<br/>
+                    최상의 서비스를 제공합니다.
+                </div>
+                <div class="customerTab">
+                    <ul>
+                        <li class="tabOn" data-filter="*"><a href="#">전체</a></li>
+                        <li data-filter=".finance"><a href="#">금융</a></li>
+                        <li data-filter=".service"><a href="#">서비스</a></li>
+                        <li data-filter=".manufac"><a href="#">제조/통신/물류</a></li>
+                        <li data-filter=".public"><a href="#">공공</a></li>
+                    </ul>
+                </div>
+                <div class="customerWrap">
+                    <div class="customBox all finance">
+                        <img src="img/customer/woori-bank.png" alt="우리은행">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/daewoo-system.png" alt="대우정보시스템">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/lg.png" alt="lg전자">
+                    </div>
+                    <div class="customBox all public">
+                        <img src="img/customer/lotto.png" alt="나눔로또">
+                    </div>
+                    <div class="customBox all finance">
+                        <img src="img/customer/kb-bank.png" alt="국민은행">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/lg-cns.png" alt="lgcns">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/sk-telecom.png" alt="sk텔레콤">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/kt.png" class="kt-img" alt="kt">
+                    </div>
+                    <div class="customBox all public">
+                        <img src="img/customer/korea-sight.png" alt="한국관광공사">
+                    </div>
+                    <div class="customBox all finance">
+                        <img src="img/customer/samsung-card.png" alt="삼성카드">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/hanjin-tel.png" alt="한진정보통신">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/lg-u+.png" alt="lg유플러스">
+                    </div>
+                    <div class="customBox all finance">
+                        <img src="img/customer/nice.png" alt="nice">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/woowahan.png" alt="우아한형제들">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/posco.png" alt="posco">
+                    </div>
+                    <div class="customBox all public">
+                        <img src="img/customer/jeju-island.png" alt="제주특별자치도">
+                    </div>
+                    <div class="customBox all finance">
+                        <img src="img/customer/ace.png" alt="ace생명">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/monolink.png" alt="monolink">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/ytn-dmb.png" alt="ytn-dmb">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/cj.png" alt="cj대한통운">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/samsung-ele.png" alt="삼성전자">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/lg-housys.png" alt="lg하우시스">
+                    </div>
+                    <div class="customBox all public">
+                        <img src="img/customer/isna-public.png" alt="인사혁신처">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/hanhwa-life.png" alt="한화생명">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/kg-mobilians.png" alt="kg모빌리언스">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/sk-planet.png" alt="sk플래닛">
+                    </div>
+                    <div class="customBox all public">
+                        <img src="img/customer/sanup-public.png" alt="산업통상자원부">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/nsk.png" alt="nsk">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/icd-factory.png" alt="ice factory">
+                    </div>
+                    <div class="customBox all public">
+                        <img src="img/customer/kangwon-land.png" alt="강원랜드">
+                    </div>
+                    <div class="customBox all finance">
+                        <img src="img/customer/hyundai-capital.png" alt="현대캐피탈">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/hello-nature.png" alt="헬로네이쳐">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/commax.png" alt="commax">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/sinsegae.png" alt="신세계">
+                    </div>
+                    <div class="customBox all public">
+                        <img src="img/customer/hankuk-janghak.png" alt="한국장학재단">
+                    </div>
+                    <div class="customBox all finance">
+                        <img src="img/customer/korea-exchange.png" alt="한국거래소">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/nc-soft.png" alt="ncsoft">
+                    </div>
+                    <div class="customBox all public">
+                        <img src="img/customer/health-insurance.png" alt="국민건강보험">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/Encored.png" alt="encored">
+                    </div>
+                    <div class="customBox all manufac">
+                        <img src="img/customer/sanyoung-paint.png" alt="삼영페인트제조주식회사">
+                    </div>
+                    <div class="customBox all service">
+                        <img src="img/customer/ulife-solutions.png" alt="송도유라이프주식회사">
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+        </div>
+    </div>
+    <!-- sub footer start -->
+    <div id="footer">
+        <div class="footer-center">
+            <div class="footer-left">
+                <h2><img src="img/logo-dark.png"></h2>
+                <ul class="smartee-info">
+                    <li>(주)스마티이</li>
+                    <li>대표 이우찬</li>
+                    <li>사업자 등록번호 123-45-67788</li>
+                </ul>
+                <ul class="smartee-contract">
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
+                    <li>Tel ) 02-123-4567</li>
+                    <li>Fax ) 02-789-7991</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><a href="#">스마티이 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                </ul>
+                <div class="footer-copy">
+                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sub footer end -->
+</body>
+</html>

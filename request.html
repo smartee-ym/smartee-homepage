@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 파비콘 -->
+    <!-- 웹폰트 / 웹폰트아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/request.css">
+    <!-- script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/subheader.js"></script>
+    <script src="js/request.js"></script>
+
+
+    <title>smartee.</title>
+</head>
+<body>
+    <!-- sub header start -->
+    <div id="header">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="#" class="logo-img">
+                    <img src="img/logo-sub.png" alt="smartee">
+                </a>
+            </h1>
+            <!-- logo-img -->
+            <ul class="gnb">
+                <li class="main1depth solution">
+                    <a href="solution.html">Solution</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu"><a href="#">개발 서비스</a></li>
+                        <li class="subMenu"><a href="#">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="#">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="#">스파이더 뷰</a></li> 
+                    </ul>
+                </li>
+                <li class="main1depth news"><a href="#">News</a></li>
+                <li class="main1depth customer"><a href="customer.html">Customer</a></li>
+                <li class="main1depth company">
+                    <a href="about-ceo.html">About</a>
+                    <ul class="sub2depth subCompany">
+                        <li class="subMenu"><a href="about-ceo.html">인사말</a></li>
+                        <li class="subMenu"><a href="about-history.html">연혁</a></li>
+                        <li class="subMenu"><a href="#">채용</a></li>
+                        <li class="subMenu"><a href="about-map.html">오시는 길</a></li>   
+                    </ul>
+                </li>
+                <li class="main1depth request"><a href="request.html">Request</a></li>
+            </ul>
+            <!-- main-gnb -->
+            <div class="ham-menu">
+                <a href="#" class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+            </div>
+            <!-- ham-menu -->
+
+        </div>
+    </div>
+    <!-- sub header end -->
+    <div id="container">
+        <div class="visual-head">
+            <div class="location">
+                <a href="#" class="location-text">홈</a>
+                <span class="location-arrow"></span>
+                <a href="#" class="location-text">의뢰하기</a>
+            </div>
+            <div class="visual-title-wrap">
+                <h2 class="title-main">의뢰하기</h2>
+                <h5 class="title-sub">Creates Future Value through Collaboration.</h5>
+            </div>
+
+        </div>
+        <!-- 서브메뉴  -->
+        <div class="subMenuNav">        
+            <ul class="sub-index-wrap">
+                <li class="sub-index "><a href="#" class="sub-index-menu on">의뢰하기</a></li>
+            </ul>
+        </div>
+        <!-- top 버튼 -->
+        <div class="topBtn">
+            <!-- 기본 top버튼 -->
+            <a href="#" id="scroll">
+                <span class="sr_only">위로가기</span>
+                <svg x="0px" y="0px" width="22.121px" height="37.992px" viewBox="0 0 22.121 37.992" enable-background="new 0 0 22.121 37.992" xml:space="preserve">
+                    <path fill="#0f4bff" d="M12.561,37.992h-3V2.599h3V37.992z"></path>
+                    <path fill="#0f4bff" d="M2.121,13.181L0,11.06L11.061,0L22.121,11.06L20,13.181l-8.939-8.939L2.121,13.181z"></path>
+                </svg>
+            </a>   
+        </div>
+        <!-- solution 시작 -->
+        <div class="contWrap">
+            <div class="wrap">
+                <h6 class="secTitle">request</h6>
+                <div class="secInform">
+                    스마티이와 함께 <br/>
+                    더 밝은 미래로 향합니다.
+                </div>
+                <h4 class="request-head">의뢰 내용을 알려주세요.</h4>
+                <div class="requestWrap">
+                    <div class="request-input">
+                        <div class="test"></div>
+
+                        <section class="business-field secDefault btnWrap">
+                            <p class="sub-title">
+                                사업 분야
+                            </p>
+                            <input type="button" value="금융" class="btn"></input>
+                            <input type="button" value="서비스" class="btn"></input>
+                            <input type="button" value="제조" class="btn"></input>
+                            <input type="button" value="통신" class="btn"></input>
+                            <input type="button" value="물류" class="btn"></input>
+                            <input type="button" value="공공" class="btn"></input>
+                        </section>
+                        <section class="business-form secDefault btnWrap">
+                            <p class="sub-title">
+                                사업 형태
+                            </p>
+                            <input type="button" value="PC 웹" class="btn"></input>
+                            <input type="button" value="모바일 웹" class="btn"></input>
+                            <input type="button" value="모바일 앱" class="btn"></input>
+                            <input type="button" value="웨어러블" class="btn"></input>
+                            <input type="button" value="기타" class="btn"></input>
+                        </section>
+                        <section class="business-charac secDefault btnWrap">
+                            <p class="sub-title">
+                                사업 성격
+                            </p>
+                            <input type="button" value="신규 구축" class="btn"></input>
+                            <input type="button" value="리뉴얼" class="btn"></input>
+                            <input type="button" value="유지 보수" class="btn"></input>
+                            <input type="button" value="컨설팅" class="btn"></input>
+                            <input type="button" value="기타" class="btn"></input>
+                        </section>
+                        <div class="prject-wrap">
+                            <div class="prject-budget secDefault secSelect">
+                                <p class="sub-title">
+                                    사업 성격
+                                </p>
+                                <div class="dropdown-wrap">
+                                    <a href="#">예산을 선택해주세요.</a>
+                                    <span></span>
+                                </div>
+                                <ul class="dropdown budget">
+                                    <li><a>1천만원 ~ 5천만원 미만</a></li>
+                                    <li><a>5천만원 ~ 1억 미만</a></li>
+                                    <li><a>1억 ~ 1억 5천만원 미만</a></li>
+                                    <li><a>기타</a></li>
+                                </ul>
+                            </div>
+                            <div class="prject-period secDefault secSelect">
+                                <p class="sub-title">
+                                    사업 성격
+                                </p>
+                                <div class="dropdown-wrap">
+                                    <a href="#">기간을 선택해주세요.</a>
+                                    <span></span>
+                                </div>
+                                <ul class="dropdown">
+                                    <li><a>3개월</a></li>
+                                    <li><a>5개월</a></li>
+                                    <li><a>7개월</a></li>
+                                    <li><a>기타</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="selection secDefault">
+                            <p class="sub-title">
+                                선정 방식
+                            </p>
+                            <span class="selec-btn"><input type="button" value="제안 입찰"></input></span>
+                            <span class="selec-btn"><input type="button" value="가격 입찰"></input></span>
+                            <span class="selec-btn"><input type="button" value="수의 계약"></input></span>
+                            <span class="selec-btn"><input type="button" value="미정"></input></span>
+                        </div>
+                    </div>
+                    <div class="request-result">
+
+                        <span id="field" class="request-text">사업 분야</span>
+                        <p></p>
+                        <span id="form" class="request-text">사업 형태</span>의
+                        <p></p>
+                        <span id="charac" class="request-text">사업 성격</span>프로젝트를
+                        <p>의뢰하고 싶습니다.</p>
+                        <p></p>
+                        <span id="budget" class="request-text">프로젝트 예산</span>의 규모로
+                        <p></p>
+                        <span id="period" class="request-text">프로젝트 기간</span>동안 진행할
+                        <p>예정입니다.</p>
+                        <p></p>
+                        <span id="select" class="request-text">선정방식</span>으로
+                        <p>선정방식을 진행하고 싶습니다.</p>
+                    </div>
+                </div>
+
+
+
+                
+
+            </div>
+        </div>
+    </div>
+    <!-- sub footer start -->
+    <div id="footer">
+        <div class="footer-center">
+            <div class="footer-left">
+                <h2><img src="img/logo-dark.png"></h2>
+                <ul class="smartee-info">
+                    <li>(주)스마티이</li>
+                    <li>대표 이우찬</li>
+                    <li>사업자 등록번호 123-45-67788</li>
+                </ul>
+                <ul class="smartee-contract">
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
+                    <li>Tel ) 02-123-4567</li>
+                    <li>Fax ) 02-789-7991</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><a href="#">스마티이 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                </ul>
+                <div class="footer-copy">
+                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sub footer end -->
+
+</body>
+</html>
