@@ -3,13 +3,17 @@
   margin: 5rem auto 0;
 }
 
-#container .wrap .secTitle {
-  color: #0039e6;
+#container .wrap .secTitle-wrap .secTitle {
+  font-family: 'Pretendard-ExtraBold';
+  font-weight: 800;
+  color: #2C64E5;
   font-size: 20px;
   margin-bottom: 2rem;
 }
 
-#container .wrap .secInform {
+#container .wrap .secTitle-wrap .secInform {
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
   font-size: 50px;
   line-height: 65px;
 }
@@ -29,7 +33,9 @@
 }
 
 #container .wrap .historyFixedWrap .historyList .history-year {
-  width: 40%;
+  font-family: 'Pretendard-SemiBold';
+  font-weight: 600;
+  width: 50%;
   margin-left: 5%;
   font-size: 120px;
 }
@@ -47,7 +53,7 @@
 }
 
 #container .wrap .historyFixedWrap .historyList .history-detail {
-  width: 55%;
+  width: 45%;
 }
 
 #container .wrap .historyFixedWrap .historyList .history-detail::before {
@@ -70,8 +76,9 @@
 
 #container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dt {
   font-size: 2rem;
-  color: #0039e6;
-  font-weight: bold;
+  color: #2C64E5;
+  font-family: 'Pretendard-ExtraBold';
+  font-weight: 800;
   margin: 1.5rem 0;
 }
 
@@ -80,16 +87,18 @@
   position: absolute;
   z-index: 1;
   top: .5rem;
-  left: -5.7rem;
+  left: -4.7rem;
   background-color: #fff;
   width: 11px;
   height: 11px;
-  border: 3px solid #0039e6;
+  border: 3px solid #2C64E5;
   border-radius: 50%;
 }
 
 #container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dd {
-  font-size: 1rem;
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+  font-size: 1.2rem;
   color: #121212;
   margin-bottom: 1rem;
 }
@@ -136,13 +145,16 @@
 
 #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dt {
   font-size: 2rem;
-  color: #0039e6;
-  font-weight: bold;
+  color: #2C64E5;
+  font-family: 'Pretendard-ExtraBold';
+  font-weight: 800;
   margin: 1.5rem 0;
 }
 
 #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dd {
-  font-size: 1rem;
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+  font-size: 1.2rem;
   color: #121212;
   margin-bottom: 1rem;
 }

@@ -4,18 +4,22 @@
 }
 
 #container .wrap .secTitle {
-  color: #0039e6;
+  font-family: 'Pretendard-ExtraBold';
+  font-weight: 800;
+  color: #2C64E5;
   font-size: 20px;
   margin-bottom: 2rem;
 }
 
 #container .wrap .secInform {
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
   font-size: 50px;
   line-height: 65px;
 }
 
 #container .wrap .customerTab {
-  margin-top: 5rem;
+  margin: 5rem 0;
 }
 
 #container .wrap .customerTab ul {
@@ -30,32 +34,45 @@
 }
 
 #container .wrap .customerTab ul li {
-  margin: 0 1rem 3rem;
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+  margin: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #container .wrap .customerTab ul li a {
   display: block;
-  height: 3rem;
-  line-height: 3rem;
-  border-radius: 5rem;
-  padding: 0 1.5rem;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
   background-color: #fcfcfc;
-  border: 2px solid #0039e6;
-  color: #0039e6;
-  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  color: #121212;
+  font-size: 1.3rem;
   -webkit-transition: all .7s;
   transition: all .7s;
 }
 
 #container .wrap .customerTab ul li:hover a {
-  background-color: #0039e6;
-  border: 2px solid #0039e6;
+  border: 2px solid #2C64E5;
+  background-color: #2C64E5;
   color: #fcfcfc;
 }
 
 #container .wrap .customerTab ul li.tabOn a {
-  background-color: #0039e6;
-  border: 2px solid #0039e6;
+  border: 2px solid #2C64E5;
+  background-color: #2C64E5;
   color: #fcfcfc;
 }
 

@@ -9,8 +9,6 @@
     overflow: hidden;
 }
 
-/* 배포할 때는 #contBox { display: none;} 넣어주기 */
-
 .stripe-wrap {
     position:absolute;
     top:0;
@@ -32,15 +30,14 @@
 .stripe-wrap .stripe:nth-child(4){
     height:25%;
 }
-/* #contBox {
-    display:none;
-} */
 #logo {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     animation: colorFill 1.5s ease forwards 3.5s;
+    width:1400px;
+    height:900px;
 
 }
 
@@ -74,9 +71,6 @@
     animation: animateText1 2.3s ease forwards 1.5s;
 
 }
-/* .upDown path:nth-child(8) {
-
-} */
 
 #logo path:nth-child(9) {
     stroke-dasharray: 798px;
@@ -104,24 +98,8 @@
 
 .circle1 {
 
-    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards 6.4s;
+    animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards 6.4s;
 }
-/* #logo path:nth-child(7) {
-    stroke-dasharray: 798px;
-    stroke-dashoffset: 798px;
-    animation: animateText 2s ease forwards 1.8s;
-}
-#logo path:nth-child(8) {
-    stroke-dasharray: 798px;
-    stroke-dashoffset: 798px;
-    animation: animateText 2s ease forwards 1.8s;
-}
-#logo path:nth-child(8) {
-    stroke-dasharray: 109px;
-    stroke-dashoffset: 109px;
-    animation: animateText 2s ease forwards 1.8s;
-} */
-
 
 @keyframes animateText1 {
     0% {
@@ -175,8 +153,90 @@
         opacity: 1;
         transform: scale(90);
     }
-    100% {
+    99% {
         opacity: 1;
         transform: scale(90);
+        background-color: #121212;
+    }
+    100% {
+        opacity:0;
     }
   }
+
+
+  /*======== tablet 768px ========*/
+  @media screen and (max-width:780px) {
+    #load {
+        width:100%;
+        height:100vh;
+        position: relative;
+        top:0;
+        left:0;
+        background-color: #fcfcfc;
+        z-index:100;
+        overflow: hidden;
+    }
+    
+
+    #logo {
+        width:800px;
+    }
+      
+    .circle, .circle1 {
+        
+        width:17px;
+        height:17px;
+        top:46%;
+        right:31.1%;        
+    }
+
+    @keyframes scale-up-center {
+        0% {  
+            transform: scale(0.5);
+        }
+        50% {
+            opacity: 1;
+            transform: scale(110);
+        }
+        99% {
+            opacity: 1;
+            transform: scale(110);
+            background-color: #121212;
+        }
+        100% {
+            opacity:0;
+        }
+      }
+    
+
+  }
+
+     /*======== mobile 480px ========*/
+     @media screen and (max-width:480px) {
+        #logo {
+            width:500px;
+        }
+        .circle, .circle1 {          
+            width: 11px;
+            height:11px;
+            top:45%;
+            right:22%;        
+        }      
+        
+
+      }
+    
+
+    /*======== mobile 320px ========*/
+    @media screen and (max-width:320px) {
+        #logo {
+            width:400px;
+        }
+        .circle, .circle1 {          
+            width: 9px;
+            height:9px;
+            top:47%;
+            right:26.1%;        
+        }
+      }
+    

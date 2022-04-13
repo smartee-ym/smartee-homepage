@@ -37,6 +37,7 @@
 }
 
 #header .header-wrap .gnb {
+  margin-right: 5%;
   width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -189,6 +190,10 @@
 }
 
 #header .header-wrap .ham-menu {
+  display: none;
+  position: absolute;
+  top: 32%;
+  right: -5%;
   width: 5%;
   margin-right: 5%;
 }
@@ -257,6 +262,8 @@
 /*============ sub container start ============*/
 #container {
   margin-top: 100px;
+  /*============ request-btn start ============*/
+  /*============ request-btn end ============*/
 }
 
 #container .visual-head {
@@ -388,8 +395,8 @@
 #container .topBtn #scroll {
   display: none;
   position: fixed;
-  bottom: 8%;
-  right: 1%;
+  bottom: 14%;
+  right: 2%;
   cursor: pointer;
   width: 60px;
   height: 70px;
@@ -424,6 +431,61 @@
 
 #container .topBtn #scroll:hover svg path {
   fill: #0f4bff;
+}
+
+#container .request-btn {
+  z-index: 100;
+  display: block;
+  position: fixed;
+  z-index: 5;
+  bottom: 6%;
+  right: 2%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0039e6;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+#container .request-btn .icon_rq {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#container .request-btn span {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: 'LeferiBaseType-RegularA';
+}
+
+#container .request-btn:hover {
+  width: 120px;
+  border-radius: 5rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#container .request-btn:hover .icon_rq {
+  left: 12%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+#container .request-btn:hover span {
+  opacity: 1;
+  color: #fcfcfc;
+  right: 12%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  text-indent: 0px;
 }
 
 #container.active .visual-head .location {
@@ -714,4 +776,117 @@
 }
 
 /*============ sub footer end ============*/
+/*============ ham-gnb start ============*/
+#ham-area {
+  width: 80%;
+  height: 100vh;
+  position: fixed;
+  z-index: 13;
+  top: 0;
+  right: -100%;
+  background-color: #fcfcfc;
+}
+
+#ham-area .close-btn {
+  position: absolute;
+  z-index: 13;
+  right: 20px;
+  top: 20px;
+  width: 32px;
+  height: 32px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#ham-area .close-btn:hover::before {
+  background-color: #0039e6;
+}
+
+#ham-area .close-btn:hover::after {
+  background-color: #0039e6;
+}
+
+#ham-area .close-btn::before {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #2C64E5;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#ham-area .close-btn::after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #2C64E5;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+#ham-area .hamTop a {
+  display: block;
+}
+
+#ham-area .hamTop a h1 {
+  width: 60%;
+  margin: 5rem auto 4rem;
+}
+
+#ham-area .hamTop a h1 img {
+  width: 100%;
+}
+
+#ham-area .hamDepth1 {
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
+}
+
+#ham-area .hamDepth1 li {
+  position: relative;
+  line-height: 4.5rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#ham-area .hamDepth1 li .fas {
+  font-size: 25px;
+  color: #0f4bff;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#ham-area .hamDepth1 li a {
+  padding-left: 5%;
+  font-size: 25px;
+  color: #121212;
+}
+
+#ham-area .hamDepth1 li .hamDepth2 {
+  display: none;
+}
+
+#ham-area .hamDepth1 li .hamDepth2 li {
+  padding-left: 5%;
+  line-height: 40px;
+  background-color: #eaeaea;
+}
+
+#ham-area .hamDepth1 li .hamDepth2 li a {
+  font-size: 1rem;
+  color: #121212;
+}
+
+#ham-area .hamDepth1 li.on .fas {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+/*============ ham-gnb start ============*/
 /*# sourceMappingURL=sub-index.css.map */

@@ -3,13 +3,17 @@
   margin: 5rem auto 0;
 }
 
-#container .wrap .secTitle {
-  color: #0039e6;
+#container .wrap .secTitle-wrap .secTitle {
+  font-family: 'Pretendard-ExtraBold';
+  font-weight: 800;
+  color: #2C64E5;
   font-size: 20px;
   margin-bottom: 2rem;
 }
 
-#container .wrap .secInform {
+#container .wrap .secTitle-wrap .secInform {
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
   font-size: 50px;
   line-height: 65px;
 }
@@ -27,34 +31,38 @@
 }
 
 #container .wrap .mapTop .mapLeft {
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
   width: 45%;
   margin-top: 5rem;
 }
 
 #container .wrap .mapTop .mapLeft .mapInform p {
   color: #121212;
-  font-size: 18px;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
 #container .wrap .mapTop .mapLeft .mapInform .addr {
-  color: #0039e6;
-  font-size: 25px;
+  color: #2C64E5;
+  font-size: 1.9rem;
   margin-bottom: 1rem;
 }
 
 #container .wrap .mapTop .mapRight {
   width: 55%;
   padding: 0 5%;
-  background-color: #0039e6;
+  background-color: #2C64E5;
   height: 400px;
 }
 
 #container .wrap .mapBot {
   border-top: 3px solid #121212;
   width: 100%;
-  padding-top: 3rem;
+  padding: 3rem 0;
   margin-top: 5rem;
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
 }
 
 #container .wrap .mapBot .transWrap {
@@ -70,14 +78,18 @@
   margin: 4rem 0;
 }
 
+#container .wrap .mapBot .transWrap:nth-child(3) .transInform {
+  margin-left: 8rem;
+}
+
 #container .wrap .mapBot .transWrap .transIcon .fa-solid {
-  color: #0039e6;
+  color: #2C64E5;
   font-size: 2rem;
 }
 
 #container .wrap .mapBot .transWrap .transInform {
   margin-left: 8.5rem;
-  font-size: 18px;
+  font-size: 1.6rem;
   color: #121212;
 }
 /*# sourceMappingURL=about-map.css.map */

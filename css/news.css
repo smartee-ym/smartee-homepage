@@ -1,0 +1,174 @@
+#container .wrap {
+  width: 80%;
+  margin: 5rem auto 0;
+}
+
+#container .wrap .secTitle-wrap .secTitle {
+  font-family: 'Pretendard-ExtraBold';
+  font-weight: 800;
+  color: #2C64E5;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+#container .wrap .secTitle-wrap .secInform {
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+}
+
+#container .wrap .news-center {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#container .wrap .news-center .board_list .paging_typ_1 {
+  margin: 7rem 0 3rem;
+}
+
+#container .wrap .news-center .board_list .paging_typ_1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container .wrap .news-center .board_list .paging_typ_1 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1rem;
+}
+
+#container .wrap .news-center .board_list .paging_typ_1 ul li a {
+  display: block;
+  font-size: 1.5rem;
+  color: #121212;
+  text-align: center;
+}
+
+#container .wrap .news-center .board_list .paging_typ_1 ul li a .arrow {
+  font-size: 1.5rem;
+  color: #2C64E5;
+}
+
+#container .wrap .news-center .board_list .paging_typ_1 ul li a.clicked {
+  width: 1.9rem;
+  height: 1.9rem;
+  line-height: 1.9rem;
+  border-radius: 50%;
+  background-color: #2C64E5;
+  color: #fcfcfc;
+}
+
+#container .wrap .news-center .board_list .list_typ_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+#container .wrap .news-center .board_list .list_typ_1 li {
+  width: 22%;
+  height: 200px;
+  margin: 0 1.5%;
+  border: 2px solid #ddd;
+  border-radius: 3rem;
+  border-bottom-right-radius: 0;
+  padding: 3rem 1.3rem;
+}
+
+#container .wrap .news-center .board_list .list_typ_1 li a {
+  display: block;
+}
+
+#container .wrap .news-center .board_list .list_typ_1 li a h2 {
+  color: #121212;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+#container .wrap .news-center .board_list .list_typ_1 li a p {
+  color: #121212;
+  text-align: right;
+  font-size: 1rem;
+}
+
+#container .wrap .news-center .board_list .list_typ_1 li.clicked {
+  background-color: rgba(217, 225, 241, 0.3);
+}
+
+#container .wrap .news-center .board_list .list_typ_1 li.clicked a {
+  display: block;
+}
+
+#container .wrap .news-center .board_list .list_typ_1 li.clicked a h2 {
+  color: #121212;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+#container .wrap .news-center .board_list .list_typ_1 li.clicked a p {
+  color: #121212;
+  text-align: right;
+  font-size: 1rem;
+}
+
+#container .wrap .news-center .board_view .view_typ_1 {
+  margin: 3rem 0 7rem;
+  width: 100%;
+  height: 700px;
+  border: 2px solid #ddd;
+  border-radius: 3rem;
+  border-bottom-right-radius: 0;
+  padding: 3rem 4rem;
+  background-color: rgba(217, 225, 241, 0.1);
+}
+
+#container .wrap .news-center .board_view .view_typ_1 dl dt {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+#container .wrap .news-center .board_view .view_typ_1 dl dt span::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: translateY(-23px);
+          transform: translateY(-23px);
+  background-color: #bbb;
+}
+
+#container .wrap .news-center .board_view .view_typ_1 dl dd .board-date {
+  display: block;
+  text-align: right;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+#container .wrap .news-center .board_view .view_typ_1 dl dd .board-context {
+  padding: 1rem 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+/*# sourceMappingURL=news.css.map */
