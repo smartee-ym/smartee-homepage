@@ -156,9 +156,6 @@ $(function(){
     const swiperSolution = new Swiper('.swiper.solutionList', {
         slidesPerView: "4",
         spaceBetween: 0,
-        // centeredSlides: true,
-        // loop: true,
-        // Navigation arrows
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
@@ -166,7 +163,7 @@ $(function(){
         breakpoints: {
             320: { slidesPerView: 1, spaceBetween:30 },
             570: { slidesPerView: 2, spaceBetween: 60 },
-            768: { slidesPerView: 3, spaceBetween: 50 },
+            768: { slidesPerView: 2, spaceBetween: 50 },
             1200: { slidesPerView: 4, spaceBetween: 40 }
         },
         // And if we need scrollbar
@@ -189,9 +186,9 @@ $(function(){
 
         },
         breakpoints: {
-            100: { slidesPerView: 2, spaceBetween: 0 },
-            320: { slidesPerView: 2, spaceBetween: 0 },
-            481: { slidesPerView: 3, spaceBetween: 0 },
+            100: { slidesPerView: 3, spaceBetween: 0 },
+            320: { slidesPerView: 3, spaceBetween: 0 },
+            481: { slidesPerView: 4, spaceBetween: 0 },
             570: { slidesPerView: 4, spaceBetween: 0 },
             768: { slidesPerView: 5, spaceBetween: 0 },
         },
@@ -210,9 +207,9 @@ $(function(){
             disableOnInteraction: false,
         },
         breakpoints: {
-            100: { slidesPerView: 2, spaceBetween: 40 },
-            320: { slidesPerView: 2, spaceBetween: 20 },
-            481: { slidesPerView: 3, spaceBetween: 20 },
+            100: { slidesPerView: 2, spaceBetween: 0 },
+            320: { slidesPerView: 2, spaceBetween: 0 },
+            481: { slidesPerView: 3, spaceBetween: 0 },
             570: { slidesPerView: 4, spaceBetween: 30 },
             768: { slidesPerView: 5, spaceBetween: 30 },
         },
