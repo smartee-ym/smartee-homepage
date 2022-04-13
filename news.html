@@ -10,13 +10,18 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/sub-index.css">
-    <link rel="stylesheet" href="css/about-map.css">
+    <link rel="stylesheet" href="css/news.css">
+
 
     <!-- script -->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/subheader.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/isotope.js"></script>
+
+
     <title>smartee.</title>
 </head>
 <body>
@@ -71,23 +76,18 @@
             <div class="location">
                 <a href="index.html" class="location-text">홈</a>
                 <span class="location-arrow"></span>
-                <a href="about-ceo.html" class="location-text">회사소개</a>
-                <span class="location-arrow"></span>
-                <a href="about-map.html" class="location-text">오시는 길</a>
+                <a href="news.html" class="location-text">뉴스</a>
             </div>
             <div class="visual-title-wrap">
-                <h2 class="title-main">회사소개</h2>
-                <h5 class="title-sub">smart, everyday, everything</h5>
+                <h2 class="title-main">뉴스</h2>
+                <h5 class="title-sub">Latest Official News Releases</h5>
             </div>
 
         </div>
         <!-- 서브메뉴  -->
         <div class="subMenuNav">        
             <ul class="sub-index-wrap">
-                <li class="sub-index"><a href="about-ceo.html" class="sub-index-menu">인사말</a></li>
-                <li class="sub-index"><a href="about-history.html" class="sub-index-menu">연혁</a></li>
-                <li class="sub-index"><a href="about-recruit.html" class="sub-index-menu">채용</a></li>
-                <li class="sub-index"><a href="about-map.html" class="sub-index-menu on">오시는길</a></li>
+                <li class="sub-index "><a href="#" class="sub-index-menu on">뉴스 안내</a></li>
             </ul>
         </div>
         <!-- top 버튼 -->
@@ -112,37 +112,77 @@
             </svg>
             <span>의뢰하기</span>
         </a>  
-        <!-- 지도 내용 시작 -->
+        <!-- solution 시작 -->
         <div class="contWrap">
             <div class="wrap">
-                <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
-                    <h6 class="secTitle">map</h6>
+                <div class="secTitle-wrap">
+                    <h6 class="secTitle">news</h6>
                     <div class="secInform">
-                        오시는 길<br/>                
+                        스마티이의 소식을 알려드립니다.
                     </div>
-                </div>    
-                <div class="mapTop">
-                    <div class="mapLeft" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
-                        <div class="mapInform">
-                            <p class="smartee">스마티이</p>
-                            <h6 class="addr">서울특별시 용산구 한강대로54길 25 3층 (신승빌딩)</h6>
-                            <p class="addrNum">(우)04382 (지번) 한강로1가 231-15</p>
-                        </div>
-                    </div>
-                    <div class="mapRight" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000"></div>
                 </div>
-                <div class="mapBot" data-aos="fade-up" data-aos-duration="1000" >
-                    <div class="transWrap" data-aos="fade-up" data-aos-duration="500">
-                        <div class="transIcon"><i class="fa-solid fa-bus-simple"></i></div>
-                        <dic class="transInform">버스 찾아보기</dic>
-                    </div>
-                    <div class="transWrap" data-aos="fade-up" data-aos-duration="500">
-                        <div class="transIcon"><i class="fa-solid fa-train-subway"></i></div>
-                        <div class="transInform">4호선 삼각지역 3번 출구 → 도보이동 3분</div>
-                    </div>
-                    <div class="transWrap" data-aos="fade-up" data-aos-duration="500">
-                        <div class="transIcon"><i class="fa-solid fa-taxi"></i></div>
-                        <div class="transInform">4호선 삼각지역 3번 출구 → 도보이동 3분</div>
+                <div class="news-center">
+                    <div class="board_list">
+                        <div class="paging_typ_1">
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-chevrons-left arrow"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-chevron-left arrow"></i></a></li>
+                                <!-- 현재페이지 클릭된 지점 -->
+                                <li><a href="#" class="clicked">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li><a href="#"><i class="fa-solid fa-chevron-right arrow"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-chevrons-right arrow"></i></a></li>
+                            </ul>
+                        </div>					
+                        
+                        <ul class=list_typ_1>
+                            <li class="clicked">
+                                <a href="#">
+                                    <h2>LG U+ 무인매장관리시스템 개발 사업 참여</h2>
+                                    <p>2020-10-05</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h2>KT KBN 시스템 스트리밍 교체 사업 수주</h2>
+                                    <p>2020-09-16</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h2>LG U+ 홈서비스 플랫폼 개발 사업 참여</h2>
+                                    <p>2020-08-01</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h2>포스코 AnC 품질시스템 SW 개발 구축 사업 수주</h2>
+                                    <p>날짜</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>               
+                    <div class="board_view">
+                        <div class="view_typ_1">
+                            <dl>
+                                <dt><span id="notice_title">제목</span><dt>
+                                <dd><span id="notice_reg_date" class="board-date">날짜</span></dd>
+                                <dd>
+                                    <p id="notice_contents" class="board-context">
+                                        (주)스마티이가 LG U+ 무인매장 관리시스템 개발 사업을 수행합니다.
+                                        <br/><br/>
+                                        본 프로젝트는 향 후 LG유플러스에서 운영하는 무인 매장에 배치될 사용자용 키오스크 또는 태블릿에서 사용되는 시스템으로 사용자 인증 후 매장 안내 및 제품 소개의 컨텐츠 페이지 및 관리자 페이지를 개발하는 사업으로 스마티이는 시스템의 기획, 디자인, 퍼블리싱, 개발에 이르는 전 부문에 참여하여 수행합니다.   
+                                        <br/><br/>
+                                        본 사업에서 스마티이는 유사 모바일 시스템 및 업무 시스템의 구축 사업의 풍부한 경험을 활용하여 최적화된 시스템을 개발하여 수행해 나갈 것입니다.
+
+                                    </p>
+                                </dd>
+                            </dl>
+                        </div>
                     </div>
                 </div>
             </div>
