@@ -119,4 +119,196 @@
   height: 90% !important;
   width: auto !important;
 }
-/*# sourceMappingURL=customer.css.map */
+
+  /*======== tablet 820px ========*/
+  @media screen and (max-width:820px) {
+    #container .wrap {
+      width: 90%;
+      margin: 5rem auto 0;
+    }
+    
+    #container .wrap .secTitle {
+      font-family: 'Pretendard-ExtraBold';
+      font-weight: 800;
+      color: #2C64E5;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    #container .wrap .secInform {
+      font-family: 'Pretendard-Bold';
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 65px;
+    }
+    
+    #container .wrap .customerTab {
+      margin: 5rem 0;
+    }
+       
+    #container .wrap .customerTab ul li {
+      font-family: 'Pretendard-Medium';
+      font-weight: 500;
+      margin: 0 .2rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    
+    #container .wrap .customerTab ul li a {
+      display: block;
+      font-size: 1.1rem;
+
+    }
+
+    
+    #container .wrap .customerWrap {
+      display: flex;
+      margin-bottom: 5rem;
+    }
+    
+    #container .wrap .customerWrap .customBox {
+      width: 24%;
+      height: 100px;
+      margin: 0 .5% 1%;
+      padding: 2%;
+
+    }
+    
+    #container .wrap .customerWrap .customBox img {
+      width: 70%;
+    }
+    
+    #container .wrap .customerWrap .customBox .kt-img {
+      height: 50% !important;
+    }
+
+  }
+
+  /*============ mpobile 480px ============*/
+  @media screen and (max-width:480px) {
+    #container .wrap {
+      width: 94%;
+      margin: 3rem auto 0;
+    }
+    
+    #container .wrap .secTitle {
+      font-family: 'Pretendard-ExtraBold';
+      font-weight: 800;
+      color: #2C64E5;
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+    }
+    
+    #container .wrap .secInform {
+      font-family: 'Pretendard-Bold';
+      font-weight: 700;
+      font-size: 2.0rem;
+      line-height: 2.6rem;
+    }
+    
+    #container .wrap .customerTab {
+      margin: 3rem 0;
+    }
+       
+    #container .wrap .customerTab ul li {
+      font-family: 'Pretendard-Medium';
+      font-weight: 500;
+      margin: .2rem .2rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    
+    #container .wrap .customerTab ul li a {
+      display: block;
+      font-size: 1.1rem;
+
+    }
+
+    
+    #container .wrap .customerWrap {
+      display: flex;
+      margin-bottom: 5rem;
+    }
+    
+    #container .wrap .customerWrap .customBox {
+      width: 32.333333%;
+      height: 100px;
+      margin: 0 .5% 1%;
+      padding: 2%;
+
+    }
+    
+    #container .wrap .customerWrap .customBox img {
+      width: 75%;
+    }
+    
+    #container .wrap .customerWrap .customBox .kt-img {
+      height: 40% !important;
+    } 
+  }
+
+  /*============ mpobile 320px ============*/
+  @media screen and (max-width:320px) {
+    #container .wrap {
+      width: 93%;
+      margin: 2rem auto 0;
+    }
+    
+    #container .wrap .secTitle {
+      font-family: 'Pretendard-ExtraBold';
+      font-weight: 800;
+      color: #2C64E5;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    
+    #container .wrap .secInform {
+      font-family: 'Pretendard-Bold';
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 2rem;
+    }
+    
+    #container .wrap .customerTab {
+      margin: 2.2rem 0;
+    }
+        
+    #container .wrap .customerTab ul li {
+      font-family: 'Pretendard-Medium';
+      font-weight: 500;
+      margin: .2rem .2rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    
+    #container .wrap .customerTab ul li a {
+      display: block;
+      font-size: .9rem;
+      padding: 0.5rem 1.2rem;
+    }
+
+    
+    #container .wrap .customerWrap {
+      display: flex;
+      margin-bottom: 5rem;
+    }
+    
+    #container .wrap .customerWrap .customBox {
+      width: 49%;
+      height: 70px;
+      margin: 0 .5% 1%;
+      padding: 2%;
+
+    }
+    
+    #container .wrap .customerWrap .customBox img {
+      width: 75%;
+    }
+    
+    #container .wrap .customerWrap .customBox .kt-img {
+      height: 40% !important;
+    } 
+  }
