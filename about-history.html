@@ -133,7 +133,7 @@
                         <div class="history-detail" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
                             <ul id="y2021" class="yRight">
                                 <li>
-                                    <dl>
+                                    <!-- <dl>
                                         <dt>
                                             2022년
                                         </dt>
@@ -151,24 +151,26 @@
                                         </dd>
                                         <dd>한국관광공사 호텔업 등급결정 운영사업 구축
                                         </dd>
-                                    </dl>
+                                    </dl> -->
                                 </li>
                                 <li>
                                     <dl>
                                         <dt>
                                             2021년
                                         </dt>
-                                        <dd>모노링크 쇼핑몰 구축 사업
+                                        <dd>LG U+ 언택매장 IT 시스템 개발
                                         </dd>
-                                        <dd>롯데JTB 항공예약시스템 
+                                        <dd>포스코 O&M CS업무 전산시스템 SW 개발 사업
                                         </dd>
-                                        <dd>에스엠씨엔씨 온라인 항공예약시스템
+                                        <dd>NH투자증권 CRM UI/UX 개선 사업
                                         </dd>
-                                        <dd>CJ헬로 그룹 공통업무 전환 GPortal 결재연동
+                                        <dd>KT KBN, 삼성전기 스트리밍 솔루션 납품
                                         </dd>
-                                        <dd>첨단 IoT 기술 기반 범죄 피해자 접근 보호 장치 및 시스템 개발
+                                        <dd>대명 소노시즌 홈페이지 개편 사업
                                         </dd>
-                                        <dd>한국관광공사 호텔등급 관리시스템 구축
+                                        <dd>S&I 레저 MY LG ID 서비스 통합 사업
+                                        </dd>
+                                        <dd>자사 사옥 이전 (용산 래미안센트럴)    
                                         </dd>
                                     </dl>
                                 </li>
@@ -179,19 +181,15 @@
                                         <dt>
                                             2020년
                                         </dt>
-                                        <dd>포스코 AnC 품질시스템 SW 개발 구축
+                                        <dd>LG U+ 홈서비스 쇼핑몰 구축 사업
                                         </dd>
-                                        <dd>포스코 AnC 안전 CM시스템 SW 개발 구축
+                                        <dd>LG헬로 그룹 공통업무 구축 사업
                                         </dd>
-                                        <dd>LG유플러스 자산관리시스템 구축사업
+                                        <dd>관광공사 호텔등급업 서비스 사업
                                         </dd>
-                                        <dd>무인매장관리시스템 구축 참여
+                                        <dd>포스코 Anc안전관리/품질시스템 개발 사업
                                         </dd>
-                                        <dd>LG 홈서비스 플랫폼 구축 사업
-                                        </dd>
-                                        <dd>헬로네이처 모바일 쇼핑몰 개발 참여
-                                        </dd>
-                                        <dd>한국관광공사 호텔업 등급결정 운영사업 구축
+                                        <dd>헬로네이처 모바일 커머스 개발 사업
                                         </dd>
                                     </dl>
                                 </li>
@@ -490,16 +488,20 @@
                 $("#y-2016").fadeOut();
                 $("#y-2011").fadeOut();
                 $("#y-2021").fadeIn();
+                $("#y-2021").addClass("show");
                 }
             else if ( scTop >= his2016 && scTop < his2011){   
                 $("#y-2021").fadeOut();
                 $("#y-2011").fadeOut();
                 $("#y-2016").fadeIn();
+                $("#y-2016").addClass("show");
                 }
+
             else if( scTop >= his2011){
-                $("#y-2021").fadeOut();
-                $("#y-2016").fadeOut();
-                $("#y-2011").fadeIn();
+                    $("#y-2021").fadeOut();
+                    $("#y-2016").fadeOut();
+                    $("#y-2011").fadeIn();
+                    $("#y-2011").addClass("show");
                 }
             });
 

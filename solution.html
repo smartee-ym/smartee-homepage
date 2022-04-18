@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/sub-index.css">
     <link rel="stylesheet" href="css/solution.css">
+    <link rel="stylesheet" href="css/solution-mobile.css">
 
     <!-- script -->
     <script src="js/jquery-3.6.0.min.js"></script>
@@ -85,9 +86,9 @@
         <div class="subMenuNav">        
             <ul class="sub-index-wrap">
                 <li class="sub-index "><a href="#" class="sub-index-menu on" id="#sosl1">개발서비스</a></li>
-                <li class="sub-index"><a href="#" class="sub-index-menu" id="#sol2">IT 아웃소싱</a></li>
                 <li class="sub-index"><a href="#" class="sub-index-menu" id="#sol3">스파이더 라이브</a></li>
                 <li class="sub-index"><a href="#" class="sub-index-menu" id="#sol4">스파이더 뷰</a></li>
+                <li class="sub-index"><a href="#" class="sub-index-menu" id="#sol2">IT 아웃소싱</a></li>
             </ul>
         </div>
         <!-- top 버튼 -->
@@ -118,21 +119,22 @@
                 <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
                     <h6 class="secTitle">solution</h6>
                     <div class="secInform">
-                        스마티이의 서비스와 제품을<br/>
+                        스마티이의 서비스와 제품을<span></span>
                         소개합니다.
                     </div>
                 </div>
                 <div class="solutionWrap" id="solution">
                     <div class="secSolution" id="sec1">
                         <div class="solTitle">개발 서비스</div>
-                        <p class="solText">㈜스마티이는 서비스, 금융, 제조, 공공 부문 등 다양한 산업 분야의 모바일 앱 구축 경험이 있습니다.<br/>
+                        <!-- <p class="solText">㈜스마티이는 서비스, 금융, 제조, 공공 부문 등 다양한 산업 분야의 모바일 앱 구축 경험이 있습니다.<br/>
                             다음은 의료부문의 모바일 원격 진료 시스템 구현 사례입니다(미국). 환자의 원격진료에 필요한 기능과 자가관리 기능을 구현하였습니다.</p>
-                        <img src="img/solution/img_mobile.png">
+                        <img src="img/solution/img_mobile.png"> -->
                         <!-- 솔루션 영역 탭 -->
                         <ul class="solTab">
-                            <li><a href="#" class="on">모바일 웹의 필요성</a></li>
-                            <li><a href="#">시장 현황</a></li>
-                            <li><a href="#">추진 방안</a></li>
+                            <li><a href="#" class="on">모바일 웹의<span></span> 필요성</a></li>
+                            <li><a href="#">추진 <span></span>방안</a></li>
+                            <li><a href="#">시장 <span></span>현황</a></li>
+
                         </ul>
                         <!-- 솔루션 영역 탭 내용 노출부분 -->
                         <div class="solTab-content-wrap">
@@ -172,11 +174,59 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- 세번째 탭 내용 -->
+                            <div class="solTab-content mobile3">
+                                <h3>새로운 패러다임의 멀티스크린, 멀티디바이스 웹사이트 전략</h3>
+                                <div class="mobile3-top">
+                                    <dl>
+                                        <dt>
+                                            멀티 디바이스 지원 전략에 대한 패러다임의 변화
+                                        </dt>
+                                        <dd>
+                                            - One Source, 1 URL을 적용한 Multi-device Websites : No ! m.site.com
+                                        </dd>
+                                        <dd>
+                                            - HTML5, CSS3 media queries 등 글로벌 표준 기술 적용
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>웹사이트 개발 시 추천하는 반응형웹디자인 적용</dt>
+                                        <dd>- Responsive Web Design : RWD</dd>
+                                    </dl>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="img"></div>
+                                        <div class="text">One URL</div>
+                                    </li>
+                                    <li>
+                                        <div class="img"></div>
+                                        <div class="text">Single Contents</div>
+                                    </li>
+                                    <li>
+                                        <div class="img"></div>
+                                        <div class="text">One Code</div>
+                                    </li>
+                                    <li>
+                                        <div class="img"></div>
+                                        <div class="text">CSS media queries</div>
+                                    </li>
+                                    <li>
+                                        <div class="img"></div>
+                                        <div class="text">One Experience</div>
+                                    </li>
+                                </ul>
+                                <div class="sol1-arrow">Responsive Web Design</div>
+                                <div class="sol1-multiple-d">
+                                    <div class="device-img"></div>
+                                    <div class="device-text">Multiple Devices</div>
+                                </div>
+                            </div>
                             <!-- 두번째 탭 내용 -->
                             <div class="solTab-content mobile2">
                                 <p>
                                     최근 구글(Google)은 모바일 웹사이트에 대한 검색기준을 엄격하게 제시하면서 모바일 웹을 제대로 지원하지 않을 경우, 
-                                    <br/>검색순위에서 우선 순위가 낮아지게 될 것이라고 공식 발표하였습니다.
+                                    <span></span>검색순위에서 우선 순위가 낮아지게 될 것이라고 공식 발표하였습니다.
                                 </p>
                                 <div class="mobile2-cont2">
                                     <div class="cont2-img">
@@ -193,37 +243,10 @@
                                     <img src="img/solution/img_graph.png">
                                 </div>
                             </div>
-                            <!-- 세번째 탭 내용 -->
-                            <div class="solTab-content mobile2">
-                                <p>
-                                    최근 구글(Google)은 모바일 웹사이트에 대한 검색기준을 엄격하게 제시하면서 모바일 웹을 제대로 지원하지 않을 경우, 
-                                    <br/>검색순위에서 우선 순위가 낮아지게 될 것이라고 공식 발표하였습니다.
-                                </p>
-                                <div class="mobile2-cont2">
-                                    <div class="cont2-img">
-                                        <img src="img/solution/img_google.png">                                        
-                                    </div>
-                                    <div class="cont2-text">
-                                        <p>Webmaster Central Blog</p>
-                                        <p>Official news on Crawing and indexing sites for the Google index</p>
-                                    </div>
-                                </div>
-                                <p>Changes in rankings of smartphone search results</p>
-                                <a href="http://googlewebmastercentral.blogspot.kr/2013/06/changes-in-rankings-of-smartphone_11.html">http://googlewebmastercentral.blogspot.kr/2013/06/changes-in-rankings-of-smartphone_11.html</a>
-                                <div class="img-ab">
-                                    <img src="img/solution/img_graph.png">
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                     <div class="secSolution" id="sec2">
-                        <div class="solTitle">IT 아웃소싱</div>
-                        <p class="solText">
-                            ㈜스마티이는 다년간의 IT 아웃소싱 경험과 검증된 인력을 보유하고 있습니다.<br/>
-                            잘못된 아웃소싱으로 발생할 수 있는 - 기술력이 부족한 인력의 운용, 납기 미준수, 품질 저하, 불필요한 추가 비용 발생 - 등의 문제를 미리 방지하십시오.</p>
-                        <img class="img2-size" src="img/solution/img_it.png">
-                    </div>
-                    <div class="secSolution" id="sec3">
                         <div class="solTitle">스파이더 라이브</div>
                         <!-- 스파이더 라이브 탭 부분 -->
                         <ul class="liveTab">
@@ -477,7 +500,7 @@
 
 
                     </div>
-                    <div class="secSolution" id="sec4">
+                    <div class="secSolution" id="sec3">
                         <div class="solTitle">스파이더 뷰</div>
                         <!-- 스파이더 뷰 탭 부분 -->
                         <ul class="viewTab">
@@ -705,6 +728,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="secSolution" id="sec4">
+                        <div class="solTitle">IT 아웃소싱</div>
+                        <p class="solText">
+                            ㈜스마티이는 다년간의 IT 아웃소싱 경험과 검증된 인력을 보유하고 있습니다.<br/>
+                            잘못된 아웃소싱으로 발생할 수 있는 - 기술력이 부족한 인력의 운용, 납기 미준수, 품질 저하, 불필요한 추가 비용 발생 - 등의 문제를 미리 방지하십시오.</p>
+                        <img class="img2-size" src="img/solution/img_it.png">
+                    </div>
                 </div>
                 
 
@@ -783,9 +813,9 @@
         var nowTop = $(window).scrollTop();
 
         var sec1_offset = $('#sec1').offset().top - 180;
-        var sec2_offset = $('#sec2').offset().top - 300;
-        var sec3_offset = $('#sec3').offset().top - 300;
-        var sec4_offset = $('#sec4').offset().top - 300;
+        var sec2_offset = $('#sec2').offset().top - 180;
+        var sec3_offset = $('#sec3').offset().top - 180;
+        var sec4_offset = $('#sec4').offset().top - 180;
 
         $(".sub-index-wrap li a").removeClass("on");
 
