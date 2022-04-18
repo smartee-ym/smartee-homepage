@@ -1164,14 +1164,16 @@
     #container .subMenuNav .sub-index-wrap .sub-index .sub-index-menu {
       display: inline-block;
       width: 100%;
-      padding: 1.5rem 1rem;
+      padding: 1.5rem .7rem;
       color: #121212;
       opacity: .6;
-      font-size: 1rem;
+      font-size: .9rem;
+      line-height: 1.2rem;
       font-weight: bold;
       position: relative;
       -webkit-transition: all .7s;
       transition: all .7s;
+      text-align: center;
     }
     
     #container .subMenuNav .sub-index-wrap .sub-index .sub-index-menu::after {
@@ -1351,14 +1353,16 @@
   #container .subMenuNav .sub-index-wrap .sub-index .sub-index-menu {
     display: inline-block;
     width: 100%;
-    padding: 1.5rem .8rem;
+    padding: 1.5rem .3rem;
     color: #121212;
     opacity: .6;
-    font-size: .9rem;
+    font-size: .8rem;
+    line-height: 1rem;
     font-weight: bold;
     position: relative;
     -webkit-transition: all .7s;
     transition: all .7s;
+    text-align: center;
   }
   
   #container .subMenuNav .sub-index-wrap .sub-index .sub-index-menu::after {

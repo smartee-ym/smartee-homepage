@@ -18,11 +18,11 @@
   line-height: 65px;
 }
 
-#container .wrap .secTitle-wrap .recruit-wrap {
+#container .wrap .recruit-wrap {
   margin: 7rem 0 7rem 5rem;
 }
 
-#container .wrap .secTitle-wrap .recruit-wrap div {
+#container .wrap .recruit-wrap div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,7 +31,7 @@
   margin-bottom: 2%;
 }
 
-#container .wrap .secTitle-wrap .recruit-wrap div .r-th {
+#container .wrap .recruit-wrap div .r-th {
   width: 20%;
   font-family: 'Pretendard-SemiBold';
   font-weight: 600;
@@ -39,14 +39,14 @@
   color: #2C64E5;
 }
 
-#container .wrap .secTitle-wrap .recruit-wrap div .r-td {
+#container .wrap .recruit-wrap div .r-td {
   width: 80%;
   font-family: 'Pretendard-Medium';
   font-weight: 500;
   font-size: 1.5rem;
 }
 
-#container .wrap .secTitle-wrap .recruit-wrap div .r-td ul {
+#container .wrap .recruit-wrap div .r-td ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,16 +54,16 @@
       flex-wrap: wrap;
 }
 
-#container .wrap .secTitle-wrap .recruit-wrap div .r-td ul li {
+#container .wrap .recruit-wrap div .r-td ul li {
   line-height: 2rem;
   margin-right: 1%;
 }
 
-#container .wrap .secTitle-wrap .recruit-wrap div .r-td ul .no-width {
+#container .wrap .recruit-wrap div .r-td ul .no-width {
   width: auto;
 }
 
-#container .wrap .secTitle-wrap .recruit-wrap div .r-td ul .no-width .r-arrow {
+#container .wrap .recruit-wrap div .r-td ul .no-width .r-arrow {
   display: inline-block;
   width: 1rem;
   height: 1rem;
@@ -73,4 +73,120 @@
           transform: rotate(45deg);
   margin-right: 1rem;
 }
-/*# sourceMappingURL=about-recruit.css.map */
+
+
+/*820px*/
+@media screen and (max-width:820px) {
+  #container .contWrap .wrap {
+    width: 94%;
+    margin: 5rem auto 0;
+  }
+  
+  #container .contWrap .wrap .secTitle-wrap .secTitle {
+    font-family: 'Pretendard-ExtraBold';
+    font-weight: 800;
+    color: #2C64E5;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  
+  #container .contWrap .wrap .secTitle-wrap .secInform {
+    font-family: 'Pretendard-Bold';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 65px;
+  }
+
+  #container .wrap .recruit-wrap {
+    margin: 3rem 0 7rem;
+  }
+  
+}
+
+/*480px*/
+@media screen and (max-width:480px) {
+  #container .contWrap .wrap {
+    width: 95%;
+    margin: 1rem auto 0;
+  }
+  
+  #container .contWrap .wrap .secTitle-wrap .secTitle {
+    font-family: 'Pretendard-ExtraBold';
+    font-weight: 800;
+    color: #2C64E5;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  
+  #container .contWrap .wrap .secTitle-wrap .secInform {
+    font-family: 'Pretendard-Bold';
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 65px;
+  }
+  #container .wrap .recruit-wrap {
+    margin: 3rem 0 7rem;
+  }
+  
+  #container .wrap .recruit-wrap div .r-th {
+    width: 100%;
+    font-family: 'Pretendard-SemiBold';
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: .8rem;
+    color: #2C64E5;
+  }
+
+  #container .wrap .recruit-wrap div .r-td {
+    width: 100%;
+    font-family: 'Pretendard-Medium';
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+  }
+
+}
+
+/*320*/
+@media screen and (max-width:320) {
+  #container .contWrap .wrap {
+    width: 95%;
+    margin: 1rem auto 0;
+  }
+  
+  #container .contWrap .wrap .secTitle-wrap .secTitle {
+    font-family: 'Pretendard-ExtraBold';
+    font-weight: 800;
+    color: #2C64E5;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #container .contWrap .wrap .secTitle-wrap .secInform {
+    font-family: 'Pretendard-Bold';
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 65px;
+  }
+  #container .wrap .recruit-wrap {
+    margin: 3rem 0 7rem;
+  }
+  
+  #container .wrap .recruit-wrap div .r-th {
+    width: 100%;
+    font-family: 'Pretendard-SemiBold';
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: .8rem;
+    color: #2C64E5;
+  }
+
+  #container .wrap .recruit-wrap div .r-td {
+    width: 100%;
+    font-family: 'Pretendard-Medium';
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 1.3rem;
+  }
+
+}

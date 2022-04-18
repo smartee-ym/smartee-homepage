@@ -219,6 +219,7 @@
 
 #container .wrap .historyFixedWrap .historyList .history-year .year.show {
   display: block;
+  font-size: 3.3rem;
 }
 
 #container .wrap .historyFixedWrap .historyList .history-detail {
@@ -256,7 +257,7 @@
   position: absolute;
   z-index: 1;
   top: .5rem;
-  left: -3.2rem;
+  left: -1.8rem;
   background-color: #fff;
   width: 11px;
   height: 11px;
@@ -359,142 +360,165 @@
     line-height: 2.6rem;
   }
 
+  #container .wrap .historyFixedWrap {
+    position: relative;
+    margin: 3rem 0;
+  }
   
-#container .wrap .historyFixedWrap .historyList {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+  #container .wrap .historyFixedWrap .historyList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-year {
-  font-family: 'Pretendard-SemiBold';
-  font-weight: 600;
-  width: 50%;
-  margin-left: 5%;
-  font-size: 120px;
-}
+  #container .wrap .historyFixedWrap .historyList .history-year {
+    font-family: 'Pretendard-SemiBold';
+    font-weight: 600;
+    width: 100%;
+    /* margin-left: 5%; */
+    /* font-size: 120px; */
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-year .year {
-  display: none;
-}
+  #container .wrap .historyFixedWrap .historyList .history-year .year {
+    display: none;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-year .year span {
-  display: block;
-}
+  #container .wrap .historyFixedWrap .historyList .history-year .year span {
+    display: block;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-year .year.show {
-  display: block;
-}
+  #container .wrap .historyFixedWrap .historyList .history-year .year.show {
+    display: block;
+    font-size: 2.5rem;
+    text-align: right;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-detail {
-  width: 45%;
-}
+  #container .wrap .historyFixedWrap .historyList .history-detail {
+    width: 100%;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-detail::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  width: 2px;
-  height: 100%;
-  background: #DFE0E8;
-}
+  #container .wrap .historyFixedWrap .historyList .history-detail::before {
+    content: "";
+    position: absolute;
+    display: none;
+    z-index: -1;
+    width: 2px;
+    height: 100%;
+    background: #DFE0E8;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-detail .yRight {
-  margin: 6% 0 0 10%;
-}
+  #container .wrap .historyFixedWrap .historyList .history-detail .yRight {
+    margin: 6% 0 0 5%;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-detail .yRight li {
-  position: relative;
-  margin-bottom: 4rem;
-}
+  #container .wrap .historyFixedWrap .historyList .history-detail .yRight li {
+    position: relative;
+    margin-bottom: 4rem;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dt {
-  font-size: 2rem;
-  color: #2C64E5;
-  font-family: 'Pretendard-ExtraBold';
-  font-weight: 800;
-  margin: 1.5rem 0;
-}
+  #container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dt {
+    font-size: 1.8rem;
+    color: #2C64E5;
+    font-family: 'Pretendard-ExtraBold';
+    font-weight: 800;
+    margin: 1.3rem 0;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dt::before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  top: .5rem;
-  left: -4.7rem;
-  background-color: #fff;
-  width: 11px;
-  height: 11px;
-  border: 3px solid #2C64E5;
-  border-radius: 50%;
-}
+  #container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dt::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: .5rem;
+    left: -1.7rem;
+    background-color: #fff;
+    width: 9px;
+    height: 9px;
+    border: 3px solid #2C64E5;
+    border-radius: 50%;
+  }
 
-#container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dd {
-  font-family: 'Pretendard-Medium';
-  font-weight: 500;
-  font-size: 1.2rem;
-  color: #121212;
-  margin-bottom: 1rem;
-}
+  #container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dd {
+    font-family: 'Pretendard-Medium';
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #121212;
+    margin-bottom: .9rem;
+  }
 
-#container.h-fixed .wrap .historyFixedWrap .historyList {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
+  #container.h-fixed .wrap .historyFixedWrap .historyList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 
-#container.h-fixed .wrap .historyFixedWrap .historyList .history-year {
-  position: fixed;
-  top: 25%;
-  left: 9%;
-  font-size: 120px;
-}
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-year {
+    position: fixed;
+    width:100%;
+    top: 19%;
+    left:0%;
+    right: 0%;
+    padding-right: 2%;
+    font-size: 120px;
+    z-index: 1;
+  }
 
-#container.h-fixed .wrap .historyFixedWrap .historyList .history-year .year {
-  position: absolute;
-  top: 3%;
-  left: 0%;
-  display: none;
-}
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-year .year {
+    position: absolute;
+    top: 0%;
+    left:0%;
+    right: 0%;
+    display: none;
+  }
 
-#container.h-fixed .wrap .historyFixedWrap .historyList .history-year .year.show {
-  display: block;
-}
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-year .year.show {
+    display: block;
+    font-size: 2.5rem;
+    text-align: right;
+    padding:1rem 1rem 1rem 0;
+    background-color: #fff;
+    border-bottom: 1px solid #2C64E5;
+    z-index: 1;
+  }
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-year .year.show span {
+    display: inline;
+  }
 
-#container.h-fixed .wrap .historyFixedWrap .historyList .history-detail::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  width: 2px;
-  height: 100%;
-  background: #DFE0E8;
-}
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 2px;
+    height: 100%;
+    background: #DFE0E8;
+  }
 
-#container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight {
-  margin: 6% 0 0 10%;
-}
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight {
+    margin: 6% 0 0 5%;
+    transform: translateX(0%);
+  }
 
-#container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dt {
-  font-size: 2rem;
-  color: #2C64E5;
-  font-family: 'Pretendard-ExtraBold';
-  font-weight: 800;
-  margin: 1.5rem 0;
-}
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dt {
+    font-size: 1.8rem;
+    color: #2C64E5;
+    font-family: 'Pretendard-ExtraBold';
+    font-weight: 800;
+    margin: 1.3rem 0;
+  }
 
-#container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dd {
-  font-family: 'Pretendard-Medium';
-  font-weight: 500;
-  font-size: 1.2rem;
-  color: #121212;
-  margin-bottom: 1rem;
-}
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dd {
+    font-family: 'Pretendard-Medium';
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #121212;
+    margin-bottom: .9rem;
+  }
 
 
 
@@ -526,142 +550,76 @@
     font-size: 1.6rem;
     line-height: 2rem;
   }
-
-  #container .wrap .historyFixedWrap .historyList {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  
-  #container .wrap .historyFixedWrap .historyList .history-year {
-    font-family: 'Pretendard-SemiBold';
-    font-weight: 600;
-    width: 50%;
-    margin-left: 5%;
-    font-size: 120px;
-  }
-  
-  #container .wrap .historyFixedWrap .historyList .history-year .year {
-    display: none;
-  }
-  
-  #container .wrap .historyFixedWrap .historyList .history-year .year span {
-    display: block;
-  }
-  
   #container .wrap .historyFixedWrap .historyList .history-year .year.show {
     display: block;
-  }
-  
-  #container .wrap .historyFixedWrap .historyList .history-detail {
-    width: 45%;
-  }
-  
-  #container .wrap .historyFixedWrap .historyList .history-detail::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    width: 2px;
-    height: 100%;
-    background: #DFE0E8;
-  }
-  
-  #container .wrap .historyFixedWrap .historyList .history-detail .yRight {
-    margin: 6% 0 0 10%;
-  }
-  
-  #container .wrap .historyFixedWrap .historyList .history-detail .yRight li {
-    position: relative;
-    margin-bottom: 4rem;
-  }
-  
-  #container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dt {
     font-size: 2rem;
-    color: #2C64E5;
-    font-family: 'Pretendard-ExtraBold';
-    font-weight: 800;
-    margin: 1.5rem 0;
+    text-align: right;
+    padding-right: 1%;
   }
-  
+
   #container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dt::before {
     content: "";
     position: absolute;
     z-index: 1;
-    top: .5rem;
-    left: -4.7rem;
+    top: 0.3rem;
+    left: -1rem;
     background-color: #fff;
-    width: 11px;
-    height: 11px;
-    border: 3px solid #2C64E5;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #2C64E5;
     border-radius: 50%;
   }
-  
-  #container .wrap .historyFixedWrap .historyList .history-detail .yRight li dl dd {
-    font-family: 'Pretendard-Medium';
-    font-weight: 500;
-    font-size: 1.2rem;
-    color: #121212;
-    margin-bottom: 1rem;
+  #container .wrap .historyFixedWrap .historyList .history-detail .yRight dt {
+    font-size: 1.6rem;
   }
-  
-  #container.h-fixed .wrap .historyFixedWrap .historyList {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+  #container .wrap .historyFixedWrap .historyList .history-detail .yRight dd {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
   }
-  
+
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dt {
+    font-size: 1.6rem;
+  }
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dd {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
   #container.h-fixed .wrap .historyFixedWrap .historyList .history-year {
     position: fixed;
-    top: 25%;
-    left: 9%;
-    font-size: 120px;
-  }
-  
-  #container.h-fixed .wrap .historyFixedWrap .historyList .history-year .year {
-    position: absolute;
-    top: 3%;
+    width: 100%;
+    top: 18.5%;
     left: 0%;
-    display: none;
-  }
-  
+    right: 0%;
+    padding-right: 2%;
+    z-index: 1;
+}
   #container.h-fixed .wrap .historyFixedWrap .historyList .history-year .year.show {
     display: block;
-  }
-  
-  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    width: 2px;
-    height: 100%;
-    background: #DFE0E8;
-  }
-  
-  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight {
-    margin: 6% 0 0 10%;
-  }
-  
-  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dt {
     font-size: 2rem;
+    text-align: right;
+    padding: 1rem 1rem 1rem 0;
+    background-color: #fff;
+    border-bottom: 1px solid #2C64E5;
+    z-index: 1;
+  }
+  #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dt {
+    font-size: 1.6rem;
     color: #2C64E5;
     font-family: 'Pretendard-ExtraBold';
     font-weight: 800;
-    margin: 1.5rem 0;
+    margin: 1.3rem 0;
   }
-  
+
   #container.h-fixed .wrap .historyFixedWrap .historyList .history-detail .yRight dd {
     font-family: 'Pretendard-Medium';
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #121212;
-    margin-bottom: 1rem;
-  }
+    margin-bottom: 0.6rem;
+}
+
+  
 
 
 }
