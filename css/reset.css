@@ -7,14 +7,14 @@
     font-style: normal;
 }
 
- /* 페이북 bold */
+
  @font-face {
     font-family: 'paybooc-Bold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-/* 페이북 medium */
+
 @font-face {
     font-family: 'paybooc-Medium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
@@ -22,7 +22,7 @@
     font-style: normal;
 }
 
- /* 경기천년제목 */
+
  @font-face {
     font-family: 'GyeonggiTitleM';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
@@ -30,7 +30,7 @@
     font-style: normal;
 }
 
-/*프린텐다드*/
+/*�봽由고뀗�떎�뱶*/
 @font-face {
     font-family: 'Pretendard-Thin';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
@@ -81,14 +81,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;@500;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
-/* 레페이베이스 */
+
 @font-face {
     font-family: 'LeferiBaseType-RegularA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-/* 레페리포인트 */
+
 @font-face {
     font-family: 'LeferiPoint-WhiteA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
@@ -97,15 +97,34 @@
 }
 
 
- /*글씨체 설정 및 태그가 가지고 있는 기본 css 속성들을 초기화 합니다*/
- * { margin:0; padding:0; box-sizing: border-box;}
+ /*rest*/
+ * { 
+ margin:0; padding:0; 
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+ }
  ul,ol,li { list-style:none;}
  a { text-decoration:none;}
  img,video { vertical-align:top;}
  table { border-collapse:collapse;}
+ html {
+ width:100%;
+overflow-x:hidden;}
  body { 
     font-family: 'Poppins', sans-serif, 'GyeonggiTitleM';
     font-weight: 400;
     line-height:1; font-size:13px; overflow-x: hidden; text-overflow: ellipsis;
+    max-width:100%;
 }
  .clear_fix:after { content:""; display:block; clear:both;}
+
+
+ /* color list */
+ :root {
+    --smartee-blue:#6290c0 ;
+    --bg-white: #fcfcfc;
+    --smartee-gray:#666;
+    --smratee-black:#111;
+    --smartee-point-blue:#0f64ce;
+  }

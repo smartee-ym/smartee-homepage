@@ -1,0 +1,188 @@
+@charset "UTF-8";
+#container .wrap.reference {
+  width: 80%;
+  margin: 5rem auto 9rem;
+}
+#container .wrap.reference .secTitle-wrap .secInform {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+}
+#container .wrap.reference .referenceWrap .secRef {
+  margin-top: 7rem;
+}
+#container .wrap.reference .referenceWrap .secRef .secTitle {
+  font-size: 3rem;
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  color: #2C64E5;
+  margin: 2rem 0;
+}
+#container .wrap.reference .referenceWrap .secRef .viewTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0 2rem;
+}
+#container .wrap.reference .referenceWrap .secRef .viewTab li {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#container .wrap.reference .referenceWrap .secRef .viewTab li a {
+  display: block;
+  color: #121212;
+  font-size: 1.2rem;
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  padding: 2rem 3rem;
+  width: 100%;
+  text-align: center;
+  background-color: #fcfcfc;
+  border: 2px solid #ddd;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+#container .wrap.reference .referenceWrap .secRef .viewTab li a.on {
+  border: 2px solid #2C64E5;
+  background-color: #2C64E5;
+  color: #fcfcfc;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content {
+  display: none;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content.refTab1 {
+  display: block;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box {
+  background-color: #f8f9fb;
+  padding: 3rem 3rem 4rem;
+  border-radius: 2rem;
+  border: 1px solid #eee;
+  box-shadow: 0px 4px 40px 0px rgba(182, 188, 189, 0.1);
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box h2 {
+  color: #0f64ce;
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box h2 img {
+  width: 10rem;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box h5 {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-family: "Pretendard-SemiBold";
+  font-weight: 600;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box .item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box .item-info .item-info-detail {
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  color: #111;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box .item-info .item-info-detail:first-child {
+  position: relative;
+  padding-top: 1.5rem;
+  width: 100%;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box .item-info .item-info-detail:first-child::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box .item-info .item-info-detail .check-fig {
+  padding-top: 0.1rem;
+  padding-right: 0.3rem;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box .item-info .item-info-detail .check-fig::after {
+  content: "✔"; /* 체크표시 유니코드 사용 */
+  color: #2C64E5;
+  font-size: 1rem;
+}
+#container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content ul .item-box .item-info .item-info-detail .check-text {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+#container .wrap.reference .referenceWrap .totCase-table .totCase-sub {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  font-size: 2rem;
+  color: #2C64E5;
+  margin: 5rem 0 2rem;
+}
+#container .wrap.reference .referenceWrap .totCase-table .table-style {
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  position: relative;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px;
+  border-top: 2px solid #2C64E5;
+  margin-bottom: 10rem;
+}
+#container .wrap.reference .referenceWrap .totCase-table .table-style thead th {
+  font-size: 1.2rem;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #2C64E5;
+  background-color: #2C64E5;
+  letter-spacing: -0.5pt;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  border-right: 1px solid #ddd;
+}
+#container .wrap.reference .referenceWrap .totCase-table .table-style thead th:last-child {
+  border: none;
+}
+#container .wrap.reference .referenceWrap .totCase-table .table-style tbody tr td {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  letter-spacing: -0.7pt;
+  border-bottom: 1px solid #dddddd;
+  background: #fff;
+  border-right: 1px solid #ddd;
+}
+#container .wrap.reference .referenceWrap .totCase-table .table-style tbody tr td:last-child {
+  text-align: center;
+  border-right: none;
+  padding: 1.2rem 0;
+}
+#container .wrap.reference .referenceWrap .totCase-table .table-style tbody tr td.color-point {
+  background-color: #efefef;
+}
+#container .wrap.reference .referenceWrap .totCase-table .table-style tbody tr td.tot-point {
+  background-color: #4379f7;
+  color: #fff;
+}
+#container .wrap.reference .referenceWrap .totCase-table .table-style tbody tr td.tab_left {
+  padding: 0.8rem 0rem 0.8rem 3rem;
+  text-align: left;
+}/*# sourceMappingURL=ref.css.map */

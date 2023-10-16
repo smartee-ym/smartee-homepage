@@ -1,0 +1,376 @@
+#container .contWrap .wrap {
+  width: 70%;
+  margin: 5rem auto 0;
+}
+#container .contWrap .wrap .secTitle-wrap .secTitle {
+  font-family: "Pretendard-ExtraBold";
+  font-weight: 800;
+  color: var(--smartee-point-blue);
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+#container .contWrap .wrap .secTitle-wrap h3 {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  width: 57%;
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+#container .contWrap .wrap .secTitle-wrap h3:nth-child(3) {
+  position: relative;
+}
+#container .contWrap .wrap .secTitle-wrap h3:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-10px, 32px);
+  width: 78%;
+  height: 1.3rem;
+  background-color: var(--smartee-point-blue);
+  opacity: 0.3;
+  z-index: -1;
+}
+#container .contWrap .wrap .org-wrap .gdcTitle {
+  font-size: 30px;
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  color: var(--smartee-point-blue);
+  margin: 3rem 0 7rem;
+  font-size: 3rem;
+}
+#container .contWrap .wrap .org-wrap .org-group-info {
+  margin-top: 80px;
+  margin-bottom: 140px;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .group-title {
+  display: block;
+  margin: 0 auto;
+  width: 22rem;
+  height: 9rem;
+  border-radius: 70px;
+  line-height: 136px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  color: #424242;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .group-title .group-tit {
+  display: inline-block;
+  width: 15rem;
+  height: 6rem;
+  padding: 0;
+  margin: -6px 0 0 0;
+  white-space: nowrap;
+  font-size: 1px;
+  overflow: hidden;
+  text-indent: -999px;
+  color: transparent;
+  line-height: 0;
+  background-position: center center;
+  vertical-align: middle;
+  background-image: url(../img/gdc/2-smartee.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .sub-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .sub-group .sub-group-wrap {
+  position: relative;
+  flex: 0 0 25%;
+  max-width: 25%;
+  margin-left: 50%;
+  margin-top: 5rem;
+  border-radius: 70px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .sub-group .sub-group-wrap .sub-group-tit {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1.2rem 0 1rem;
+  margin: 0 4rem;
+  border-bottom: 2px solid #424242;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .sub-group .sub-group-wrap .sub-group-list li {
+  margin: 1.2rem 0 1.2rem;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .sub-group .sub-group-wrap .sub-group-list li figure img {
+  width: 55%;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .sub-group .sub-group-wrap::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 100%;
+  height: 1px;
+  background-color: #bdbdbd;
+  z-index: -1;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 53px;
+  padding-top: 0px;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list::before {
+  content: "";
+  position: absolute;
+  top: -330px;
+  left: 50%;
+  display: inline-block;
+  width: 1px;
+  height: 116%;
+  background-color: #bdbdbd;
+  z-index: -1;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item {
+  position: relative;
+  margin-top: 8rem;
+  padding: 1rem 1rem;
+  width: 10rem;
+  height: 200px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item::after {
+  content: "";
+  position: absolute;
+  top: -5rem;
+  left: 50%;
+  width: 115%;
+  height: 5rem;
+  border: 1px solid #bdbdbd;
+  border-width: 1px 0 0 1px;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item::before {
+  content: "";
+  position: absolute;
+  top: -5rem;
+  right: 50%;
+  width: 115%;
+  height: 5rem;
+  border: 1px solid #bdbdbd;
+  border-width: 1px 0 0 0;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item:first-child::before {
+  border-width: 0 0 0 0;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item:last-child::after {
+  border-width: 0 0 0 1px;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item:nth-child(1) .txt-in::before {
+  background-image: url(../img/gdc/4-pm.png);
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item:nth-child(2) .txt-in::before {
+  background-image: url(../img/gdc/4-dev.png);
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item:nth-child(3) .txt-in::before {
+  background-image: url(../img/gdc/4-qa.png);
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item:nth-child(4) .txt-in::before {
+  background-image: url(../img/gdc/4-rnd.png);
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item:nth-child(5) .txt-in::before {
+  background-image: url(../img/gdc/4-market.png);
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item .txt-in {
+  font-family: "Pretendard-SemiBold";
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #111;
+  text-align: center;
+}
+#container .contWrap .wrap .org-wrap .org-group-info .org-list .item .txt-in::before {
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 8rem;
+  height: 8rem;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 1rem;
+}
+#container .contWrap .wrap .skill-wrap .section-tit {
+  font-size: 30px;
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  color: var(--smartee-point-blue);
+  margin: 20px 0 5rem;
+  font-size: 3rem;
+}
+#container .contWrap .wrap .skill-wrap .skill-table-wrap .skill-table .table-style {
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  position: relative;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px;
+  border-top: 2px solid var(--smartee-point-blue);
+  margin-bottom: 10rem;
+}
+#container .contWrap .wrap .skill-wrap .skill-table-wrap .skill-table .table-style thead th {
+  font-size: 1.2rem;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid var(--smartee-point-blue);
+  background-color: var(--smartee-point-blue);
+  letter-spacing: -0.5pt;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  border-right: 1px solid #ddd;
+}
+#container .contWrap .wrap .skill-wrap .skill-table-wrap .skill-table .table-style thead th:last-child {
+  border: none;
+}
+#container .contWrap .wrap .skill-wrap .skill-table-wrap .skill-table .table-style tbody tr td {
+  padding: 0.8rem 0rem 0.8rem 5rem;
+  font-size: 1.2rem;
+  color: #666;
+  letter-spacing: -0.7pt;
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  background: #fff;
+  border-right: 1px solid #ddd;
+}
+#container .contWrap .wrap .skill-wrap .skill-table-wrap .skill-table .table-style tbody tr td:last-child {
+  text-align: center;
+  border-right: none;
+  padding: 1.2rem 0;
+}
+#container .contWrap .wrap .skill-wrap .skill-table-wrap .skill-table .table-style tbody tr td.tab_tit {
+  padding-left: 3rem;
+}
+#container .contWrap .wrap .skill-wrap .skill-table-wrap .skill-table .table-style tbody tr td.color-point {
+  background-color: #efefef;
+}
+#container .contWrap .wrap .skill-wrap .skill-table-wrap .skill-table .table-style tbody tr td.tot-point {
+  background-color: var(--smartee-point-blue);
+  color: #fff;
+}
+#container .contWrap .skill-sub {
+  background: #f5f8fc;
+  padding: 5rem 0 7rem;
+}
+#container .contWrap .skill-sub .skill-sub-wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+#container .contWrap .skill-sub .skill-sub-wrap .section-tit {
+  font-size: 30px;
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  color: var(--smartee-point-blue);
+  margin: 20px 0 5rem;
+  font-size: 3rem;
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  background-color: #fff;
+  color: #111;
+  border-radius: 3rem;
+  margin: 1.1rem 1.1rem 1.1rem 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  height: 7rem;
+  border: 5px solid var(--smartee-point-blue);
+  transition: all 0.4s ease-in-out;
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box:hover {
+  background-color: var(--smartee-point-blue);
+  color: #fff;
+  box-shadow: 41px 19px 30px 0px rgba(0, 0, 0, 0.15);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box:hover .skill-item-img.item01 {
+  background-image: url(../img/gdc-org/gdc-org-hover-01.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box:hover .skill-item-img.item02 {
+  background-image: url(../img/gdc-org/gdc-org-hover-02.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box:hover .skill-item-img.item03 {
+  background-image: url(../img/gdc-org/gdc-org-hover-03.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box:hover .skill-item-img.item04 {
+  background-image: url(../img/gdc-org/gdc-org-hover-04.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box:hover .skill-item-img.item05 {
+  background-image: url(../img/gdc-org/gdc-org-hover-05.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box:hover .skill-item-img.item06 {
+  background-image: url(../img/gdc-org/gdc-org-hover-06.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box .skill-item-img {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box .skill-item-img.item01 {
+  background-image: url(../img/gdc-org/gdc-org-01.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box .skill-item-img.item02 {
+  background-image: url(../img/gdc-org/gdc-org-02.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box .skill-item-img.item03 {
+  background-image: url(../img/gdc-org/gdc-org-03.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box .skill-item-img.item04 {
+  background-image: url(../img/gdc-org/gdc-org-04.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box .skill-item-img.item05 {
+  background-image: url(../img/gdc-org/gdc-org-05.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box .skill-item-img.item06 {
+  background-image: url(../img/gdc-org/gdc-org-06.svg);
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-grid .skill-item-box h4 {
+  width: calc(100% - 4.6rem);
+  font-size: 1.176rem;
+  line-height: 1;
+  margin: 1rem 0 1rem;
+}
+#container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-blank {
+  width: 15%;
+}
+#container .global-corp-wrap .wrap {
+  width: 80%;
+  margin: 5rem auto 0;
+}
+#container .global-corp-wrap .wrap.group-title .section-tit {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 2rem;
+  font-size: 3rem;
+}
+#container .global-corp-wrap .wrap.group-title h6 {
+  font-size: 1rem;
+  color: #111;
+}/*# sourceMappingURL=gdc-org.css.map */
