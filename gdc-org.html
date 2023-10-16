@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 파비콘 -->
+    <!-- 웹폰트 / 웹폰트아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/gdc-org.css">
+
+    <!-- script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/subheader.js"></script>
+    <title>smartee.</title>
+</head>
+<body>
+    <!-- sub header start -->
+    <div id="header">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="index.html" class="logo-img">
+                    <img src="img/logo-main.png" alt="smartee">
+                
+            </h1>
+            <!-- logo-img -->
+            <ul class="gnb">
+                <li class="main1depth solution">
+                    <a href="solution.html">Solution</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu"><a href="solution.html#sec1">개발 서비스</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="solution.html#sec3">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">스파이더 뷰</a></li> 
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="gdc-about.html">GDC</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="gdc-about.html">About</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-org.html">Organization</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-pns.html">S&P</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="ref.html">Reference</a>
+                            <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="ref.html">reference</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="ref-total.html">total case</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
+                <li class="main1depth customer"><a href="customer.html">Customer</a></li>
+                <li class="main1depth company">
+                    <a href="#">About</a>
+                    <ul class="sub2depth subCompany">
+                        <li class="subMenu"><a href="about-ceo.html">인사말</a></li>
+                        <li class="subMenu"><a href="about-history.html">연혁</a></li>
+                        <li class="subMenu"><a href="about-recruit.html">채용</a></li>
+                        <li class="subMenu"><a href="about-map.html">오시는 길</a></li>   
+                    </ul>
+                </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
+            </ul>
+            <!-- main-gnb -->
+            <div class="ham-menu">
+                <a href="#" class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                
+
+            </div>
+            <!-- ham-menu -->
+
+        </div>
+    </div>
+    <!-- sub header end -->
+    <div id="container">
+        <div class="visual-head">
+            <div class="location">
+                <a href="index.html" class="location-text">홈</a>
+                <span class="location-arrow"></span>
+                <a href="about-ceo.html" class="location-text">GDC</a>
+                <span class="location-arrow"></span>
+                <a href="about-ceo.html" class="location-text">Organization</a>
+            </div>
+            <div class="visual-title-wrap">
+                <h2 class="title-main">GDC</h2>
+                <h5 class="title-sub">Global Deployment Center </h5>
+            </div>
+        </div>
+        <!-- 서브메뉴  -->
+        <div class="subMenuNav">        
+            <ul class="sub-index-wrap">
+                <li class="sub-index"><a href="gdc-about.html" class="sub-index-menu">About</a></li>
+                <li class="sub-index"><a href="gdc-org.html" class="sub-index-menu on">Organization</a></li>
+                <li class="sub-index"><a href="gdc-pns.html" class="sub-index-menu">S&P</a></li>
+            </ul>
+        </div>
+        <!-- top 버튼 -->
+        <div class="topBtn">
+            <!-- 기본 top버튼 -->
+            <a href="#" id="scroll">
+                <span class="sr_only">위로가기</span>
+                <svg x="0px" y="0px" width="22.121px" height="37.992px" viewBox="0 0 22.121 37.992" enable-background="new 0 0 22.121 37.992" xml:space="preserve">
+                    <path fill="#0f4bff" d="M12.561,37.992h-3V2.599h3V37.992z"></path>
+                    <path fill="#0f4bff" d="M2.121,13.181L0,11.06L11.061,0L22.121,11.06L20,13.181l-8.939-8.939L2.121,13.181z"></path>
+                </svg>
+            </a>   
+        </div>
+        <!-- 조직도 및 표 시작 -->
+        <div class="contWrap">
+            <div class="wrap">
+                <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
+                    <h6 class="secTitle">organization</h6>
+                    <!-- 큰 제목 -->
+                    <h3>스마티이 그룹의<br>현황을 알려드립니다.</h3>
+                </div>
+                <!-- 조직도 -->
+                <!-- 로고이미지, 각 계열이미지 추가 -->
+                <div class="org-wrap">
+                    <div class="gdcTitle" data-aos="fade-up"  data-aos-duration="1000">
+                        Global Deployment Center Service
+                    </div>
+                    <div class="org-group-info" data-aos="fade-up"  data-aos-duration="1000">
+                        <span class="group-title">
+                            <span class="group-tit">
+                                <figure>
+                                    <!-- <img src="img/gdc/2-smartee.png" alt="smartee-logo"> -->
+                                </figure>
+                            </span>
+                        </span>
+                        <div class="sub-group">
+                            <div class="sub-group-wrap">
+                                <p class="sub-group-tit">계열사</p>          
+                                <ul class="sub-group-list">
+                                    <li>     
+                                        <figure>
+                                            <img src="img/gdc/2-smartee+vina.png" alt="smarteejp-logo">
+                                        </figure>
+                                    </li>
+                                    <li>     
+                                        <figure>
+                                            <img src="img/gdc/2-smartee+japan.png" alt="smarteevn-logo">
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="org-list">
+                            <li class="item"><span class="txt-in">기획/PM</span></li>
+                            <li class="item"><span class="txt-in">F-E/B-E</span></li>
+                            <li class="item"><span class="txt-in">품질 및 보안</span></li>
+                            <li class="item"><span class="txt-in">R&D 연구소</span></li>
+                            <li class="item"><span class="txt-in">영업 및 마케팅</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- //조직도  -->
+            </div>
+            <!-- 스킬 종류 -->
+            <div class="skill-sub">
+                <div class="skill-sub-wrap" data-aos="fade-up"  data-aos-duration="1000">
+                    <div class="section-tit">
+                        Able To Provide
+                    </div>
+                    <!-- 스킬 그림 -->
+                    <div class="skill-img-wrap">
+                        <div class="skill-img-grid">
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item01"></div>
+                                <h4>Software Development Services</h4>
+                            </div>
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item02"></div>
+                                <h4>ERP Solutions Provider</h4>
+                            </div>
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item03"></div>
+                                <h4>Mobile Application Development Services</h4>   
+                            </div>
+                        </div>
+                        <!-- 공백부분 -->
+                        <dl class="skill-img-blank">
+                        </dl>
+                    </div>
+                    <div class="skill-img-wrap">
+                        <!-- 공백부분 -->
+                        <dl class="skill-img-blank">
+                        </dl>
+                        <div class="skill-img-grid">
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item04"></div>
+                                <h4>Enterprise Solutions Architecture</h4>
+                            </div>
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item05"></div>
+                                <h4>Custom Software Development</h4>
+                            </div>
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item06"></div>
+                                <h4>Web Development Services</h4>
+                            </div>
+                        </div>
+                    </div>                   
+                    <!-- //스킬 그림 -->
+                </div>    
+            </div>
+            <!-- //스킬 종류 -->
+            <div class="wrap">  
+                <!-- 스킬 테이블 -->
+                <div class="skill-wrap section-tit">
+                    <!-- 스킬 테이블 -->
+                    <div class="section-tit" data-aos="fade-up"  data-aos-duration="1000">
+                        Skill Table
+                    </div>
+                    <div class="skill-table-wrap" data-aos="fade-up"  data-aos-duration="1000">
+                        <div class="skill-table">
+                            <table class="table-style">
+                                <thead>
+                                    <tr>
+                                        <th>SKILL</th>
+                                        <th>인원</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tab_tit color-point">모바일 개발자</td>
+                                        <td class="center color-point">20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Android / IOS</td>
+                                        <td class="center">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Flutter</td>
+                                        <td class="center">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- React Native</td>
+                                        <td class="center">4</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit color-point">웹 개발자</td>
+                                        <td class="center color-point">58</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- React JS, Vue JS, Angular</td>
+                                        <td class="center">15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Java</td>
+                                        <td class="center">30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- PHP</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Python</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Go</td>
+                                        <td class="center">3</td>
+                                    </tr>
+                                    <td class="tab_tit color-point">기타</td>
+                                    <td class="center color-point">34</td>
+                                </tr>
+                                    <tr>
+                                        <td class="tab_tit">Solution Architect (VN)</td>
+                                        <td class="center">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">Salesforce</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">Solution Architect (KR)</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">QA/QC</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">UI/UX</td>
+                                        <td class="center">10</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">PM (KR)</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">PM (VN)</td>
+                                        <td class="center">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;" class="tot-point">TOTAL</td>
+                                        <td class="center tot-point">112</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- //스킬 테이블 -->
+                </div>
+            </div>
+            <!-- 해외지사 -->
+            <!-- <div class="global-corp-wrap">
+                <div class="wrap group-title">
+                    <h2 class="section-tit">Global Network</h2>
+                    <h6>스마티이는 해외 지사 설립을 통해 혁신적인 서비스를 전하고 있습니다.</h6>
+                </div>
+
+            </div> -->
+            <!-- //해외지사 -->
+        </div>
+    </div>
+    <!-- sub footer start -->
+    <div id="footer">
+        <div class="footer-center">
+            <div class="footer-left">
+                <h2><img src="img/logo-dark.png"></h2>
+                <ul class="smartee-info">
+                    <li>(주)스마티이</li>
+                    <li>대표 이우찬</li>
+                    <li>사업자 등록번호 123-45-67788</li>
+                </ul>
+                <ul class="smartee-contract">
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
+                    <li>Tel ) 02-123-4567</li>
+                    <li>Fax ) 02-789-7991</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><a href="#">스마티이 소개</li>
+                    <li><a href="#">개인정보처리방침</li>
+                    <li><a href="#">오시는 길</li>
+                </ul>
+                <div class="footer-copy">
+                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sub footer end -->
+</body>
+</html>
