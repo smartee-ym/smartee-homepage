@@ -102,7 +102,7 @@
             </div>
             <div class="visual-title-wrap">
                 <h2 class="title-main">GDC</h2>
-                <h5 class="title-sub">Global Deployment Center </h5>
+                <h5 class="title-sub">Global Deployment Center</h5>
             </div>
         </div>
         <!-- 서브메뉴  -->
@@ -136,7 +136,7 @@
                 <!-- 로고이미지, 각 계열이미지 추가 -->
                 <div class="org-wrap">
                     <div class="gdcTitle" data-aos="fade-up"  data-aos-duration="1000">
-                        Global Deployment Center Service
+                        Global Deployment Center Organization
                     </div>
                     <div class="org-group-info" data-aos="fade-up"  data-aos-duration="1000">
                         <span class="group-title">
@@ -323,13 +323,73 @@
                 </div>
             </div>
             <!-- 해외지사 -->
-            <!-- <div class="global-corp-wrap">
+            <div class="global-corp-wrap">
                 <div class="wrap group-title">
                     <h2 class="section-tit">Global Network</h2>
                     <h6>스마티이는 해외 지사 설립을 통해 혁신적인 서비스를 전하고 있습니다.</h6>
                 </div>
+                <div class="global-map">
+                    <div class="corp-img">
+                        <img src="img/gdc/gdc-branch-background-01.svg">
+                        <div class="corp-point">
+                            <div class="kor-hq">
+                                <img class="kor-logo" src="img/gdc/smartee+logo.svg">
+                                <img class="kor-point" src="img/gdc/gdc-branch-point.svg">
+                                <div class="circle-ani">
+                                    <div class="circle delay1"></div>
+                                    <div class="circle delay2"></div>
+                                    <div class="circle delay3"></div>
+                                    <div class="circle delay4"></div>
+                                </div>
+                            </div>
+                            <div class="jp-branch">
+                                <img class="jp-logo" src="img/gdc/smartee+jp+logo.svg">
+                                <img class="jp-point" src="img/gdc/gdc-branch-point.svg">
+                                <div class="circle-ani">
+                                    <div class="circle delay1"></div>
+                                    <div class="circle delay2"></div>
+                                    <div class="circle delay3"></div>
+                                    <div class="circle delay4"></div>
+                                </div>
+                            </div>
+                            <div class="vn-branch">
+                                <img class="vn-logo" src="img/gdc/smartee+vina+logo.svg">
+                                <img class="vn-point" src="img/gdc/gdc-branch-point.svg">
+                                <div class="circle-ani">
+                                    <div class="circle delay1"></div>
+                                    <div class="circle delay2"></div>
+                                    <div class="circle delay3"></div>
+                                    <div class="circle delay4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            </div> -->
+                    <div class="corp-detail">
+                        <div class="corp-box mb-2">
+                            <h6>Head Office</h6>
+                            <div class="corp-item scale">
+                                <div class="corp-name">스마티이 한국</div>
+                                <div class="corp-addr">서울시 용산구 한강대로54길 25 신승빌딩 3층</div>
+                            </div>
+                        </div>
+                        <div class="corp-box">
+                            <h6>Branch Office</h6>
+                            <div class="corp-item mb-1 scale">
+                                <div class="corp-name">스마티이 재팬</div>
+                                <div class="corp-addr">도쿄도 신주쿠구 스미요시초 7번 3호 선라이즈 빌딩 302호</div>
+                            </div>
+                            <div class="corp-item scale">
+                                <div class="corp-name">스마티이 비나</div>
+                                <div class="corp-addr">728 Đ. Võ Văn Kiệt, Phường 1, Quận 5, Thành phố Hồ Chí Minh</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
             <!-- //해외지사 -->
         </div>
     </div>
@@ -363,4 +423,40 @@
     </div>
     <!-- sub footer end -->
 </body>
+
+<script>
+    // 마우스 호버시 이벤트
+    const branches = document.querySelectorAll('.corp-point > div');
+    const corpItems = document.querySelectorAll('.corp-item');
+    const circleAni = document.querySelectorAll('circle-ani');
+
+
+    branches.forEach((branch, index) => {
+        branch.addEventListener('mouseenter', () => {
+            branch.classList.add('on');
+            corpItems[index].classList.add('on');
+            circleAni.classList.add('on');
+
+        });
+
+        branch.addEventListener('mouseleave', () => {
+            branch.classList.remove('on');
+            corpItems[index].classList.remove('on');
+            circleAni.classList.remove('on');
+
+        });
+
+        corpItems[index].addEventListener('mouseenter', () => {
+            corpItems[index].classList.add('on');
+            branch.classList.add('on');
+            circleAni.classList.add('on');
+        });
+
+        corpItems[index].addEventListener('mouseleave', () => {
+            corpItems[index].classList.remove('on');
+            branch.classList.remove('on');
+            circleAni.classList.remove('on');
+        });
+    });
+</script>
 </html>
