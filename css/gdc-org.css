@@ -359,18 +359,267 @@
 #container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-blank {
   width: 15%;
 }
+#container .global-corp-wrap {
+  background-color: #d9e9f9;
+}
 #container .global-corp-wrap .wrap {
-  width: 80%;
-  margin: 5rem auto 0;
+  width: 70%;
+  padding: 5rem 0;
+  margin: 0 auto;
 }
 #container .global-corp-wrap .wrap.group-title .section-tit {
   font-family: "Pretendard-Bold";
   font-weight: 700;
-  color: #111;
+  color: var(--smartee-point-blue);
   margin: 0 0 2rem;
   font-size: 3rem;
 }
 #container .global-corp-wrap .wrap.group-title h6 {
-  font-size: 1rem;
-  color: #111;
+  font-size: 1.2rem;
+  color: var(--smratee-black);
+}
+#container .global-corp-wrap .global-map {
+  position: relative;
+}
+#container .global-corp-wrap .global-map .corp-img {
+  width: 100%;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point {
+  cursor: pointer;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq .kor-logo {
+  position: absolute;
+  width: 10rem;
+  top: 36.5%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  transition: all 0.4s ease-in-out;
+  z-index: 10;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq .kor-point {
+  position: absolute;
+  width: 2rem;
+  top: 43.5%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease-in-out;
+  z-index: 11;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq .circle-ani .circle {
+  display: none;
+  position: absolute;
+  top: 44.5%;
+  left: 42.1%;
+  transition: 5s ease;
+  height: 0.7rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: rgba(236, 146, 130, 0.5);
+  z-index: 10;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq.on .kor-logo {
+  background-color: rgb(255, 255, 255);
+  top: 35.5%;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq.on .kor-point {
+  top: 42.5%;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq.on .circle-ani .circle {
+  display: block;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq.on .circle-ani .circle.delay1 {
+  animation: waves 2.5s linear;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq.on .circle-ani .circle.delay2 {
+  animation: waves 2.5s linear 0.7s forwards;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq.on .circle-ani .circle.delay3 {
+  animation: waves 2.5s linear 1.3s forwards;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .kor-hq.on .circle-ani .circle.delay4 {
+  animation: waves 2.5s linear 1.9s forwards;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch .jp-logo {
+  position: absolute;
+  width: 11rem;
+  top: 45%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgb(217, 233, 249);
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  transition: all 0.4s ease-in-out;
+  z-index: 10;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch .jp-point {
+  position: absolute;
+  width: 1.5rem;
+  top: 45%;
+  left: 46.2%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease-in-out;
+  z-index: 11;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch .circle-ani .circle {
+  display: none;
+  position: absolute;
+  top: 45.5%;
+  left: 45.2%;
+  transition: 5s ease;
+  height: 0.7rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: rgba(236, 146, 130, 0.5);
+  z-index: 10;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch.on .jp-logo {
+  top: 44%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(99, 145, 193);
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch.on .jp-point {
+  top: 44%;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch.on .circle-ani .circle {
+  display: block;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch.on .circle-ani .circle.delay1 {
+  animation: waves 2.5s linear;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch.on .circle-ani .circle.delay2 {
+  animation: waves 2.5s linear 0.7s forwards;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch.on .circle-ani .circle.delay3 {
+  animation: waves 2.5s linear 1.3s forwards;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .jp-branch.on .circle-ani .circle.delay4 {
+  animation: waves 2.5s linear 1.9s forwards;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch .vn-logo {
+  position: absolute;
+  width: 11rem;
+  top: 51.5%;
+  left: 36.5%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  transition: all 0.4s ease-in-out;
+  z-index: 10;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch .vn-point {
+  position: absolute;
+  width: 1.5rem;
+  top: 57.6%;
+  left: 36.6%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease-in-out;
+  z-index: 11;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch .circle-ani .circle {
+  display: none;
+  position: absolute;
+  top: 57.5%;
+  left: 35.5%;
+  transition: 5s ease;
+  height: 0.7rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: rgba(236, 146, 130, 0.5);
+  z-index: 10;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch.on .vn-logo {
+  top: 50.5%;
+  background-color: rgb(255, 255, 255);
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch.on .vn-point {
+  top: 56.5%;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch.on .circle-ani .circle {
+  display: block;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch.on .circle-ani .circle.delay1 {
+  animation: waves 2.5s linear;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch.on .circle-ani .circle.delay2 {
+  animation: waves 2.5s linear 0.7s forwards;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch.on .circle-ani .circle.delay3 {
+  animation: waves 2.5s linear 1.3s forwards;
+}
+#container .global-corp-wrap .global-map .corp-img .corp-point .vn-branch.on .circle-ani .circle.delay4 {
+  animation: waves 2.5s linear 1.9s forwards;
+}
+#container .global-corp-wrap .global-map .corp-detail {
+  width: 35rem;
+  position: absolute;
+  top: 50%;
+  right: 6rem;
+  transform: translateY(-50%);
+  padding: 2rem 3rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 3rem;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.05);
+}
+#container .global-corp-wrap .global-map .corp-detail .corp-box.mb-2 {
+  margin-bottom: 2rem;
+}
+#container .global-corp-wrap .global-map .corp-detail .corp-box h6 {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  color: var(--smartee-point-blue);
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+#container .global-corp-wrap .global-map .corp-detail .corp-box .corp-item {
+  cursor: pointer;
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#container .global-corp-wrap .global-map .corp-detail .corp-box .corp-item.mb-1 {
+  margin-bottom: 1rem;
+}
+#container .global-corp-wrap .global-map .corp-detail .corp-box .corp-item.scale {
+  transition: all 0.4s ease-in-out;
+}
+#container .global-corp-wrap .global-map .corp-detail .corp-box .corp-item.scale.on {
+  transform: scale(1.05, 1.05);
+  color: #287adf;
+}
+#container .global-corp-wrap .global-map .corp-detail .corp-box .corp-item .corp-name {
+  width: 10rem;
+  font-family: "Pretendard-SemiBold";
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-right: 1rem;
+  border-right: 1px solid var(--smartee-gray);
+}
+#container .global-corp-wrap .global-map .corp-detail .corp-box .corp-item .corp-addr {
+  width: calc(100% - 11rem);
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  word-break: keep-all;
+}
+
+@keyframes waves {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
 }/*# sourceMappingURL=gdc-org.css.map */
