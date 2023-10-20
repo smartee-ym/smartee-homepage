@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 파비콘 -->
+    <!-- 웹폰트 / 웹폰트아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/new-main.css">
+    <!-- <link rel="stylesheet" href="css/gdc-org.css"> -->
+
+    <!-- script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/subheader.js"></script>
+    <title>smartee.</title>
+</head>
+<body>
+    <!-- sub header start -->
+    <div id="header">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="new-main.html" class="logo-img">
+                    <img src="img/logo-main.png" alt="smartee">
+                
+            </h1>
+            <!-- logo-img -->
+            <ul class="gnb">
+                <li class="main1depth solution">
+                    <a href="solution.html">Solution</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu"><a href="solution.html#sec1">개발 서비스</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="solution.html#sec3">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">스파이더 뷰</a></li> 
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="gdc-about.html">GDC</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="gdc-about.html">About</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-org.html">Organization</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-pns.html">S&P</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="ref.html">Reference</a>
+                            <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="ref.html">reference</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="ref-total.html">total case</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
+                <li class="main1depth customer"><a href="customer.html">Customer</a></li>
+                <li class="main1depth company">
+                    <a href="#">About</a>
+                    <ul class="sub2depth subCompany">
+                        <li class="subMenu"><a href="about-ceo.html">인사말</a></li>
+                        <li class="subMenu"><a href="about-history.html">연혁</a></li>
+                        <li class="subMenu"><a href="about-recruit.html">채용</a></li>
+                        <li class="subMenu"><a href="about-map.html">오시는 길</a></li>   
+                    </ul>
+                </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
+            </ul>
+            <!-- main-gnb -->
+            <div class="ham-menu">
+                <a href="#" class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                
+
+            </div>
+            <!-- ham-menu -->
+
+        </div>
+    </div>
+    <!-- sub header end -->
+    <div id="container">
+        <!-- top 버튼 -->
+        <div class="topBtn">
+            <!-- 기본 top버튼 -->
+            <a href="#" id="scroll">
+                <span class="sr_only">위로가기</span>
+                <svg x="0px" y="0px" width="22.121px" height="37.992px" viewBox="0 0 22.121 37.992" enable-background="new 0 0 22.121 37.992" xml:space="preserve">
+                    <path fill="#0f4bff" d="M12.561,37.992h-3V2.599h3V37.992z"></path>
+                    <path fill="#0f4bff" d="M2.121,13.181L0,11.06L11.061,0L22.121,11.06L20,13.181l-8.939-8.939L2.121,13.181z"></path>
+                </svg>
+            </a>   
+        </div>
+        <!-- 2.솔루션 소개 -->
+        <div style="height:500px"></div>
+        <!-- //2.솔루션 소개 -->
+
+        <!-- 4.성과달성 -->
+        <div class="mainWrap w-100" id="aimCount">
+            <div class="main-section-title t-center">
+                Sustainable Development
+                <div class="main-section-subTitle">
+                    스마티이는 지속가능한 개발을 목표로 합니다.
+                </div>                
+            </div>   
+            <div class="main-section-aim">
+                <div class="aimWrap">
+                    <div class="aim-box">
+                        <div class="aim-img img-pd-1">
+                            <img src="img/main-img/main-aim-icon-01.svg">
+                        </div>                        
+                        <div class="aim-item">
+                            <h5 class="aim-title">project</h5>
+                            <div class="aim-count-box">
+                                <h3 class="aim-count">100</h3>
+                                <h3 class="aim-plus">+</h3>
+                                <h6 class="aim-unit">개</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="aim-box">
+                        <div class="aim-img">
+                            <img src="img/main-img/main-aim-icon-02.svg">
+                        </div>                        
+                        <div class="aim-item">
+                            <h5 class="aim-title">engineer</h5>
+                            <div class="aim-count-box">
+                                <h3 class="aim-count">100</h3>
+                                <h3 class="aim-plus">+</h3>
+                                <h6 class="aim-unit">명</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="aim-box">
+                        <div class="aim-img">
+                            <img src="img/main-img/main-aim-icon-03.svg">
+                        </div>                           
+                        <div class="aim-item">
+                            <h5 class="aim-title">customer</h5>
+                            <div class="aim-count-box">
+                                <h3 class="aim-count">50</h3>
+                                <h3 class="aim-plus">+</h3>
+                                <h6 class="aim-unit">명</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>         
+        </div>
+        <!-- //4.성과달성 -->
+        <!-- 5.고객사 -->
+        <div class="mainWrap">
+            <div class="main-section-title t-center">
+                With Us
+                <div class="main-section-subTitle">
+                    스마티이와 함께하는 기업을 소개합니다.
+                </div>                
+            </div>
+
+            <div class="main-section-corp">
+                <div class="main-corp">
+                    <div class="main-corp-img">
+                        <img src="img/main-img/main-corp-01.svg">
+                        <img src="img/main-img/main-corp-02.svg">
+                        <img src="img/main-img/main-corp-03.svg">
+                        <img src="img/main-img/main-corp-04.svg">
+                        <img src="img/main-img/main-corp-05.svg">
+                        <img src="img/main-img/main-corp-06.svg">
+                    </div>
+                    <div class="main-corp-text">
+                       <a href="customer.html">
+                        <span class="btn-text">view more</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- //5.고객사 -->
+        <!-- 6.지사 -->
+        <div class="mainWrap w-100">
+            <div class="main-section-globe" data-aos="fade-up" data-aos-duration="1000">
+                <div class="global-map">
+                    <div class="corp-img">
+                        <img src="img/gdc/gdc-branch-background-01.svg">
+                        <div class="corp-point">
+                            <div class="kor-hq">
+                                <img class="kor-logo" src="img/gdc/smartee+logo.svg">
+                                <img class="kor-point" src="img/gdc/gdc-branch-point.svg">
+                                <div class="circle-ani">
+                                    <div class="circle delay1"></div>
+                                    <div class="circle delay2"></div>
+                                    <div class="circle delay3"></div>
+                                    <div class="circle delay4"></div>
+                                </div>
+                            </div>
+                            <div class="jp-branch">
+                                <img class="jp-logo" src="img/gdc/smartee+jp+logo.svg">
+                                <img class="jp-point" src="img/gdc/gdc-branch-point.svg">
+                                <div class="circle-ani">
+                                    <div class="circle delay1"></div>
+                                    <div class="circle delay2"></div>
+                                    <div class="circle delay3"></div>
+                                    <div class="circle delay4"></div>
+                                </div>
+                            </div>
+                            <div class="vn-branch">
+                                <img class="vn-logo" src="img/gdc/smartee+vina+logo.svg">
+                                <img class="vn-point" src="img/gdc/gdc-branch-point.svg">
+                                <div class="circle-ani">
+                                    <div class="circle delay1"></div>
+                                    <div class="circle delay2"></div>
+                                    <div class="circle delay3"></div>
+                                    <div class="circle delay4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="corp-detail">
+                        <div class="corp-box mb-2">
+                            <h6>Head Office</h6>
+                            <div class="corp-item scale">
+                                <div class="corp-name">스마티이 한국</div>
+                                <div class="corp-addr">서울시 용산구 한강대로54길 25 신승빌딩 3층</div>
+                            </div>
+                        </div>
+                        <div class="corp-box">
+                            <h6>Branch Office</h6>
+                            <div class="corp-item mb-1 scale">
+                                <div class="corp-name">스마티이 재팬</div>
+                                <div class="corp-addr">도쿄도 신주쿠구 스미요시초 7번 3호 선라이즈 빌딩 302호</div>
+                            </div>
+                            <div class="corp-item scale">
+                                <div class="corp-name">스마티이 비나</div>
+                                <div class="corp-addr">728 Đ. Võ Văn Kiệt, Phường 1, Quận 5, Thành phố Hồ Chí Minh</div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- //6.지사 -->
+
+    </div>
+    <div id="footer">
+        <div class="footer-center">
+            <div class="footer-left">
+                <h2>
+                    <img src="img/logo-main.png">
+                </h2>
+                <ul class="smartee-info">
+                    <li>(주)스마티이</li>
+                    <li>대표 이우찬</li>
+                    <li>사업자 등록번호 107-87-62050</li>
+                </ul>
+                <ul class="smartee-contract">
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25, 신승빌딩 3층</li>
+                    <li>Tel ) 02-783-2201</li>
+                    <li>Fax ) 02-783-2203</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><img src="/resources/common/include/img/img_innobiz.png"></li>
+                    <li><img src="/resources/common/include/img/img_patent.png"></li>
+                    <li><img src="/resources/common/include/img/img_venture_02.png"></li>
+                </ul>
+                <div class="footer-copy">
+                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sub footer end -->
+    <!-- ham-menu -->
+    <div id="ham-area" class="ham-wrap">
+        <a href="#" class="close-btn"></a>
+        <div class="hamTop">
+            <a href="index.html"><h1><img src="img/logo-bright.png"></h1></a>
+        </div>
+        <ul class="hamDepth1">
+            <li>
+                <a href="solution.html">Solution</a>
+                <i class="fas fa-chevron-down"></i>
+                <ul class="hamDepth2">
+                    <li><a href="solution.html#sec1">개발 서비스</a></li>
+                    <li><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                    <li><a href="solution.html#sec3">스파이더 라이브</a></li>
+                    <li><a href="solution.html#sec4">스파이더 뷰</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="news.html">News</a>
+            </li>
+            <li>
+                <a href="customer.html">Customer</a>
+            </li>
+            <li>
+                <a href="about-ceo.html">About</a>
+                <i class="fas fa-chevron-down"></i>
+                <ul class="hamDepth2">
+                    <li><a href="about-ceo.html">인사말</a></li>
+                    <li><a href="about-history.html">연혁</a></li>
+                    <li><a href="#">채용</a></li>
+                    <li><a href="about-map.html">오시는 길</a></li>
+                </ul>
+            </li>
+            <!-- <li>
+                <a href="request.html">Request</a>
+            </li> -->
+        </ul>
+    </div>
+
+    <script>
+
+        /*======== aim count ========*/
+        // HTML 요소 가져오기
+        const mainSectionAim = document.querySelector('.main-section-aim');
+        const aimCounts = document.querySelectorAll('.aim-count');
+        const aimCountBoxes = document.querySelectorAll('.aim-count-box');
+
+        // isVisible 변수 선언
+        let isVisible = false;
+
+        // 스크롤 이벤트 핸들러
+        window.addEventListener('scroll', () => {
+            // main-section-aim 요소의 위치 및 높이를 가져오기
+            const mainSectionAimRect = mainSectionAim.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+
+            // main-section-aim 요소가 화면에서 10% 정도 보일 때 시작, 
+            // isVisible이 false인 경우만 실행.
+            if (mainSectionAimRect.top < windowHeight * 0.9 && !isVisible) {
+                // isVisible을 true로 저장
+                // 새로고침 되에는 count 재발생 방지
+                isVisible = true;
+                // 각 aim-count 요소 처리
+                aimCounts.forEach((aimCount, index) => {
+                const aimCountBox = aimCountBoxes[index];
+                const unit = aimCountBox.querySelector('.aim-unit').textContent;
+                const targetCount = parseInt(aimCount.textContent, 10);
+
+                // 초기 카운트 설정
+                let currentCount = 1;
+
+                // 각 aim-count의 목표 숫자에 맞춰 카운트를 증가시키도록 함
+                // 타이머의 속도를 조정
+                const countInterval = targetCount / 100; // 카운트 속도 및 정확도 조절
+
+                // 카운트 증가 타이머 설정
+                const countTimer = setInterval(() => {
+                    if (currentCount <= targetCount) {
+                    aimCount.textContent = Math.round(currentCount);
+                    currentCount += countInterval;
+                    } else {
+                    clearInterval(countTimer);
+                    }
+                }, 20); // 20ms마다 업데이트
+                });
+            }
+        });
+
+        /*======== ham-menu-event ======= */
+        $(".ham-menu").click(function(e){
+            e.preventDefault();
+            $("#ham-area").stop().animate({"right":0+"%"},500)
+        });
+        $(".close-btn").click(function(e){
+            e.preventDefault();
+            $("#ham-area").stop().animate({"right":-100+"%"},500)
+        });
+    
+        //모바일 서브 메뉴 드롭다운
+    
+        $(".hamDepth1 li").click(function(e){
+            e.preventDefault();
+            $(".hamDepth1 li").removeClass("on");
+            $(this).addClass("on");
+            $(this).siblings().children(".hamDepth2").stop().slideUp();
+            //탐색구문 : li의 태그 형제들(클릭한 li를 제외한 나머지 li들)의 자식들을 선택
+            //탐색했을 때 선택되는 태그들이 많다면 괄호에 선택하고 싶은 클래스, 아이디, 태그를 넣어줌
+            $(this).children(".hamDepth2").stop().slideDown();
+        });
+        </script>
+</body>
+
+</html>
