@@ -233,7 +233,7 @@
   width: 90%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 5fr 6fr;
+  grid-template-columns: 6fr 5fr;
   gap: 3rem;
 }
 #container .mainWrap .main-section-branch .branch-flexWrap .branch-img {
@@ -246,7 +246,7 @@
 #container .mainWrap .main-section-branch .branch-flexWrap .branch-img .corp-point .kor-hq .kor-point {
   position: absolute;
   width: 2rem;
-  top: 27.5%;
+  top: 33.5%;
   left: 47.5%;
   transform: translate(-50%, -50%);
   transition: all 0.4s ease-in-out;
@@ -256,7 +256,7 @@
   display: block;
   opacity: 0.4;
   position: absolute;
-  top: 30.4%;
+  top: 36.4%;
   left: 45.6%;
   transition: 5s ease;
   height: 0.7rem;
@@ -283,7 +283,7 @@
 #container .mainWrap .main-section-branch .branch-flexWrap .branch-img .corp-point .jp-branch .jp-point {
   position: absolute;
   width: 1.5rem;
-  top: 28.5%;
+  top: 35.5%;
   left: 57%;
   transform: translate(-50%, -50%);
   transition: all 0.4s ease-in-out;
@@ -293,8 +293,8 @@
   display: block;
   opacity: 0.4;
   position: absolute;
-  top: 30%;
-  left: 54.7%;
+  top: 37%;
+  left: 55.3%;
   transition: 5s ease;
   height: 0.7rem;
   width: 2rem;
@@ -320,7 +320,7 @@
 #container .mainWrap .main-section-branch .branch-flexWrap .branch-img .corp-point .vn-branch .vn-point {
   position: absolute;
   width: 1.5rem;
-  top: 51.6%;
+  top: 62.6%;
   left: 28.6%;
   transform: translate(-50%, -50%);
   transition: all 0.4s ease-in-out;
@@ -330,7 +330,7 @@
   display: block;
   opacity: 0.4;
   position: absolute;
-  top: 53.5%;
+  top: 64.5%;
   left: 26.5%;
   transition: 5s ease;
   height: 0.7rem;
@@ -368,7 +368,8 @@
   cursor: pointer;
 }
 #container .mainWrap .main-section-branch .branch-flexWrap .branch-text .branch-text-box .text-item .text-logo {
-  flex: 4;
+  margin-top: 2.5rem;
+  flex: 3;
   border: 1px solid var(--smartee-blue);
   border-radius: 3rem;
   padding: 1rem 0rem;
@@ -394,9 +395,10 @@
   font-size: 1.3rem;
   line-height: 1.6rem;
   transition: all 0.4s ease-in-out;
+  color: var(--smartee-black);
 }
 #container .mainWrap .main-section-branch .branch-flexWrap .branch-text .branch-text-box .text-item .text-addr h5 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--smartee-point-blue);
 }
 #container .mainWrap .main-section-branch .branch-flexWrap .branch-text .branch-text-box .text-item .text-addr h5::after {
