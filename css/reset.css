@@ -112,8 +112,8 @@
  width:100%;
 overflow-x:hidden;}
  body { 
-    font-family: 'Poppins', sans-serif, 'GyeonggiTitleM';
-    font-weight: 400;
+    font-family: 'Pretendard-SemiBold', 'Poppins', sans-serif, 'GyeonggiTitleM';
+    font-weight: 600;
     line-height:1; font-size:13px; overflow-x: hidden; text-overflow: ellipsis;
     max-width:100%;
 }

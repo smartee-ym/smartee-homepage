@@ -9,6 +9,9 @@
 #container .mainWrap.mb-0 {
   margin-bottom: 0rem;
 }
+#container .mainWrap.mt-8 {
+  margin-top: 8rem;
+}
 #container .mainWrap .main-section-title {
   font-family: "Pretendard-Bold";
   font-weight: 700;
@@ -25,6 +28,210 @@
   font-size: 1.7rem;
   margin-top: 1rem;
   margin-bottom: 4rem;
+}
+#container .mainWrap .main-section-visual {
+  padding: 11rem 0 22rem;
+  overflow: hidden;
+  background-color: #ebf6ff;
+  background-image: url(../img/main-img/visual-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 900px;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title {
+  display: inline-block;
+  font-size: 4rem;
+  font-family: "Pretendard-ExtraBold";
+  font-weight: 800;
+  color: var(--smartee-blue);
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title .v-title {
+  display: block;
+  line-height: 100%;
+  opacity: 0;
+  transform: translateY(-60px);
+  animation: fadeDown 0.8s linear forwards;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title .v-title.line-1 {
+  animation-delay: 0.6s;
+  margin-bottom: 1rem;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title .v-title.line-2 {
+  margin-bottom: 1rem;
+  animation-delay: 1.2s;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title .v-title.v-stroke {
+  font-size: 5.3rem;
+  letter-spacing: -0.1rem;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--smartee-blue);
+  animation: colored 5.6s 1.2s linear forwards;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title .v-title.line-3 {
+  animation-delay: 1.8s;
+  font-size: 7rem;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title .v-title.line-3 img {
+  width: 34rem;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title .v-title.line-wrap {
+  position: relative;
+  display: inline-block;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title .v-title.line-wrap .line1 {
+  width: 125%;
+  position: absolute;
+  left: 100%;
+  top: 58%;
+  transform: translateY(-50%);
+  margin-left: 48px;
+  display: flex;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title .v-title.line-wrap .line1 em {
+  display: block;
+  width: 0;
+  height: 1px;
+  background: var(--smartee-blue);
+  animation: line 0.8s 2.4s linear forwards;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-textWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-textWrap .main-visual-text {
+  display: inline-block;
+  text-align: right;
+  font-size: 2rem;
+  letter-spacing: -0.75pt;
+  line-height: 2.8rem;
+  word-break: keep-all;
+  color: var(--smartee-black);
+  padding: 13rem 0 0;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-textWrap .main-visual-text .v-text {
+  display: block;
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(-60px);
+  animation: fadeUp 0.8s linear forwards;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-textWrap .main-visual-text .v-text.line-one {
+  animation-delay: 3s;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-textWrap .main-visual-text .v-text.line-two {
+  animation-delay: 3.6s;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-textWrap .main-visual-text .v-text.line-three {
+  animation-delay: 4.2s;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-textWrap .main-visual-text .v-text.line-four {
+  animation-delay: 4.8s;
+}
+#container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-textWrap .main-visual-text .v-text.lineOn {
+  display: inline-block;
+}
+#container .mainWrap .main-section-visual .main-visual-iltalic {
+  opacity: 0.4;
+  display: inline-block;
+  margin-top: 5rem;
+  font-size: 11rem;
+  font-style: italic;
+  font-family: "Pretendard-ExtraBold";
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--smartee-blue);
+  white-space: nowrap;
+  position: absolute;
+  will-change: transform;
+  animation: marquee 80s linear infinite;
+}
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes line {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 125%;
+  }
+}
+@keyframes upDown {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes upDown2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes colored {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+    color: transparent;
+  }
+  12.5% {
+    opacity: 1;
+    transform: translateY(0);
+    color: transparent;
+  }
+  83% {
+    opacity: 1;
+    transform: translateY(0);
+    color: transparent;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    color: var(--smartee-blue);
+  }
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 #container .mainWrap .main-section-solution {
   margin: 3rem 0 0;
@@ -282,29 +489,46 @@
   text-transform: uppercase;
 }
 #container .mainWrap .main-section-ref .main-ref-btn a::before {
-  content: "";
+  content: "⟶";
   position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 5rem;
-  height: 2.5rem;
-  background: url(../img/main-img/main-arrow-right.svg) no-repeat -5rem 0/contain;
+  opacity: 0;
+  transform: translate(-30px, -1px);
+  background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 150px 20px;
+  animation-duration: 3s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--smartee-black);
   transition: all 0.3s ease-in-out;
 }
 #container .mainWrap .main-section-ref .main-ref-btn a .btn-text {
-  font-family: "Pretendard-Medium";
-  font-weight: 500;
-  transform: translateX(0px);
-  font-size: 1.3rem;
+  background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 150px 20px;
+  animation-duration: 2s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  font-family: "Pretendard-SemiBold";
+  font-weight: 600;
+  font-size: 1.4rem;
   color: var(--smartee-black);
-  transition: all 0.7s;
+  transform: translateX(0px);
+  transition: all 0.3s ease-in-out;
 }
 #container .mainWrap .main-section-ref .main-ref-btn a:hover::before {
-  background-position: 0;
+  opacity: 1;
+  transform: translate(0px, -1px);
 }
 #container .mainWrap .main-section-ref .main-ref-btn a:hover .btn-text {
-  transform: translateX(3rem);
+  transform: translateX(2rem);
 }
 #container .mainWrap .main-section-aim {
   background-color: #f5f8fc;
@@ -346,20 +570,28 @@
   padding-left: 0.5rem;
 }
 #container .mainWrap .main-section-aim .aimWrap .aim-box .aim-item .aim-count-box {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
   display: flex;
   align-items: flex-end;
 }
 #container .mainWrap .main-section-aim .aimWrap .aim-box .aim-item .aim-count-box .aim-count {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
   font-size: 5rem;
   background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
   -webkit-background-clip: text; /* 텍스트로 배경 적용 (웹킷 브라우저용) */
   color: transparent; /* 텍스트 색상을 투명으로 설정 */
 }
 #container .mainWrap .main-section-aim .aimWrap .aim-box .aim-item .aim-count-box .aim-plus {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
   color: rgb(15, 100, 206);
   font-size: 5rem;
 }
 #container .mainWrap .main-section-aim .aimWrap .aim-box .aim-item .aim-count-box .aim-unit {
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
   padding-bottom: 0.5rem;
   font-size: 1.1rem;
   color: var(--smartee-black);
@@ -376,29 +608,46 @@
   text-transform: uppercase;
 }
 #container .mainWrap .main-section-aim .main-aim-btn a::before {
-  content: "";
+  content: "⟶";
   position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 5rem;
-  height: 2.5rem;
-  background: url(../img/main-img/main-arrow-right.svg) no-repeat -5rem 0/contain;
+  opacity: 0;
+  transform: translate(-30px, -1px);
+  background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 150px 20px;
+  animation-duration: 2s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--smartee-black);
   transition: all 0.3s ease-in-out;
 }
 #container .mainWrap .main-section-aim .main-aim-btn a .btn-text {
-  font-family: "Pretendard-Medium";
-  font-weight: 500;
-  transform: translateX(0px);
-  font-size: 1.3rem;
+  background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 150px 20px;
+  animation-duration: 2s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  font-family: "Pretendard-SemiBold";
+  font-weight: 600;
+  font-size: 1.4rem;
   color: var(--smartee-black);
-  transition: all 0.7s;
+  transform: translateX(0px);
+  transition: all 0.3s ease-in-out;
 }
 #container .mainWrap .main-section-aim .main-aim-btn a:hover::before {
-  background-position: 0;
+  opacity: 1;
+  transform: translate(0px, -1px);
 }
 #container .mainWrap .main-section-aim .main-aim-btn a:hover .btn-text {
-  transform: translateX(3rem);
+  transform: translateX(2rem);
 }
 #container .mainWrap .main-section-corp {
   background-color: #f5f8fc;
@@ -432,29 +681,46 @@
   text-transform: uppercase;
 }
 #container .mainWrap .main-section-corp .main-corp .main-corp-text a::before {
-  content: "";
+  content: "⟶";
   position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 5rem;
-  height: 2.5rem;
-  background: url(../img/main-img/main-arrow-right.svg) no-repeat -5rem 0/contain;
+  opacity: 0;
+  transform: translate(-30px, -1px);
+  background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 150px 20px;
+  animation-duration: 2s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--smartee-black);
   transition: all 0.3s ease-in-out;
 }
 #container .mainWrap .main-section-corp .main-corp .main-corp-text a .btn-text {
-  font-family: "Pretendard-Medium";
-  font-weight: 500;
-  transform: translateX(0px);
-  font-size: 1.3rem;
+  background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 150px 20px;
+  animation-duration: 2s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  font-family: "Pretendard-SemiBold";
+  font-weight: 600;
+  font-size: 1.4rem;
   color: var(--smartee-black);
-  transition: all 0.7s;
+  transform: translateX(0px);
+  transition: all 0.3s ease-in-out;
 }
 #container .mainWrap .main-section-corp .main-corp .main-corp-text a:hover::before {
-  background-position: 0;
+  opacity: 1;
+  transform: translate(0px, -1px);
 }
 #container .mainWrap .main-section-corp .main-corp .main-corp-text a:hover .btn-text {
-  transform: translateX(3rem);
+  transform: translateX(2rem);
 }
 #container .mainWrap .main-section-branch {
   padding: 5rem 0;
@@ -654,5 +920,13 @@
   100% {
     transform: scale(4);
     opacity: 0;
+  }
+}
+@keyframes animationgradienttitle {
+  0% {
+    background-position: 0 150px;
+  }
+  100% {
+    background-position: 150px 0;
   }
 }/*# sourceMappingURL=new-main.css.map */
