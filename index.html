@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/sub-index-new.css">
     <link rel="stylesheet" href="css/new-main.css">
+
     <!-- <link rel="stylesheet" href="css/gdc-org.css"> -->
 
     <!-- script -->
@@ -91,8 +93,18 @@
                         <li class="subMenu"><a href="about-map.html">Location</a></li>   
                     </ul>
                 </li>
-                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
             </ul>
+            <!-- 언어 선택 영역 -->
+            <div class="lang">
+                <p class="lang-btn on">
+                    <a href="index.html">KO</a>
+                </p>
+                <p>&#124;</p>
+                <p class="lang-btn">
+                    <a href="eng/index.html">EN</a>
+                </p>
+            </div>
+            <!-- //언어 선택 영역 -->
             <!-- main-gnb -->
             <div class="ham-menu">
                 <a href="#" class="menu-trigger">
@@ -586,7 +598,7 @@
                                     </div>
                                     <div class="text-addr">
                                         <h5>BRANCH OFFICE</h5>
-                                        도쿄도 신주쿠구 스미요시초 7번 3호 선라이즈 빌딩 302호
+                                        東京都新宿区住吉町7番3号 サンライズビル 302号
                                     </div>
                                 </div>
                                 <div class="text-item">
@@ -678,7 +690,23 @@
     </div>
 
     <script>
+ 
+        //언어 클릭 이벤트
+        const langBtn = document.querySelectorAll('.lang-btn');
 
+        for (var i = 0; i < langBtn.length; i++) {
+            langBtn[i].addEventListener('click', function(e) {
+            // e.preventDefault(); 
+        
+            // .lang-btn에서 'on' 제거합니다.
+            langBtn.forEach(function(btn) {
+                btn.classList.remove('on');
+            });
+
+            // 클릭한 .lang-btn에 'on' 클래스 추가.
+            this.classList.add('on');
+        });
+    }
         // 구축사례 스와이퍼
         $(function(){
             //visual area swiper
