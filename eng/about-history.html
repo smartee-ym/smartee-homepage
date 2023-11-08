@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 파비콘 -->
+    <!-- 웹폰트 / 웹폰트아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/sub-index.css">
+    <link rel="stylesheet" href="../css/sub-index-new.css">
+    <link rel="stylesheet" href="../css/about-history.css">
+
+    <!-- script -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/subheader.js"></script>
+
+    <title>smartee.</title>
+</head>
+<body>
+    <!-- sub header start -->
+    <div id="header">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="index.html" class="logo-img">
+                    <img src="../img/logo-main.png" alt="smartee">
+                </a>
+            </h1>
+            <!-- logo-img -->
+            <ul class="gnb">
+                <li class="main1depth solution">
+                    <a href="solution.html">Solution</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu"><a href="solution.html#sec1">Development Service</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">SpiderLive</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec3">SpiderView</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">IT Outsourcing</a></li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="gdc-about.html">GDC</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="gdc-about.html">About</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-org.html">Organization</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-pns.html">S&P</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-salesforce.html">Salesforce</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="ref.html">Case study</a>
+                            <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="ref.html">Portfolio</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="ref-total.html">Reference</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
+                <li class="main1depth solution">
+                    <a href="customer.html">Customer</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="customer.html">Customer</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="contact-us.html">Contact us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="#">About</a>
+                    <ul class="sub2depth subCompany">
+                        <li class="subMenu"><a href="about-ceo.html">About</a></li>
+                        <li class="subMenu"><a href="about-history.html">History</a></li>
+                        <li class="subMenu"><a href="about-recruit.html">Recruit</a></li>
+                        <li class="subMenu"><a href="about-map.html">Location</a></li>   
+                    </ul>
+                </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
+            </ul>
+            <!-- 언어 선택 영역 -->
+            <div class="lang">
+                <p class="lang-btn">
+                    <a href="../index.html">KO</a>
+                </p>
+                <p>&#124;</p>
+                <p class="lang-btn on">
+                    <a href="index.html">EN</a>
+                </p>
+            </div>
+            <!-- //언어 선택 영역 -->
+            <!-- main-gnb -->
+            <div class="ham-menu">
+                <a href="#" class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+            </div>
+            <!-- ham-menu -->
+
+        </div>
+    </div>
+    <!-- sub header end -->
+    <div id="container">
+        <div class="visual-head">
+            <div class="location">
+                <a href="index.html" class="location-text">Home</a>
+                <span class="location-arrow"></span>
+                <a href="about-ceo.html" class="location-text">Introduction</a>
+                <span class="location-arrow"></span>
+                <a href="about-history.html" class="location-text">History</a>
+            </div>
+            <div class="visual-title-wrap">
+                <h2 class="title-main">History</h2>
+                <h5 class="title-sub">smart, everyday, everything</h5>
+            </div>
+
+        </div>
+        <!-- 서브메뉴  -->
+        <div class="subMenuNav">        
+            <ul class="sub-index-wrap">
+                <li class="sub-index"><a href="about-ceo.html" class="sub-index-menu">Greetings</a></li>
+                <li class="sub-index"><a href="about-history.html" class="sub-index-menu on">History</a></li>
+                <li class="sub-index"><a href="about-recruit.html" class="sub-index-menu">Recruit</a></li>
+                <li class="sub-index"><a href="about-map.html" class="sub-index-menu">Location</a></li>
+            </ul>
+        </div>
+        <!-- top 버튼 -->
+        <div class="topBtn">
+            <!-- 기본 top버튼 -->
+            <a href="#" id="scroll">
+                <span class="sr_only">위로가기</span>
+                <svg x="0px" y="0px" width="22.121px" height="37.992px" viewBox="0 0 22.121 37.992" enable-background="new 0 0 22.121 37.992" xml:space="preserve">
+                    <path fill="#0f4bff" d="M12.561,37.992h-3V2.599h3V37.992z"></path>
+                    <path fill="#0f4bff" d="M2.121,13.181L0,11.06L11.061,0L22.121,11.06L20,13.181l-8.939-8.939L2.121,13.181z"></path>
+                </svg>
+            </a>  
+        </div>
+        <!-- request 버튼 -->
+        <!-- <a href="request.html" class="request-btn">
+            <svg class="icon_rq" x="0px" y="0px" width="26px" height="23px" viewBox="0 0 26 23" enable-background="new 0 0 26 23" xml:space="preserve">
+                <path fill="#fcfcfc" d="M10.55,22.929c-0.242,0-0.481-0.088-0.669-0.257l-5.022-4.521H3.941C1.769,18.152,0,16.383,0,14.21V4.013
+                    c0-2.173,1.769-3.942,3.941-3.942h18.117C24.231,0.071,26,1.839,26,4.013V14.21c0,2.173-1.769,3.942-3.941,3.942H11.55v3.777
+                    c0,0.395-0.232,0.753-0.593,0.914C10.826,22.901,10.688,22.929,10.55,22.929z M3.941,2.071C2.871,2.071,2,2.942,2,4.013V14.21
+                    c0,1.071,0.871,1.942,1.941,1.942h1.301c0.247,0,0.485,0.091,0.669,0.257l3.639,3.275v-2.532c0-0.552,0.447-1,1-1h11.509
+                    c1.07,0,1.941-0.871,1.941-1.942V4.013c0-1.071-0.871-1.942-1.941-1.942H3.941z"></path>
+            </svg>
+            <span>의뢰하기</span>
+        </a>    -->
+        <!-- 연혁 내용 시작 -->
+        <div class="contWrap">
+            <div class="wrap">
+                <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
+                    <h6 class="secTitle">history</h6>
+                    <div class="secInform">
+                        History of smartee
+                    </div>
+                </div>
+                <div class="historyFixedWrap">
+                    <div class="historyList">
+                        <div class="history-year" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                            <div id="y-2021" class="year show">2022<span> ~ 2021</span></div>
+                            <div id="y-2016" class="year">2020<span> ~ 2016</span></div>
+                            <div id="y-2011" class="year">2015<span> ~ 2011</span></div>
+                        </div>
+                        <div class="history-detail" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
+                            <ul id="y2021" class="yRight">
+                                <li>
+                                    <!-- <dl>
+                                        <dt>
+                                            2022년
+                                        </dt>
+                                        <dd>포스코 AnC 품질시스템 SW 개발 구축
+                                        </dd>
+                                        <dd>포스코 AnC 안전 CM시스템 SW 개발 구축
+                                        </dd>
+                                        <dd>LG유플러스 자산관리시스템 구축사업
+                                        </dd>
+                                        <dd>무인매장관리시스템 구축 참여
+                                        </dd>
+                                        <dd>LG 홈서비스 플랫폼 구축 사업
+                                        </dd>
+                                        <dd>헬로네이처 모바일 쇼핑몰 개발 참여
+                                        </dd>
+                                        <dd>한국관광공사 호텔업 등급결정 운영사업 구축
+                                        </dd>
+                                    </dl> -->
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2021년
+                                        </dt>
+                                        <dd>LG U+ 언택매장 IT 시스템 개발
+                                        </dd>
+                                        <dd>포스코 O&M CS업무 전산시스템 SW 개발 사업
+                                        </dd>
+                                        <dd>NH투자증권 CRM UI/UX 개선 사업
+                                        </dd>
+                                        <dd>KT KBN, 삼성전기 스트리밍 솔루션 납품
+                                        </dd>
+                                        <dd>대명 소노시즌 홈페이지 개편 사업
+                                        </dd>
+                                        <dd>S&I 레저 MY LG ID 서비스 통합 사업
+                                        </dd>
+                                        <dd>자사 사옥 이전 (용산 래미안센트럴)    
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul id="y2016" class="yRight">
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2020년
+                                        </dt>
+                                        <dd>LG U+ 홈서비스 쇼핑몰 구축 사업
+                                        </dd>
+                                        <dd>LG헬로 그룹 공통업무 구축 사업
+                                        </dd>
+                                        <dd>관광공사 호텔등급업 서비스 사업
+                                        </dd>
+                                        <dd>포스코 Anc안전관리/품질시스템 개발 사업
+                                        </dd>
+                                        <dd>헬로네이처 모바일 커머스 개발 사업
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2019년
+                                        </dt>
+                                        <dd>모노링크 쇼핑몰 구축 사업
+                                        </dd>
+                                        <dd>롯데JTB 항공예약시스템 
+                                        </dd>
+                                        <dd>에스엠씨엔씨 온라인 항공예약시스템
+                                        </dd>
+                                        <dd>CJ헬로 그룹 공통업무 전환 GPortal 결재연동
+                                        </dd>
+                                        <dd>첨단 IoT 기술 기반 범죄 피해자 접근 보호 장치 및 시스템 개발
+                                        </dd>
+                                        <dd>한국관광공사 호텔등급 관리시스템 구축
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2018년
+                                        </dt>
+                                        <dd>다문화교류네트워크 모바일 구축
+                                        </dd>
+                                        <dd>그룹웨어 모바일 구축
+                                        </dd>
+                                        <dd>자산관리시스템 모바일 개발
+                                        </dd>
+                                        <dd>한국표준협회 개발 및 운영
+                                        </dd>
+                                        <dd>푸드테크 시스템 운영 및 유지보수
+                                        </dd>
+                                        <dd>토파스 MRT 항공예약시스템 구축
+                                        </dd>
+                                        <dd>LG전자 VC가시화 시스템 구성 UI 개발
+                                        </dd>
+                                        <dd>장애인도서관 스트리밍 서비스 구축
+                                        </dd>
+                                        <dd>그룹웨어 모바일 구축
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2017년
+                                        </dt>
+                                        <dd>iKEP 솔루_MXP 솔루션 업그레이드 및 유지보수
+                                        </dd>
+                                        <dd>ANC 안전 감리시스템 구축
+                                        </dd>
+                                        <dd>NSK 덴탈코리아  A/S시스템 구축 사업
+                                        </dd>
+                                        <dd>LG CNS IoT플랫폼 개발 사업 참여
+                                        </dd>
+                                        <dd>동영상 매뉴얼 시스템 구축
+                                        </dd>
+                                        <dd>한국관광품질인증제 인증심사 운영시스템 구축
+                                        </dd>
+                                        <dd>온나라정책연구 모바일 홈페이지 구축
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2016년
+                                        </dt>
+                                        <dd>산업통상자원부 홈페이지 고도화 사업 : 모바일
+                                        </dd>
+                                        <dd>아이스 팩토리 웹 & 모바일 관리 시스템 구축 사업
+                                        </dd>
+                                        <dd>YTNDMB 쇼핑몰 구축 사업 : 모바일
+                                        </dd>
+                                        <dd>정치 소셜 플랫폼 프로젝트
+                                        </dd>
+                                        <dd>MOSAIC 동영상 서비스 플랫폼 개선 프로젝트</dd>
+                                        <dd>YTNDMB 쇼핑몰 구축 사업 : 웹
+                                        </dd>
+                                        <dd>LG U+ 독거노인 보호 프로젝트
+                                        </dd>
+                                        <dd>oneM2M 기반 Connected Things 플랫폼 2.0 구축_Device SDK 개발
+                                        </dd>
+                                        <dd>유아교육 모바일 플랫폼 개발
+                                        </dd>
+                                        <dd>산업통상자원부 홈페이지 고도화 사업 
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul id="y2011" class="yRight">
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2015년
+                                        </dt>
+                                        <dd>리더스옥션 동영상 스트리밍 솔루션 구축
+                                        </dd>
+                                        <dd>배달의 민족 신규 TFT PHP개발
+                                        </dd>
+                                        <dd>CJ대한통운 T-MPS시스템 구축 사업
+                                        </dd>
+                                        <dd>서울시 스마트그리드 시범 사업 수주
+                                        </dd>
+                                        <dd>클라우드 기반의 에너지 IoT 솔루션 개발 사업(Argos)
+                                        </dd>
+                                        <dd>LGE ESS 사용량 모니터링 시스템 구축
+                                        </dd>
+                                        <dd>싱가폴 Smart Home 모바일 구축 프로젝트
+                                        </dd>
+                                        <dd>한화생명 자산관리시스템 개발
+                                        </dd>
+                                        <dd>서울시 스마트그리드 시범 사업 수주
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2014년
+                                        </dt>
+                                        <dd>LGU+ 통신 3사 통합 스토어 구축 사업
+                                        </dd>
+                                        <dd> 인천경제자유구역 입주민 대상 생활문화서비스 구축 : 모바일 부문
+                                        </dd>
+                                        <dd> 배달의민족 서비스 개발 및 운영
+                                        </dd>
+                                        <dd>통신3사 통합스토어 ADP개발
+                                        </dd>
+                                        <dd>KG 모빌리언스 전산시스템 개발
+                                        </dd>
+                                        <dd> 인천경제자유구역 입주민 대상 생활문화서비스 구축 : 포털 부문
+                                        </dd>
+                                        <dd>UTC 모바일 앱 개발
+                                        </dd>
+                                        <dd>LG하우시스 시스템하우스 스마트홈 모바일 개발
+                                        </dd>
+                                        <dd>한국전자금융 채널계 차세대시스템 인터페이스 개발
+                                        </dd>
+                                        <dd>제주인터넷 방송국 VOD 서비스 시스템 구축
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2013년
+                                        </dt>
+                                        <dd>나눔로또 차기 통합프로젝트 : 포털/모바일 부문
+                                        </dd>
+                                        <dd>LG CNS 뉴욕택시결제 앱개발 프로젝트 수행
+                                        </dd>
+                                        <dd>CJ대한통운 물류시스템 개발 운영
+                                        </dd>
+                                        <dd>LG전자 스마트TV 개발 프로젝트 수행</dd>
+                                        <dd>LG전자 홈네트워킹 안드로이드 개발 프로젝트 수행
+                                        </dd>
+                                        <dd> 한국장학재단 모바일 앱 개선화 수행
+                                        </dd>
+                                        <dd>증권거래소 계좌개설 프로젝트 수행
+                                        </dd>
+                                        <dd>에이스생명 방카슈랑스 구축 개발
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2012년
+                                        </dt>
+                                        <dd>신세계 포인트닷컴 모바일 구축 프로젝트 수행
+                                        </dd>
+                                        <dd>LG전자 B2E 모바일 앱 개발 운영
+                                        </dd>
+                                        <dd>LG전자 조달포털 사이트 구축 프로젝트 수행
+                                        </dd>
+                                        <dd>LGU+ GDCB 프로젝트 수행
+                                        </dd>
+                                        <dd>엔씨소프트 게임포탈 프로젝트 수행</dd>
+                                        <dd>현대캐피탈 관리업무시스템 추가 구축
+                                        </dd>
+                                        <dd>우리은행 스마트TV 환율정보 사업 구축</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                            2011년
+                                        </dt>
+                                        <dd>스마티이 설립</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- sub footer start -->
+    <div id="footer">
+        <div class="footer-center">
+            <div class="footer-left">
+                <h2><img src="img/logo-dark.png"></h2>
+                <ul class="smartee-info">
+                    <li>(주)스마티이</li>
+                    <li>대표 이우찬</li>
+                    <li>사업자 등록번호 123-45-67788</li>
+                </ul>
+                <ul class="smartee-contract">
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
+                    <li>Tel ) 02-123-4567</li>
+                    <li>Fax ) 02-789-7991</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><a href="#">스마티이 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                </ul>
+                <div class="footer-copy">
+                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sub footer end -->
+    <div id="ham-area" class="ham-wrap">
+        <a href="#" class="close-btn"></a>
+        <div class="hamTop">
+            <a href="index.html"><h1><img src="img/logo-bright.png"></h1></a>
+        </div>
+        <ul class="hamDepth1">
+            <li>
+                <a href="solution.html">Solution</a>
+                <i class="fas fa-chevron-down"></i>
+                <ul class="hamDepth2">
+                    <li><a href="solution.html#sec1">개발 서비스</a></li>
+                    <li><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                    <li><a href="solution.html#sec3">스파이더 라이브</a></li>
+                    <li><a href="solution.html#sec4">스파이더 뷰</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="news.html">News</a>
+            </li>
+            <li>
+                <a href="customer.html">Customer</a>
+            </li>
+            <li>
+                <a href="about-ceo.html">About</a>
+                <i class="fas fa-chevron-down"></i>
+                <ul class="hamDepth2">
+                    <li><a href="about-ceo.html">인사말</a></li>
+                    <li><a href="about-history.html">연혁</a></li>
+                    <li><a href="#">채용</a></li>
+                    <li><a href="about-map.html">오시는 길</a></li>
+                </ul>
+            </li>
+            <li>
+                <!-- <a href="request.html">Request</a> -->
+            </li>
+        </ul>
+    </div>
+    <!-- ham-area -->
+    <script>
+        /* ======== sub-index fixed ======== */
+
+        $(window).scroll(function(){
+
+            //스크롤 위치값 알아내기
+            let scTop = $(this).scrollTop();    //스크롤바 위치값 알아내는 제이쿼리 함수
+
+
+            /* ======== history fixed ======== */
+            let scHis = $(".historyList").offset().top - 180;
+            if( scTop >= scHis){
+                $("#container").addClass("h-fixed");
+                }
+                else{   
+                $("#container").removeClass("h-fixed");
+                }
+
+            /* ======== history change ======== */
+            let his2021 = $("#y2021").offset().top;
+            let his2016 = $("#y2016").offset().top -300;
+            let his2011 = $("#y2011").offset().top -300 ;
+            if( scTop >= his2021 && scTop < his2016){
+                $("#y-2016").fadeOut();
+                $("#y-2011").fadeOut();
+                $("#y-2021").fadeIn();
+                $("#y-2021").addClass("show");
+                }
+            else if ( scTop >= his2016 && scTop < his2011){   
+                $("#y-2021").fadeOut();
+                $("#y-2011").fadeOut();
+                $("#y-2016").fadeIn();
+                $("#y-2016").addClass("show");
+                }
+
+            else if( scTop >= his2011){
+                    $("#y-2021").fadeOut();
+                    $("#y-2016").fadeOut();
+                    $("#y-2011").fadeIn();
+                    $("#y-2011").addClass("show");
+                }
+            });
+
+    </script>
+</body>
+</html>

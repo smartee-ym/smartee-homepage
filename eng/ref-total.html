@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 파비콘 -->
+    <!-- 웹폰트 / 웹폰트아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/sub-index.css">
+    <link rel="stylesheet" href="../css/sub-index-new.css">
+    <link rel="stylesheet" href="../css/ref.css">
+
+
+    <!-- script -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/subheader.js"></script>
+
+    <title>smartee.</title>
+</head>
+<body>
+    <!-- sub header start -->
+    <div id="header">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="index.html" class="logo-img">
+                    <img src="../img/logo-main.png" alt="smartee">
+                </a>
+            </h1>
+            <!-- logo-img -->
+            <ul class="gnb">
+                <li class="main1depth solution">
+                    <a href="solution.html">Solution</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu"><a href="solution.html#sec1">Development Service</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">SpiderLive</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec3">SpiderView</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">IT Outsourcing</a></li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="gdc-about.html">GDC</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="gdc-about.html">About</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-org.html">Organization</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-pns.html">S&P</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-salesforce.html">Salesforce</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="ref.html">Case study</a>
+                            <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="ref.html">Portfolio</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="ref-total.html">Reference</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
+                <li class="main1depth solution">
+                    <a href="customer.html">Customer</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="customer.html">Customer</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="contact-us.html">Contact us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="#">About</a>
+                    <ul class="sub2depth subCompany">
+                        <li class="subMenu"><a href="about-ceo.html">About</a></li>
+                        <li class="subMenu"><a href="about-history.html">History</a></li>
+                        <li class="subMenu"><a href="about-recruit.html">Recruit</a></li>
+                        <li class="subMenu"><a href="about-map.html">Location</a></li>   
+                    </ul>
+                </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
+            </ul>
+            <!-- 언어 선택 영역 -->
+            <div class="lang">
+                <p class="lang-btn">
+                    <a href="../index.html">KO</a>
+                </p>
+                <p>&#124;</p>
+                <p class="lang-btn on">
+                    <a href="index.html">EN</a>
+                </p>
+            </div>
+            <!-- //언어 선택 영역 -->
+            <!-- main-gnb -->
+            <div class="ham-menu">
+                <a href="#" class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+            </div>
+            <!-- ham-menu -->
+
+        </div>
+    </div>
+    <!-- sub header end -->
+    <div id="container">
+        <div class="visual-head">
+            <div class="location">
+                <a href="/main/main.do" class="location-text">Home</a>
+                <span class="location-arrow"></span>
+                <a href="/solution/solution.do" class="location-text">Case Study</a>
+                <span class="location-arrow"></span>
+                <a href="/solution/solution.do" class="location-text">Portfolio</a>
+            </div>
+            <div class="visual-title-wrap">
+                <h2 class="title-main">Case Study</h2>
+                <h5 class="title-sub">set up a case</h5>
+            </div>
+    
+        </div>
+        <!-- 서브메뉴  -->
+
+        <div class="subMenuNav">
+            <ul class="sub-index-wrap">
+                <li class="sub-index ">
+                    <a href="ref.html" class="sub-index-menu" id="#sol1" onclick="fnMove('1')">Portfolio</a>
+                </li>
+                <li class="sub-index ">
+                    <a href="ref-total.html" class="sub-index-menu on" id="#sol1" onclick="fnMove('2')">Reference</a>
+                </li>
+            </ul>
+        </div>
+        <!-- top 버튼 -->
+        <div class="topBtn">
+            <!-- 기본 top버튼 -->
+            <a href="#" id="scroll">
+                <span class="top-arrow"></span>
+            </a>   
+        </div>
+
+        <!-- reference 시작 -->
+        <div class="contWrap">
+            <div class="wrap reference">
+                <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="secInform">
+                        Introducing the companies<br />that have partnered with Smartee.
+                    </div>
+                </div>
+                <div class="referenceWrap">
+                    <section class="totCase-table case1" data-aos="fade-up" data-aos-duration="1000">
+                        <table class="table-style">
+                            <h3 class="totCase-sub">Online Shop · Mobile</h3>
+                            <!-- <colgroup><col style="width:25%"><col></colgroup> -->
+                            <thead>
+                                <tr>
+                                    <th scope="col">Period</th>
+                                    <th scope="col">Project Name</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Client</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        2021.05 ~ Present
+                                    </td>
+                                    <td class="tab_left">
+                                        LG Electronics Korea Sales Headquarters Integrated App Operation
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2021.06 ~ 2022.02
+                                    </td>
+                                    <td class="tab_left">
+                                        DaeMyungSonoSeason Rental Sales Homepage Redesign
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        DaeMyungSonoSeason
+                                    </td>
+                                </tr>
+                                <tr class="tab_left">
+                                    <td>
+                                        2021.01 ~ Present
+                                    </td>
+                                    <td class="tab_left" >
+                                        Establishment and operation of LG Pay and rewards platform
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2020.07 ~ 2022.05
+                                    </td>
+                                    <td class="tab_left">
+                                        LG Uplus HomeIn Service Platform Development and Operation
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG U+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2020.01 ~ 2020.05
+                                    </td>
+                                    <td class="tab_left">
+                                        HelloNature Shopping Mall Construction Project
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        HelloNature
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2019.06 ~ 2020.01
+                                    </td>
+                                    <td class="tab_left">
+                                        Brand Select Shop OCO Shopping Mall Development Project
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        BejeBano
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2019.03 ~ 2019.09
+                                    </td>
+                                    <td class="tab_left">
+                                        Monolink Shopping Mall Construction Project
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        Monolink
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2018.07 ~ 2018.09
+                                    </td>
+                                    <td class="tab_left">
+                                        Groupware Mobile Development
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        National Health<br>Insurance Service
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2018.07 ~ 2018.11
+                                    </td>
+                                    <td class="tab_left">
+                                        Asset Management System Mobile Development
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        LG U+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2017.11 ~ 현재
+                                    </td>
+                                    <td class="tab_left">
+                                        iKEP Solution and MXP Solution Upgrade and Maintenance
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG CNS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2017.04~2017.10
+                                    </td>
+                                    <td class="tab_left">
+                                        Starbucks Members App Development Project
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Starbucks
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.05 ~ 2016.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Ministry of Commerce Industry and Energy Website Enhancement Project: Mobile
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        Ministry of<br>Commerce Industry and Energy
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.03 ~ 2018.10
+                                    </td>
+                                    <td class="tab_left">
+                                        Baedal Minjok (Delivery Hero) Development and Operation
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Baedal Minjok (Delivery Hero)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.03 ~ 2016.08
+                                    </td>
+                                    <td class="tab_left">
+                                        Ice Factory Web & Mobile Management System Development Projec
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Ice Factory
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.03 ~ 2016.05
+                                    </td>
+                                    <td class="tab_left">
+                                        YTNDMB Shopping Mall Development Project : Mobile
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        YTNDMB
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2015.07 ~ 2016.03
+                                    </td>
+                                    <td class="tab_left">
+                                        CJ Korea Express T-MPS System Development
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        CJ Korea Express
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2015.06 ~ 2015.08
+                                    </td>
+                                    <td class="tab_left">
+                                        CJ Korea Express Integrated Logistics Performance Management System Mobile Development
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        CJ Korea Express
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.11 ~ 2015.01
+                                    </td>
+                                    <td class="tab_left">
+                                        LGU+ Telecom Three-Way Integrated Store Development Project
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG U+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.06 ~ 2015.04
+                                    </td>
+                                    <td class="tab_left">
+                                        Incheon Free Economic Zone Resident Lifestyle and Culture Service Development : Mobile
+                                    </td>
+                                    <td>
+                                        SpiderView, SpiderLive
+                                    </td>
+                                    <td>
+                                        u.LifeSolutions
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013.09 ~ 2013.12
+                                    </td>
+                                    <td class="tab_left">
+                                        NanumLotto Next-Generation Integration Project : Mobile
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        NanumLotto
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013.04 ~ 2014.08
+                                    </td>
+                                    <td class="tab_left">
+                                        LG CNS New York Taxi Payment App Development Project
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG CNS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2012.09 ~ 2012.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Shinsegae Point.com Mobile Development Project
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Shinsegae
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2012.04 ~ 2014.05
+                                    </td>
+                                    <td class="tab_left">
+                                        LG Electronics B2E Mobile App Development and Operation
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </section>
+                    <section class="totCase-table case2" data-aos="fade-up" data-aos-duration="1000">
+                        <table class="table-style">
+                            <h3 class="totCase-sub">AI · Big Data · IOT </h3>
+                            <!-- <colgroup><col style="width:25%"><col></colgroup> -->
+                            <thead>
+                                <tr>
+                                    <th scope="col">Period</th>
+                                    <th scope="col">Project Name</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Client</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        2022.08 ~ Present
+                                    </td>
+                                    <td class="tab_left">
+                                        Enhancement and operation of LG Electronics' virtual asset wallet app
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2022.05 ~ Present
+                                    </td>
+                                    <td class="tab_left">
+                                        Development and operation of LG CNS Quinoa Research Platform
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG CNS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2021.01 ~ 2021.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Development of HKMC AVN (Advanced Driver Assistance Systems) Software
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2018.09 ~ 2019.06
+                                    </td>
+                                    <td class="tab_left">
+                                        UI development for LG Electronics' VC Visualization System
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG CNS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2017.06 ~ 2017.09
+                                    </td>
+                                    <td class="tab_left">
+                                        Participation in LG CNS IoT platform development project
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG CNS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.09 ~ 2016.10
+                                    </td>
+                                    <td class="tab_left">
+                                        LG U+ Elderly Protection Project
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG U+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.08 ~ 2016.09
+                                    </td>
+                                    <td class="tab_left">
+                                        Development of Device SDK for oneM2M-based Connected Things Platform 2.0
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LG U+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2015.10 ~ 2015.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Awarded the Seoul Smart Grid Pilot Project
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Seoul City
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2015.06 ~ 2015.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Development of a cloud-based energy IoT solution (Argos)
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        I.O.L
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2015.06 ~ 2015.11
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of an LGE ESS (Energy Storage System) Usage Monitoring System
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2015.01 ~ 2015.03
+                                    </td>
+                                    <td class="tab_left">
+                                        Smart Home Mobile Development Project in Singapore
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.05 ~ 2014.11
+                                    </td>
+                                    <td class="tab_left">
+                                        Mobile app development for UTC (United Technologies Corporation)
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG CNS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.04 ~ 2014.11
+                                    </td>
+                                    <td class="tab_left">
+                                        Smart Home Mobile Development for LG HAUSYS (LG House & Healthcare)
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG HAUSYS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013.07 ~ 2013.10
+                                    </td>
+                                    <td class="tab_left">
+                                        Android development project for LG Electronics' home networking solutions
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>                             
+                            </tbody>
+                        </table>
+                    </section>
+                    <section class="totCase-table case3" data-aos="fade-up" data-aos-duration="1000">
+                        <table class="table-style">
+                            <h3 class="totCase-sub">Portal · Period System Business System</h3>
+                            <!-- <colgroup><col style="width:25%"><col></colgroup> -->
+                            <thead>
+                                <tr>
+                                    <th scope="col">Period</th>
+                                    <th scope="col">Project Name</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Client</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        2021.12 ~  2022.04
+                                    </td>
+                                    <td class="tab_left">
+                                        Development of MY LG ID Unified Login System
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        S&I (Current D&O)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2020.10 ~  2021.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Development and operation of LGU+ Unmanned Store IT System
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        LGU+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2020.05 ~ 2020.08
+                                    </td>
+                                    <td class="tab_left">
+                                        Delivery of KT KBN Video Streaming Solution
+                                    </td>
+                                    <td>SpiderLive</td>
+                                    <td>
+                                        KT
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2020.03 ~  2021.04
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of Safety CM System, Quality Management System, and CS Business Information System
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        POSCO ANC, ONM
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2017.03 ~ 2017.07
+                                    </td>
+                                    <td class="tab_left">
+                                        Construction of LG U+ Asset Management System
+                                    </td>
+                                    <td>SpiderView</td>
+                                    <td>
+                                        LGU+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2018.07 ~ 2018.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Development and operation of a web system for the international certification business of the Korean Standards Association
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        Korean Standards<br>Association
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2018.02 ~ 2018.05
+                                    </td>
+                                    <td class="tab_left">
+                                        Construction of T-Top MRT Air Reservation System
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        Hanjin Information<br>& Communication
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2017.10 ~ 2018.02
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of ANC Safety Inspection System
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        POSCO ICT
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2017.03 ~ 2017.07
+                                    </td>
+                                    <td class="tab_left">
+                                        Project for building NSK Dental Korea's A/S System
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        NSK Dental Korea
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.06 ~ 2016.10
+                                    </td>
+                                    <td class="tab_left">
+                                        Political Social Platform Project
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        GL Soft
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.03 ~ 2016.05
+                                    </td>
+                                    <td class="tab_left">
+                                        MOSAIC Video Service Platform Improvement Project
+                                    </td>
+                                    <td>
+                                        SpiderLive
+                                    </td>
+                                    <td>
+                                        Samsung Electronics
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2015.05 ~ 2015.06
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of Leader's Auction Video Streaming Solution
+                                    </td>
+                                    <td>
+                                        SpiderLive
+                                    </td>
+                                    <td>
+                                        Leader's Auction
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.12 ~ 2015.10
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of ERP System for Samyoung Ink & Paint Manufacturing Co., Ltd.
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Samyoung Ink &<br>Paint Manufacturing
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.08 ~ 2016.03
+                                    </td>
+                                    <td class="tab_left">
+                                        Development and operation of Baedal Minjok (Delivery Hero) Service
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Woowa Brothers
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013.02 ~ 2015.08
+                                    </td>
+                                    <td class="tab_left">
+                                        SK Telecom MyShop Project Execution
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        SK Telecom (SKT)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.11 ~ 2015.02
+                                    </td>
+                                    <td class="tab_left">
+                                        Integrated Store ADP Development for Telecommunication Companies
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LGU+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.07 ~ 2015.02
+                                    </td>
+                                    <td class="tab_left">
+                                        Development of KG Mobilians' Computer Systems
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        KG Mobilians
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013.09 ~ 2013.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Future Integrated Project for Nanum Lotto : Portal Division
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        Nanum Lotto
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013.05 ~ 2014.01 
+                                    </td>
+                                    <td class="tab_left">
+                                        Development and Operation of CJ Logistics System
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        CJ Systems
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013.05 ~ 2013.10
+                                    </td>
+                                    <td class="tab_left">
+                                        LG Electronics Smart TV Development Project
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2012.12 ~ 2013.05
+                                    </td>
+                                    <td class="tab_left">
+                                        LG Electronics Procurement Portal Site Construction Project
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LG Electronics
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2012.09 ~ 2012.12
+                                    </td>
+                                    <td class="tab_left">
+                                        LGU+ GDCB Project Execution
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        LGU+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section class="totCase-table case4" data-aos="fade-up" data-aos-duration="1000">
+                        <table class="table-style">
+                            <h3 class="totCase-sub">Financial</h3>
+                            <!-- <colgroup><col style="width:25%"><col></colgroup> -->
+                            <thead>
+                                <tr>
+                                    <th scope="col">Period</th>
+                                    <th scope="col">Project Name</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Client</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        2021.06 ~ 2021.12
+                                    </td>
+                                    <td class="tab_left">
+                                        NH Investment & Securities CRM UI/UX Improvement
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        NH Investment & Securities
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.07 ~ 2016.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Development of a Mobile Platform for Early Childhood Education
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        Samsung Card
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2015.03 ~ 2015.08
+                                    </td>
+                                    <td class="tab_left">
+                                        Development of Asset Management System for Hanwha Life
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Hanwha Life
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.03 ~ 2015.01
+                                    </td>
+                                    <td class="tab_left">
+                                        Development of Next-Generation System Interfaces for the Korea Electronic Financial Channel
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        Korea Electronic<br>Finance
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013.11 ~ 2014.01
+                                    </td>
+                                    <td class="tab_left">
+                                        Improvement and Enhancement of the Mobile App for the Korea Scholarship Foundation
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Korea Scholarship<br>Foundation
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013.04 ~ 2013.06
+                                    </td>
+                                    <td class="tab_left">
+                                        Execution of the Securities Exchange Account Opening Project
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        Korea Exchange<br>(Korea Securities Exchange)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2012.07 ~ 2012.08
+                                    </td>
+                                    <td class="tab_left">
+                                        Additional Construction of Management Business System for Hyundai Capital
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        Hyundai Capital
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2012.01 ~ 2012.04
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of Exchange Rate Information Business for Woori Bank's Smart TV
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Woori Bank
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section class="totCase-table case5" data-aos="fade-up" data-aos-duration="1000">
+                        <table class="table-style">
+                            <h3 class="totCase-sub">Institution</h3>
+                            <!-- <colgroup><col style="width:25%"><col></colgroup> -->
+                            <thead>
+                                <tr>
+                                    <th scope="col">Period</th>
+                                    <th scope="col">Project Name</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Client</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        2019.09 ~ 2020.03
+                                    </td>
+                                    <td class="tab_left">
+                                        Ministry of Justice U-Guard Function Development Project (Crime Prevention)
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        Ministry of<br>Justice
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2019.05 ~ 2019.10
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of the Hotel Grading Management System for the Korea Tourism Organization
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        Korea Tourism<br>Organization(KTO)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2018.07 ~ 2018.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of Streaming Services for Disabled Libraries
+                                    </td>
+                                    <td>
+                                        SpiderLive
+                                    </td>
+                                    <td>
+                                        National Library<br>of Korea
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2018.05 ~ 2018.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Construction of Groupware Mobile/Video Manual System
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        National Health<br>Insurance Service
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2017.06 ~ 2017.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of the Korea Tourism Quality Certification System for Certification Assessment
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        Korea Tourism<br>Organization(KTO)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2017.11 ~ 2017.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Construction of a Mobile Website for Onnara Policy Research
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        Onnara Policy<br>Research
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2016.05 ~ 2016.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Website Enhancement Project for the Ministry of Commerce Industry and Energy
+                                    </td>
+                                    <td>
+                                        SpiderView
+                                    </td>
+                                    <td>
+                                        Ministry of Commerce<br>Industry and Energy
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2015.10 ~ 2015.12
+                                    </td>
+                                    <td class="tab_left">
+                                        Awarded the Seoul Smart Grid Pilot Project
+                                    </td>
+                                    <td>
+                                        Development
+                                    </td>
+                                    <td>
+                                        Seoul City
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2014.10 ~ 2015.02
+                                    </td>
+                                    <td class="tab_left">
+                                        Establishment of the VOD Service System for Jeju Internet Broadcasting Station
+                                    </td>
+                                    <td>
+                                        SpiderLive
+                                    </td>
+                                    <td>
+                                        Jeju Special<br>Self-Governing Province
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script>
+
+
+    
+        /* ======== ref tab ======== */
+        $(".viewTab li").click(function(e){
+            event.returnValue = false;
+            event.preventDefault();
+    
+            var btnIdx = $(this).index();
+    //         console.log(btnIdx);           
+    
+            $('.ref-content').hide();
+            $('.ref-content').eq(btnIdx).show();
+    
+            $('.viewTab li a').removeClass("on");
+            $(this).children().addClass("on");
+        });
+    
+    
+    
+    </script>
+    <!-- sub footer start -->
+    <div id="footer">
+        <div class="footer-center">
+            <div class="footer-left">
+                <h2><img src="img/logo-dark.png"></h2>
+                <ul class="smartee-info">
+                    <li>(주)스마티이</li>
+                    <li>대표 이우찬</li>
+                    <li>사업자 등록번호 123-45-67788</li>
+                </ul>
+                <ul class="smartee-contract">
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
+                    <li>Tel ) 02-123-4567</li>
+                    <li>Fax ) 02-789-7991</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><a href="#">스마티이 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                </ul>
+                <div class="footer-copy">
+                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sub footer end -->
+    <div id="ham-area" class="ham-wrap">
+        <a href="#" class="close-btn"></a>
+        <div class="hamTop">
+            <a href="index.html"><h1><img src="img/logo-bright.png"></h1></a>
+        </div>
+        <ul class="hamDepth1">
+            <li>
+                <a href="solution.html">Solution</a>
+                <i class="fas fa-chevron-down"></i>
+                <ul class="hamDepth2">
+                    <li><a href="solution.html#sec1">개발 서비스</a></li>
+                    <li><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                    <li><a href="solution.html#sec3">스파이더 라이브</a></li>
+                    <li><a href="solution.html#sec4">스파이더 뷰</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="news.html">News</a>
+            </li>
+            <li>
+                <a href="customer.html">Customer</a>
+            </li>
+            <li>
+                <a href="about-ceo.html">About</a>
+                <i class="fas fa-chevron-down"></i>
+                <ul class="hamDepth2">
+                    <li><a href="about-ceo.html">인사말</a></li>
+                    <li><a href="about-history.html">연혁</a></li>
+                    <li><a href="#">채용</a></li>
+                    <li><a href="about-map.html">오시는 길</a></li>
+                </ul>
+            </li>
+            <!-- <li>
+                <a href="request.html">Request</a>
+            </li> -->
+        </ul>
+    </div>
+
+    </script>
+</body>
+</html>

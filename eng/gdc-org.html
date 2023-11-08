@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 파비콘 -->
+    <!-- 웹폰트 / 웹폰트아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/sub-index.css">
+    <link rel="stylesheet" href="../css/sub-index-new.css">
+    <link rel="stylesheet" href="../css/gdc-org.css">
+
+    <!-- script -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/subheader.js"></script>
+    <title>smartee.</title>
+</head>
+<body>
+    <!-- sub header start -->
+    <div id="header">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="index.html" class="logo-img">
+                    <img src="../img/logo-main.png" alt="smartee">
+                </a>
+            </h1>
+            <!-- logo-img -->
+            <ul class="gnb">
+                <li class="main1depth solution">
+                    <a href="solution.html">Solution</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu"><a href="solution.html#sec1">Development Service</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">SpiderLive</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec3">SpiderView</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">IT Outsourcing</a></li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="gdc-about.html">GDC</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="gdc-about.html">About</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-org.html">Organization</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-pns.html">S&P</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="gdc-salesforce.html">Salesforce</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="ref.html">Case study</a>
+                            <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="ref.html">Portfolio</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="ref-total.html">Reference</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
+                <li class="main1depth solution">
+                    <a href="customer.html">Customer</a>
+                    <ul class="sub2depth subSolution">
+                        <li class="subMenu">
+                            <a href="customer.html">Customer</a>
+                        </li>
+                        <li class="subMenu">
+                            <a href="contact-us.html">Contact us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main1depth solution">
+                    <a href="#">About</a>
+                    <ul class="sub2depth subCompany">
+                        <li class="subMenu"><a href="about-ceo.html">About</a></li>
+                        <li class="subMenu"><a href="about-history.html">History</a></li>
+                        <li class="subMenu"><a href="about-recruit.html">Recruit</a></li>
+                        <li class="subMenu"><a href="about-map.html">Location</a></li>   
+                    </ul>
+                </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
+            </ul>
+            <!-- 언어 선택 영역 -->
+            <div class="lang">
+                <p class="lang-btn">
+                    <a href="../index.html">KO</a>
+                </p>
+                <p>&#124;</p>
+                <p class="lang-btn on">
+                    <a href="index.html">EN</a>
+                </p>
+            </div>
+            <!-- //언어 선택 영역 -->
+            <!-- main-gnb -->
+            <div class="ham-menu">
+                <a href="#" class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+            </div>
+            <!-- ham-menu -->
+
+        </div>
+    </div>
+    <!-- sub header end -->
+    <div id="container">
+        <div class="visual-head">
+            <div class="location">
+                <a href="index.html" class="location-text">Home</a>
+                <span class="location-arrow"></span>
+                <a href="about-ceo.html" class="location-text">GDC</a>
+                <span class="location-arrow"></span>
+                <a href="about-ceo.html" class="location-text">Organization</a>
+            </div>
+            <div class="visual-title-wrap">
+                <h2 class="title-main">GDC</h2>
+                <h5 class="title-sub">Global Deployment Center</h5>
+            </div>
+        </div>
+        <!-- 서브메뉴  -->
+        <div class="subMenuNav">        
+            <ul class="sub-index-wrap">
+                <li class="sub-index"><a href="gdc-about.html" class="sub-index-menu">About</a></li>
+                <li class="sub-index"><a href="gdc-org.html" class="sub-index-menu on">Organization</a></li>
+                <li class="sub-index"><a href="gdc-pns.html" class="sub-index-menu">S&P</a></li>
+                <li class="sub-index"><a href="gdc-salesforce.html" class="sub-index-menu">Salesforce</a></li>
+            </ul>
+        </div>
+        <!-- top 버튼 -->
+        <div class="topBtn">
+            <!-- 기본 top버튼 -->
+            <a href="#" id="scroll">
+                <span class="sr_only">위로가기</span>
+                <svg x="0px" y="0px" width="22.121px" height="37.992px" viewBox="0 0 22.121 37.992" enable-background="new 0 0 22.121 37.992" xml:space="preserve">
+                    <path fill="#0f4bff" d="M12.561,37.992h-3V2.599h3V37.992z"></path>
+                    <path fill="#0f4bff" d="M2.121,13.181L0,11.06L11.061,0L22.121,11.06L20,13.181l-8.939-8.939L2.121,13.181z"></path>
+                </svg>
+            </a>   
+        </div>
+        <!-- 조직도 및 표 시작 -->
+        <div class="contWrap">
+            <div class="wrap">
+                <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
+                    <h6 class="secTitle">organization</h6>
+                    <!-- 큰 제목 -->
+                    <h3>Overview of the Smartee Group.</h3>
+                </div>
+                <!-- 조직도 -->
+                <!-- 로고이미지, 각 계열이미지 추가 -->
+                <div class="org-wrap">
+                    <div class="gdcTitle" data-aos="fade-up"  data-aos-duration="1000">
+                        Global Deployment Center Organization
+                    </div>
+                    <div class="org-group-info" data-aos="fade-up"  data-aos-duration="1000">
+                        <span class="group-title">
+                            <span class="group-tit">
+                                <figure>
+                                    <!-- <img src="../img/gdc/2-smartee.png" alt="smartee-logo"> -->
+                                </figure>
+                            </span>
+                        </span>
+                        <div class="sub-group">
+                            <div class="sub-group-wrap">
+                                <p class="sub-group-tit">Branch Office</p>          
+                                <ul class="sub-group-list">
+                                    <li>     
+                                        <figure>
+                                            <img src="../img/gdc/2-smartee+vina.png" alt="smarteejp-logo">
+                                        </figure>
+                                    </li>
+                                    <li>     
+                                        <figure>
+                                            <img src="../img/gdc/2-smartee+japan.png" alt="smarteevn-logo">
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="org-list">
+                            <li class="item"><span class="txt-in">Planning/Project Manager</span></li>
+                            <li class="item"><span class="txt-in">F-E/B-E</span></li>
+                            <li class="item"><span class="txt-in">Quality and Security</span></li>
+                            <li class="item"><span class="txt-in">R&D Center</span></li>
+                            <li class="item"><span class="txt-in">Sales and Marketing</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- //조직도  -->
+            </div>
+            <!-- 스킬 종류 -->
+            <div class="skill-sub">
+                <div class="skill-sub-wrap" data-aos="fade-up"  data-aos-duration="1000">
+                    <div class="section-tit">
+                        Able To Provide
+                    </div>
+                    <!-- 스킬 그림 -->
+                    <div class="skill-img-wrap">
+                        <div class="skill-img-grid">
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item01"></div>
+                                <h4>Software Development Services</h4>
+                            </div>
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item02"></div>
+                                <h4>ERP Solutions Provider</h4>
+                            </div>
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item03"></div>
+                                <h4>Mobile Application Development Services</h4>   
+                            </div>
+                        </div>
+                        <!-- 공백부분 -->
+                        <dl class="skill-img-blank">
+                        </dl>
+                    </div>
+                    <div class="skill-img-wrap">
+                        <!-- 공백부분 -->
+                        <dl class="skill-img-blank">
+                        </dl>
+                        <div class="skill-img-grid">
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item04"></div>
+                                <h4>Enterprise Solutions Architecture</h4>
+                            </div>
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item05"></div>
+                                <h4>Custom Software Development</h4>
+                            </div>
+                            <div class="skill-item-box">
+                                <div class="skill-item-img item06"></div>
+                                <h4>Web Development Services</h4>
+                            </div>
+                        </div>
+                    </div>                   
+                    <!-- //스킬 그림 -->
+                </div>    
+            </div>
+            <!-- //스킬 종류 -->
+            <div class="wrap">  
+                <!-- 스킬 테이블 -->
+                <div class="skill-wrap section-tit">
+                    <!-- 스킬 테이블 -->
+                    <div class="section-tit" data-aos="fade-up"  data-aos-duration="1000">
+                        Skill Table
+                    </div>
+                    <div class="skill-table-wrap" data-aos="fade-up"  data-aos-duration="1000">
+                        <div class="skill-table">
+                            <table class="table-style">
+                                <thead>
+                                    <tr>
+                                        <th>SKILL</th>
+                                        <th>Persons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tab_tit color-point">Mobile developer</td>
+                                        <td class="center color-point">20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Android / IOS</td>
+                                        <td class="center">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Flutter</td>
+                                        <td class="center">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- React Native</td>
+                                        <td class="center">4</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit color-point">Web developer</td>
+                                        <td class="center color-point">58</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- React JS, Vue JS, Angular</td>
+                                        <td class="center">15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Java</td>
+                                        <td class="center">30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- PHP</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Python</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Go</td>
+                                        <td class="center">3</td>
+                                    </tr>
+                                    <td class="tab_tit color-point">Other</td>
+                                    <td class="center color-point">34</td>
+                                </tr>
+                                    <tr>
+                                        <td class="tab_tit">Solution Architect (VN)</td>
+                                        <td class="center">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">Salesforce</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">Solution Architect (KR)</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">QA/QC</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">UI/UX</td>
+                                        <td class="center">10</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">PM (KR)</td>
+                                        <td class="center">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_tit">PM (VN)</td>
+                                        <td class="center">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;" class="tot-point">TOTAL</td>
+                                        <td class="center tot-point">112</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- //스킬 테이블 -->
+                </div>
+            </div>
+            <!-- 해외지사 -->
+            <div class="global-corp-wrap" id="corp">
+                <div class="wrap group-title" data-aos="fade-up" data-aos-duration="1000">
+                    <h2 class="section-tit">Global Network</h2>
+                    <h6>Smartee is delivering innovative services through the establishment of overseas branches.</h6>
+                </div>
+                <div class="global-map" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="corp-img">
+                        <img src="../img/gdc/gdc-branch-background-01.svg">
+                        <div class="corp-point">
+                            <div class="kor-hq">
+                                <img class="kor-logo" src="../img/gdc/smartee+logo.svg">
+                                <img class="kor-point" src="../img/gdc/gdc-branch-point.svg">
+                                <div class="circle-ani">
+                                    <div class="circle delay1"></div>
+                                    <div class="circle delay2"></div>
+                                    <div class="circle delay3"></div>
+                                    <div class="circle delay4"></div>
+                                </div>
+                            </div>
+                            <div class="jp-branch">
+                                <img class="jp-logo" src="../img/gdc/smartee+jp+logo.svg">
+                                <img class="jp-point" src="../img/gdc/gdc-branch-point.svg">
+                                <div class="circle-ani">
+                                    <div class="circle delay1"></div>
+                                    <div class="circle delay2"></div>
+                                    <div class="circle delay3"></div>
+                                    <div class="circle delay4"></div>
+                                </div>
+                            </div>
+                            <div class="vn-branch">
+                                <img class="vn-logo" src="../img/gdc/smartee+vina+logo.svg">
+                                <img class="vn-point" src="../img/gdc/gdc-branch-point.svg">
+                                <div class="circle-ani">
+                                    <div class="circle delay1"></div>
+                                    <div class="circle delay2"></div>
+                                    <div class="circle delay3"></div>
+                                    <div class="circle delay4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="corp-detail">
+                        <div class="corp-box mb-2">
+                            <h6>Head Office</h6>
+                            <div class="corp-item scale">
+                                <div class="corp-name">smartee Korea</div>
+                                <div class="corp-addr">3rd Floor, Shinseung Building, 25 Hangang-daero 54-gil, Yongsan-gu, Seoul</div>
+                            </div>
+                        </div>
+                        <div class="corp-box">
+                            <h6>Branch Office</h6>
+                            <div class="corp-item mb-1 scale">
+                                <div class="corp-name">smartee Japan</div>
+                                <div class="corp-addr">302 Sunrise Building, 7-3 Sumiyoshicho, Shinjuku-ku, Tokyo, Japan</div>
+                            </div>
+                            <div class="corp-item scale">
+                                <div class="corp-name">smartee Vina</div>
+                                <div class="corp-addr">728 Đ. Võ Văn Kiệt, Phường 1, Quận 5, Thành phố Hồ Chí Minh</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- //해외지사 -->
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer-center">
+            <div class="footer-left">
+                <h2>
+                    <img src="../imglogo-main.png">
+                </h2>
+                <ul class="smartee-info">
+                    <li>(주)스마티이</li>
+                    <li>대표 이우찬</li>
+                    <li>사업자 등록번호 107-87-62050</li>
+                </ul>
+                <ul class="smartee-contract">
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25, 신승빌딩 3층</li>
+                    <li>Tel ) 02-783-2201</li>
+                    <li>Fax ) 02-783-2203</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><img src="/resources/common/include/img/img_innobiz.png"></li>
+                    <li><img src="/resources/common/include/img/img_patent.png"></li>
+                    <li><img src="/resources/common/include/img/img_venture_02.png"></li>
+                </ul>
+                <div class="footer-copy">
+                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sub footer end -->
+</body>
+
+<script>
+    // 마우스 호버시 이벤트
+    const branches = document.querySelectorAll('.corp-point > div');
+    const corpItems = document.querySelectorAll('.corp-item');
+    const circleAni = document.querySelectorAll('circle-ani');
+
+
+    branches.forEach((branch, index) => {
+        branch.addEventListener('mouseenter', () => {
+            branch.classList.add('on');
+            corpItems[index].classList.add('on');
+            circleAni.classList.add('on');
+
+        });
+
+        branch.addEventListener('mouseleave', () => {
+            branch.classList.remove('on');
+            corpItems[index].classList.remove('on');
+            circleAni.classList.remove('on');
+
+        });
+
+        corpItems[index].addEventListener('mouseenter', () => {
+            corpItems[index].classList.add('on');
+            branch.classList.add('on');
+            circleAni.classList.add('on');
+        });
+
+        corpItems[index].addEventListener('mouseleave', () => {
+            corpItems[index].classList.remove('on');
+            branch.classList.remove('on');
+            circleAni.classList.remove('on');
+        });
+    });
+</script>
+</html>
