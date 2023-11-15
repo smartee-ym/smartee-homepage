@@ -285,7 +285,7 @@
 #container .topBtn #scroll {
   display: none;
   bottom: 14%;
-  right: 2%;
+  right: 5%;
   cursor: pointer;
   width: 3rem;
   height: 3rem;
@@ -295,6 +295,7 @@
   position: fixed;
   transition: all 0.7s;
   opacity: 1;
+  z-index: 9999;
 }
 #container .topBtn #scroll .top-arrow {
   position: absolute;
