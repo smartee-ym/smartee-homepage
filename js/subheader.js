@@ -32,7 +32,7 @@ $(function(){
     //모바일 서브 메뉴 드롭다운
 
     $(".hamDepth1 li").click(function(e){
-        e.preventDefault();
+        // e.preventDefault();
         $(".hamDepth1 li").removeClass("on");
         $(this).addClass("on");
         $(this).siblings().children(".hamDepth2").stop().slideUp();
