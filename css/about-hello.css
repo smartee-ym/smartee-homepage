@@ -36,6 +36,19 @@
   opacity: .3;
   z-index: -1;
 }
+#container.eng .contWrap .wrap .secTitle-wrap h3:nth-child(3)::before {
+  content: '';
+  display: none;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(-10px, 32px);
+          transform: translate(-10px, 32px);
+  width: 78%;
+  height: 1.3rem;
+  background-color: #2C64E5;
+  opacity: .3;
+  z-index: -1;
+}
 
 #container .contWrap .wrap .hello-wrap {
   font-family: 'Pretendard-Medium';
@@ -61,6 +74,38 @@
   text-align: right;
   font-size: 1.4rem;
 }
+  /*======== 1024px ========*/
+  @media screen and (max-width:1024px) {
+    #container .contWrap .wrap {
+      width: 92%;
+      margin: 5rem auto 0;
+    }
+    
+    #container .contWrap .wrap .secTitle-wrap .secTitle {
+      font-family: 'Pretendard-ExtraBold';
+      font-weight: 800;
+      color: #2C64E5;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    #container .contWrap .wrap .secTitle-wrap h3 {
+      font-family: 'Pretendard-Bold';
+      font-weight: 700;
+      width: 100%;
+      font-size: 50px;
+      margin-bottom: 1rem;
+    }
+    
+
+    #container .contWrap .wrap .secTitle-wrap h3:nth-child(3)::before {
+      width: 62%;
+    }
+    
+
+  }
+
+
   /*======== tablet 820px ========*/
   @media screen and (max-width:820px) {
     #container .contWrap .wrap {
@@ -100,6 +145,10 @@
       background-color: #2C64E5;
       opacity: .3;
       z-index: -1;
+    }
+    #container.eng .contWrap .wrap .secTitle-wrap h3:nth-child(3)::before {
+      content: '';
+      display: none;
     }
     
     #container .contWrap .wrap .hello-wrap {
@@ -166,6 +215,10 @@
       background-color: #2C64E5;
       opacity: .3;
       z-index: -1;
+    }
+    #container.eng .contWrap .wrap .secTitle-wrap h3:nth-child(3)::before {
+      content: '';
+      display: none;
     }
     
     #container .contWrap .wrap .hello-wrap {
@@ -234,6 +287,10 @@
       background-color: #2C64E5;
       opacity: .3;
       z-index: -1;
+    }
+    #container.eng .contWrap .wrap .secTitle-wrap h3:nth-child(3)::before {
+      content: '';
+      display: none;
     }
 
 

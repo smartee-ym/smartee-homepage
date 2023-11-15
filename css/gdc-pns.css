@@ -2,10 +2,10 @@
 #container .contWrap .wrap {
   width: 70%;
   margin: 5rem auto;
-  letter-spacing: -0.1rem;
   font-family: "Pretendard-Medium";
   font-weight: 500;
   font-size: 1.3rem;
+  line-height: 1.7rem;
 }
 #container .contWrap .wrap .secTitle-wrap .secTitle {
   font-family: "Pretendard-ExtraBold";
@@ -157,6 +157,9 @@
 #container .contWrap .wrap .service-wrap .service-info .service-info-item.mt-1 {
   margin-top: 1rem;
 }
+#container.eng .contWrap .wrap .service-wrap .service-box .service-boxWrap .service-box-item .service-box-detail {
+  height: 190px;
+}
 #container .process-contWrap {
   padding-top: 2rem;
   padding-bottom: 10rem;
@@ -240,7 +243,6 @@
   #container .contWrap .wrap {
     width: 90%;
     margin: 5rem auto;
-    letter-spacing: -0.1rem;
     font-family: "Pretendard-Medium";
     font-weight: 500;
     font-size: 1.3rem;
@@ -393,6 +395,9 @@
   }
   #container .contWrap .wrap .service-wrap .service-info .service-info-item.mt-1 {
     margin-top: 1rem;
+  }
+  #container.eng .contWrap .wrap .service-wrap .service-box .service-boxWrap .service-box-item .service-box-detail {
+    height: 360px;
   }
   #container .process-contWrap {
     padding-top: 2rem;
@@ -653,6 +658,15 @@
   }
   #container .contWrap .wrap .service-wrap .service-info .service-info-item.mt-1 {
     margin-top: 1rem;
+  }
+  #container.eng .contWrap .wrap .service-wrap .service-box .service-boxWrap .service-box-item .service-box-detail {
+    height: 200px;
+  }
+  #container.eng .contWrap .wrap .service-wrap .service-box .service-boxWrap .service-box-arrow {
+    top: 16.5rem;
+  }
+  #container.eng .contWrap .wrap .service-wrap .service-box .service-boxWrap .service-box-arrow.reverse {
+    top: -7rem;
   }
   #container .process-contWrap {
     padding-top: 2rem;
@@ -929,6 +943,15 @@
   #container .contWrap .wrap .service-wrap .service-info .service-info-item.mt-1 {
     margin-top: 1rem;
     margin-bottom: 0;
+  }
+  #container.eng .contWrap .wrap .service-wrap .service-box .service-boxWrap .service-box-item .service-box-detail {
+    height: 360px;
+  }
+  #container.eng .contWrap .wrap .service-wrap .service-box .service-boxWrap .service-box-arrow {
+    top: 26.5rem;
+  }
+  #container.eng .contWrap .wrap .service-wrap .service-box .service-boxWrap .service-box-arrow.reverse {
+    top: -7rem;
   }
   #container .process-contWrap {
     padding-top: 2rem;

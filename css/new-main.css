@@ -5,6 +5,7 @@
 }
 #container .mainWrap.w-100 {
   width: 100%;
+  overflow: hidden;
 }
 #container .mainWrap.mb-0 {
   margin-bottom: 0rem;
@@ -45,6 +46,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 #container .mainWrap .main-section-visual .main-section-aniWrap .main-visual-title {
   display: inline-block;
@@ -139,6 +141,10 @@
   display: inline-block;
 }
 #container .mainWrap .main-section-visual .main-visual-iltalic {
+  width: 100%;
+  overflow: hidden;
+}
+#container .mainWrap .main-section-visual .main-visual-iltalic p {
   opacity: 0.4;
   display: inline-block;
   margin-top: 5rem;
@@ -148,10 +154,9 @@
   font-weight: 800;
   color: transparent;
   -webkit-text-stroke: 1.5px var(--smartee-blue);
-  white-space: nowrap;
   position: absolute;
   will-change: transform;
-  animation: marquee 80s linear infinite;
+  animation: xanimate 80s linear infinite;
 }
 @keyframes fadeUp {
   0% {
@@ -225,7 +230,7 @@
     color: var(--smartee-blue);
   }
 }
-@keyframes marquee {
+@keyframes xanimate {
   from {
     transform: translateX(0);
   }
@@ -498,6 +503,7 @@
   transform: translate(-30px, -1px);
   background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 150px 20px;
   animation-duration: 3s;
@@ -513,6 +519,7 @@
 #container .mainWrap .main-section-ref .main-ref-btn a .btn-text {
   background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 150px 20px;
   animation-duration: 2s;
@@ -583,7 +590,8 @@
   font-weight: 700;
   font-size: 5rem;
   background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
-  -webkit-background-clip: text; /* 텍스트로 배경 적용 (웹킷 브라우저용) */
+  -webkit-background-clip: text;
+          background-clip: text; /* 텍스트로 배경 적용 (웹킷 브라우저용) */
   color: transparent; /* 텍스트 색상을 투명으로 설정 */
 }
 #container .mainWrap .main-section-aim .aimWrap .aim-box .aim-item .aim-count-box .aim-plus {
@@ -617,6 +625,7 @@
   transform: translate(-30px, -1px);
   background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 150px 20px;
   animation-duration: 2s;
@@ -632,6 +641,7 @@
 #container .mainWrap .main-section-aim .main-aim-btn a .btn-text {
   background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 150px 20px;
   animation-duration: 2s;
@@ -690,6 +700,7 @@
   transform: translate(-30px, -1px);
   background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 150px 20px;
   animation-duration: 2s;
@@ -705,6 +716,7 @@
 #container .mainWrap .main-section-corp .main-corp .main-corp-text a .btn-text {
   background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 150px 20px;
   animation-duration: 2s;
@@ -956,8 +968,23 @@
     padding: 9rem 0 0;
   }
   #container .mainWrap .main-section-visual .main-visual-iltalic {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #container .mainWrap .main-section-visual .main-visual-iltalic p {
+    opacity: 0.4;
+    display: inline-block;
     margin-top: 3rem;
     font-size: 8rem;
+    font-style: italic;
+    font-family: "Pretendard-ExtraBold";
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--smartee-blue);
+    white-space: nowrap;
+    position: absolute;
+    will-change: transform;
+    animation: xanimate 80s linear infinite;
   }
   #container .mainWrap .main-section-ref {
     margin: 3rem 0 0;
@@ -1111,6 +1138,10 @@
     padding: 17rem 0 0;
   }
   #container .mainWrap .main-section-visual .main-visual-iltalic {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #container .mainWrap .main-section-visual .main-visual-iltalic p {
     margin-top: 2rem;
     font-size: 6rem;
   }
@@ -1392,6 +1423,10 @@
     padding: 0rem 0 0;
   }
   #container .mainWrap .main-section-visual .main-visual-iltalic {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #container .mainWrap .main-section-visual .main-visual-iltalic p {
     margin-top: 2rem;
     font-size: 6rem;
   }
@@ -1505,7 +1540,8 @@
     font-weight: 700;
     font-size: 3.5rem;
     background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
-    -webkit-background-clip: text; /* 텍스트로 배경 적용 (웹킷 브라우저용) */
+    -webkit-background-clip: text;
+            background-clip: text; /* 텍스트로 배경 적용 (웹킷 브라우저용) */
     color: transparent; /* 텍스트 색상을 투명으로 설정 */
   }
   #container .mainWrap .main-section-aim .aimWrap .aim-box .aim-item .aim-count-box .aim-plus {
@@ -1598,6 +1634,10 @@
     padding: 0rem 0 0;
   }
   #container .mainWrap .main-section-visual .main-visual-iltalic {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #container .mainWrap .main-section-visual .main-visual-iltalic p {
     margin-top: 1.5rem;
     font-size: 6rem;
   }
@@ -1862,6 +1902,7 @@
     transform: translate(-30px, -1px);
     background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
     -webkit-background-clip: text;
+            background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 150px 20px;
     animation-duration: 2s;
@@ -1877,6 +1918,7 @@
   #container .mainWrap .main-section-corp .main-corp .main-corp-text a .btn-text {
     background: linear-gradient(60deg, rgb(0, 212, 255) 0%, rgb(15, 100, 206) 100%); /* 그라데이션 배경색 설정 */
     -webkit-background-clip: text;
+            background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 150px 20px;
     animation-duration: 2s;

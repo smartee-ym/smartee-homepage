@@ -359,6 +359,23 @@
 #container .contWrap .skill-sub .skill-sub-wrap .skill-img-wrap .skill-img-blank {
   width: 15%;
 }
+#container.eng .contWrap .wrap .org-wrap .gdcTitle {
+  font-size: 30px;
+  font-family: "Pretendard-Bold";
+  font-weight: 700;
+  color: var(--smartee-point-blue);
+  margin: 3rem 0 7rem;
+  font-size: 3rem;
+}
+#container.eng .contWrap .wrap .org-wrap .org-group-info .org-list .item {
+  height: 220px;
+}
+#container.eng .contWrap .wrap .org-wrap .org-group-info .org-list .item .txt-in {
+  font-family: "Pretendard-SemiBold";
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+}
 #container .global-corp-wrap {
   background-color: #f5f8fc;
 }
@@ -1596,6 +1613,15 @@
   #container .contWrap .skill-sub .skill-sub-wrap .skill-scroll-wrap .skill-img-wrap .skill-img-blank {
     width: 15%;
   }
+  #container.eng .contWrap .wrap .org-wrap .org-group-info .org-list .item {
+    height: 160px;
+  }
+  #container.eng .contWrap .wrap .org-wrap .org-group-info .org-list .item .txt-in {
+    font-family: "Pretendard-SemiBold";
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+  }
   #container .global-corp-wrap {
     background-color: #f5f8fc;
   }
@@ -1859,9 +1885,9 @@
   }
   #container .contWrap .wrap .org-wrap .org-group-info .sub-group .sub-group-wrap {
     position: relative;
-    flex: 0 0 40%;
-    max-width: 40%;
-    margin-left: 13rem;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-left: 50%;
     margin-top: 5rem;
     border-radius: 1rem;
     box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.05);
@@ -1885,9 +1911,9 @@
     content: "";
     position: absolute;
     top: 39%;
-    right: 0%;
+    left: 0%;
     transform: translate(-50%, -50%);
-    width: 81%;
+    width: 100%;
     height: 1px;
     background-color: #bdbdbd;
     z-index: -1;
@@ -2143,6 +2169,9 @@
   }
   #container .contWrap .skill-sub .skill-sub-wrap .skill-scroll-wrap .skill-img-wrap .skill-img-blank {
     width: 0%;
+  }
+  #container.eng .txt-in {
+    writing-mode: vertical-rl;
   }
   #container .global-corp-wrap {
     background-color: #f5f8fc;
