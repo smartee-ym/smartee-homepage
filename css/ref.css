@@ -18,12 +18,12 @@
 }
 #container .wrap.reference .referenceWrap .secRef .viewTab {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   margin: 5rem 0 2rem;
+  gap: 1rem;
 }
 #container .wrap.reference .referenceWrap .secRef .viewTab li {
-  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,17 +31,13 @@
 }
 #container .wrap.reference .referenceWrap .secRef .viewTab li a {
   display: block;
-  color: #121212;
-  font-size: 1.2rem;
-  font-family: "Pretendard-Medium";
-  font-weight: 500;
-  padding: 2rem 3rem;
-  width: 100%;
-  text-align: center;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
   background-color: #fcfcfc;
   border: 2px solid #ddd;
-  border-right: 1px solid #eee;
-  border-left: 1px solid #eee;
+  color: #121212;
+  font-size: 1.3rem;
+  transition: all 0.7s;
 }
 #container .wrap.reference .referenceWrap .secRef .viewTab li a.on {
   border: 2px solid #2C64E5;
@@ -210,10 +206,13 @@
     margin: 2rem 0;
   }
   #container .wrap.reference .referenceWrap .secRef .viewTab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 5rem 0 2rem;
+    gap: 1rem;
   }
   #container .wrap.reference .referenceWrap .secRef .viewTab li {
-    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,12 +220,18 @@
   }
   #container .wrap.reference .referenceWrap .secRef .viewTab li a {
     display: block;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    background-color: #fcfcfc;
+    border: 2px solid #ddd;
     color: #121212;
-    font-size: 1.1rem;
-    font-family: "Pretendard-Medium";
-    font-weight: 500;
-    padding: 2rem 1.5rem;
-    width: 100%;
+    font-size: 1.3rem;
+    transition: all 0.7s;
+  }
+  #container .wrap.reference .referenceWrap .secRef .viewTab li a.on {
+    border: 2px solid #2C64E5;
+    background-color: #2C64E5;
+    color: #fcfcfc;
   }
   #container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content {
     display: none;
@@ -392,10 +397,13 @@
     margin: 2rem 0;
   }
   #container .wrap.reference .referenceWrap .secRef .viewTab {
-    margin: 3rem 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 0 2rem;
+    gap: 1rem;
   }
   #container .wrap.reference .referenceWrap .secRef .viewTab li {
-    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -403,12 +411,18 @@
   }
   #container .wrap.reference .referenceWrap .secRef .viewTab li a {
     display: block;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    background-color: #fcfcfc;
+    border: 2px solid #ddd;
     color: #121212;
-    font-size: 1.1rem;
-    font-family: "Pretendard-Medium";
-    font-weight: 500;
-    padding: 1.5rem 0.5rem;
-    width: 100%;
+    font-size: 1.3rem;
+    transition: all 0.7s;
+  }
+  #container .wrap.reference .referenceWrap .secRef .viewTab li a.on {
+    border: 2px solid #2C64E5;
+    background-color: #2C64E5;
+    color: #fcfcfc;
   }
   #container .wrap.reference .referenceWrap .secRef .refTab-content-wrap .ref-content {
     display: none;
@@ -577,10 +591,13 @@
     margin: 1.5rem 0;
   }
   #container .wrap.reference .referenceWrap .secRef .viewTab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 3rem 0 2rem;
+    gap: 1rem;
   }
   #container .wrap.reference .referenceWrap .secRef .viewTab li {
-    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -588,21 +605,16 @@
   }
   #container .wrap.reference .referenceWrap .secRef .viewTab li a {
     display: block;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    background-color: #fcfcfc;
+    border: 2px solid #ddd;
     color: #121212;
-    font-size: 1.1rem;
-    font-family: "Pretendard-Medium";
-    font-weight: 500;
-    padding: 1.5rem 0.1rem;
-    width: 100%;
+    font-size: 1rem;
+    transition: all 0.7s;
   }
-  #container .wrap.reference .referenceWrap .secRef .viewTab li a.li-custom {
-    font-size: 1.1rem;
-  }
-  #container .wrap.reference .referenceWrap .secRef .viewTab li a.li-custom span {
-    display: none;
-  }
-  #container .wrap.reference .referenceWrap .secRef .viewTab li.on {
-    border: 1px solid #2C64E5;
+  #container .wrap.reference .referenceWrap .secRef .viewTab li a.on {
+    border: 2px solid #2C64E5;
     background-color: #2C64E5;
     color: #fcfcfc;
   }

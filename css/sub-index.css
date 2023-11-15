@@ -185,7 +185,8 @@
   background-color: var(--smartee-blue);
   color: var(--bg-white);
   padding: 2rem 3% 3rem;
-  font-family: "LeferiBaseType-RegularA";
+  font-family: "Pretendard-SemiBold";
+  font-weight: 600;
 }
 #container .visual-head .location {
   position: fixed;
@@ -214,7 +215,7 @@
 }
 #container .visual-head .visual-title-wrap .title-main {
   font-size: 45px;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.5pt;
   margin: 1.5rem 0 1rem;
 }
 #container .visual-head .visual-title-wrap .title-sub {
@@ -375,7 +376,7 @@
 }
 #container.active .visual-head .visual-title-wrap .title-main {
   font-size: 45px;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.5pt;
   margin: 1.5rem 0 1rem;
 }
 #container.active .visual-head .visual-title-wrap .title-sub {
@@ -461,8 +462,8 @@
 /*============ sub container end ============*/
 /*============ sub footer start ============*/
 #footer {
-  font-family: "LeferiPoint-WhiteA";
-  font-weight: bold;
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
   letter-spacing: 0.02em;
   height: auto;
   background-color: var(--smartee-bg-blue);
@@ -496,6 +497,9 @@
   display: flex;
   justify-content: left;
   margin-bottom: 10px;
+}
+#footer .footer-center .footer-left .smartee-info li, #footer .footer-center .footer-left .smartee-contract li {
+  color: var(--smartee-black);
 }
 #footer .footer-center .footer-left .smartee-info li:nth-child(3), #footer .footer-center .footer-left .smartee-contract li:nth-child(3) {
   transform: translateY(4px);
@@ -1068,7 +1072,8 @@
     background-color: var(--smartee-blue);
     color: #fcfcfc;
     padding: 2rem 2% 3rem;
-    font-family: "LeferiBaseType-RegularA";
+    font-family: "Pretendard-SemiBold";
+    font-weight: 600;
   }
   #container .visual-head .visual-title-wrap .title-main {
     font-size: 2.5rem;
