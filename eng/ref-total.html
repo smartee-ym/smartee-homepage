@@ -8,17 +8,18 @@
     <!-- 웹폰트 / 웹폰트아이콘 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/sub-index.css">
-    <link rel="stylesheet" href="../css/sub-index-new.css">
-    <link rel="stylesheet" href="../css/ref.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/sub-index-new.css">
+    <link rel="stylesheet" href="css/ref.css">
 
 
     <!-- script -->
-    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/subheader.js"></script>
+    <script src="js/subheader.js"></script>
+    <!-- <script src="js/solution-scroll.js"></script> -->
 
     <title>smartee.</title>
 </head>
@@ -28,7 +29,7 @@
         <div class="header-wrap">
             <h1 class="logo">
                 <a href="index.html" class="logo-img">
-                    <img src="../img/logo-main.png" alt="smartee">
+                    <img src="img/logo-main.png" alt="smartee">
                 </a>
             </h1>
             <!-- logo-img -->
@@ -36,10 +37,10 @@
                 <li class="main1depth solution">
                     <a href="solution.html">Solution</a>
                     <ul class="sub2depth subSolution">
-                        <li class="subMenu"><a href="solution.html#sec1">Development Service</a></li>
-                        <li class="subMenu"><a href="solution.html#sec2">SpiderLive</a></li>
-                        <li class="subMenu"><a href="solution.html#sec3">SpiderView</a></li> 
-                        <li class="subMenu"><a href="solution.html#sec4">IT Outsourcing</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec1">개발 서비스</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="solution.html#sec3">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">스파이더 뷰</a></li> 
                     </ul>
                 </li>
                 <li class="main1depth solution">
@@ -61,7 +62,7 @@
                 </li>
                 <li class="main1depth solution">
                     <a href="ref.html">Case study</a>
-                    <ul class="sub2depth subSolution">
+                            <ul class="sub2depth subSolution">
                         <li class="subMenu">
                             <a href="ref.html">Portfolio</a>
                         </li>
@@ -70,6 +71,7 @@
                         </li>
                     </ul>
                 </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
                 <li class="main1depth solution">
                     <a href="customer.html">Customer</a>
                     <ul class="sub2depth subSolution">
@@ -90,20 +92,21 @@
                         <li class="subMenu"><a href="about-map.html">Location</a></li>   
                     </ul>
                 </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
             </ul>
             <!-- 언어 선택 영역 -->
             <div class="lang">
-                <p class="lang-btn">
+                <p class="lang-btn on">
                     <a href="index.html">KO</a>
                 </p>
                 <p>&#124;</p>
-                <p class="lang-btn on">
+                <p class="lang-btn">
                     <a href="eng/index.html">EN</a>
                 </p>
             </div>
             <!-- //언어 선택 영역 -->
             <!-- main-gnb -->
-            <div class="ham-menu"">
+            <div class="ham-menu">
                 <a href="#" class="menu-trigger">
                     <span></span>
                     <span></span>
@@ -156,33 +159,33 @@
             <div class="wrap reference">
                 <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
                     <div class="secInform">
-                        Introducing the companies<br />that have partnered with Smartee.
+                        스마티이와 함께한<br />기업들을 소개합니다.
                     </div>
                 </div>
                 <div class="referenceWrap table-wrap">
                     <section class="totCase-table case1" data-aos="fade-up" data-aos-duration="1000">
-                        <h3 class="totCase-sub">Online Shop · Mobile</h3>
+                        <h3 class="totCase-sub">쇼핑몰 · 모바일</h3>
                         <table class="table-style">
                             <!-- <colgroup><col style="width:25%"><col></colgroup> -->
                             <thead>
                                 <tr>
-                                    <th scope="col">Period</th>
-                                    <th scope="col">Project Name</th>
-                                    <th scope="col">Type</th>
-                                    <th scope="col">Client</th>
+                                    <th scope="col">기간</th>
+                                    <th scope="col">사업명</th>
+                                    <th scope="col">유형</th>
+                                    <th scope="col">고객사</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>
-                                        2021.05 ~ Present
+                                        2021.05 ~ 현재
                                     </td>
                                     <td class="tab_left">
-                                        LG Electronics Korea Sales Headquarters Integrated App Operation
+                                        LG전자 한국영업본부 통합앱 운영
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>
                                 <tr>
@@ -190,23 +193,23 @@
                                         2021.06 ~ 2022.02
                                     </td>
                                     <td class="tab_left">
-                                        DaeMyungSonoSeason Rental Sales Homepage Redesign
+                                        대명소노시즌 렌탈 판매 홈페이지 개편
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        DaeMyungSonoSeason
+                                        대명소노시즌
                                     </td>
                                 </tr>
                                 <tr class="tab_left">
                                     <td>
-                                        2021.01 ~ Present
+                                        2021.01 ~ 현재
                                     </td>
                                     <td class="tab_left" >
-                                        Establishment and operation of LG Pay and rewards platform
+                                        LG페이 및 리워드 플랫폼 구축 및 운영
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>
                                 <tr>
@@ -214,9 +217,9 @@
                                         2020.07 ~ 2022.05
                                     </td>
                                     <td class="tab_left">
-                                        LG Uplus HomeIn Service Platform Development and Operation
+                                        LG유플러스  홈인서비스 플랫폼 구축 및 운영
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
                                         LG U+
                                     </td>
@@ -226,11 +229,11 @@
                                         2020.01 ~ 2020.05
                                     </td>
                                     <td class="tab_left">
-                                        HelloNature Shopping Mall Construction Project
+                                        헬로네이처 쇼핑몰 구축 사업
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        HelloNature
+                                        헬로네이처
                                     </td>
                                 </tr>
                                 <tr>
@@ -238,23 +241,11 @@
                                         2019.06 ~ 2020.01
                                     </td>
                                     <td class="tab_left">
-                                        Brand Select Shop OCO Shopping Mall Development Project
+                                        브랜드 셀렉트 샵 OCO 쇼핑몰 구축 사업
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        BejeBano
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        2019.03 ~ 2019.09
-                                    </td>
-                                    <td class="tab_left">
-                                        Monolink Shopping Mall Construction Project
-                                    </td>
-                                    <td>Development</td>
-                                    <td>
-                                        Monolink
+                                        비제바노
                                     </td>
                                 </tr>
                                 <tr>
@@ -262,13 +253,13 @@
                                         2018.07 ~ 2018.09
                                     </td>
                                     <td class="tab_left">
-                                        Groupware Mobile Development
+                                        그룹웨어 모바일 구축
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        National Health<br>Insurance Service
+                                        건강보험관리공단
                                     </td>
                                 </tr>
                                 <tr>
@@ -276,7 +267,7 @@
                                         2018.07 ~ 2018.11
                                     </td>
                                     <td class="tab_left">
-                                        Asset Management System Mobile Development
+                                        자산관리시스템 모바일 개발
                                     </td>
                                     <td>
                                         SpiderView
@@ -290,10 +281,10 @@
                                         2017.11 ~ 현재
                                     </td>
                                     <td class="tab_left">
-                                        iKEP Solution and MXP Solution Upgrade and Maintenance
+                                        iKEP 솔루_MXP 솔루션 업그레이드 및 유지보수
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
                                         LG CNS
@@ -301,16 +292,16 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        2017.04~2017.10
+                                        2017.04 ~ 2017.10
                                     </td>
                                     <td class="tab_left">
-                                        Starbucks Members App Development Project
+                                        스타벅스 멤버스 앱 개발 프로젝트
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Starbucks
+                                        스타벅스
                                     </td>
                                 </tr>
                                 <tr>
@@ -318,13 +309,13 @@
                                         2016.05 ~ 2016.12
                                     </td>
                                     <td class="tab_left">
-                                        Ministry of Commerce Industry and Energy Website Enhancement Project: Mobile
+                                        산업통상자원부 홈페이지 고도화 사업 : 모바일
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        Ministry of<br>Commerce Industry and Energy
+                                        산업통상자원부
                                     </td>
                                 </tr>
                                 <tr>
@@ -332,13 +323,13 @@
                                         2016.03 ~ 2018.10
                                     </td>
                                     <td class="tab_left">
-                                        Baedal Minjok (Delivery Hero) Development and Operation
+                                        배달의 민족 개발 및 운영
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Baedal Minjok (Delivery Hero)
+                                        배달의 민족
                                     </td>
                                 </tr>
                                 <tr>
@@ -346,13 +337,13 @@
                                         2016.03 ~ 2016.08
                                     </td>
                                     <td class="tab_left">
-                                        Ice Factory Web & Mobile Management System Development Projec
+                                        아이스 팩토리 웹 & 모바일 관리 시스템 구축 사업
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Ice Factory
+                                        아이스팩토리
                                     </td>
                                 </tr>
                                 <tr>
@@ -360,7 +351,7 @@
                                         2016.03 ~ 2016.05
                                     </td>
                                     <td class="tab_left">
-                                        YTNDMB Shopping Mall Development Project : Mobile
+                                        YTNDMB 쇼핑몰 구축 사업 : 모바일
                                     </td>
                                     <td>
                                         SpiderView
@@ -374,13 +365,13 @@
                                         2015.07 ~ 2016.03
                                     </td>
                                     <td class="tab_left">
-                                        CJ Korea Express T-MPS System Development
+                                        CJ대한통운 T-MPS 시스템 구축
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        CJ Korea Express
+                                        CJ대한통운
                                     </td>
                                 </tr>
                                 <tr>
@@ -388,13 +379,13 @@
                                         2015.06 ~ 2015.08
                                     </td>
                                     <td class="tab_left">
-                                        CJ Korea Express Integrated Logistics Performance Management System Mobile Development
+                                        CJ대한통운 통합물류지표 관리시스템 모바일 개발
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        CJ Korea Express
+                                        CJ대한통운
                                     </td>
                                 </tr>
                                 <tr>
@@ -402,10 +393,10 @@
                                         2014.11 ~ 2015.01
                                     </td>
                                     <td class="tab_left">
-                                        LGU+ Telecom Three-Way Integrated Store Development Project
+                                        LGU+ 통신 3사 통합 스토어 구축 사업
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
                                         LG U+
@@ -416,7 +407,7 @@
                                         2014.06 ~ 2015.04
                                     </td>
                                     <td class="tab_left">
-                                        Incheon Free Economic Zone Resident Lifestyle and Culture Service Development : Mobile
+                                        인천경제자유구역 입주민 대상 생활문화서비스 구축 : 모바일 부문
                                     </td>
                                     <td>
                                         SpiderView, SpiderLive
@@ -430,13 +421,13 @@
                                         2013.09 ~ 2013.12
                                     </td>
                                     <td class="tab_left">
-                                        NanumLotto Next-Generation Integration Project : Mobile
+                                        나눔로또 차기 통합프로젝트 : 모바일 부문
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        NanumLotto
+                                        나눔로또
                                     </td>
                                 </tr>
                                 <tr>
@@ -444,10 +435,10 @@
                                         2013.04 ~ 2014.08
                                     </td>
                                     <td class="tab_left">
-                                        LG CNS New York Taxi Payment App Development Project
+                                        LG CNS 뉴욕택시결제 앱개발 프로젝트 수행
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
                                         LG CNS
@@ -458,13 +449,13 @@
                                         2012.09 ~ 2012.12
                                     </td>
                                     <td class="tab_left">
-                                        Shinsegae Point.com Mobile Development Project
+                                        신세계 포인트닷컴 모바일 구축 프로젝트 수행
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Shinsegae
+                                        신세계
                                     </td>
                                 </tr>
                                 <tr>
@@ -472,16 +463,16 @@
                                         2012.04 ~ 2014.05
                                     </td>
                                     <td class="tab_left">
-                                        LG Electronics B2E Mobile App Development and Operation
+                                        LG전자 B2E 모바일 앱 개발 운영
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>
-
+    
                             </tbody>
                         </table>
                     </section>
@@ -491,33 +482,33 @@
                             <!-- <colgroup><col style="width:25%"><col></colgroup> -->
                             <thead>
                                 <tr>
-                                    <th scope="col">Period</th>
-                                    <th scope="col">Project Name</th>
-                                    <th scope="col">Type</th>
-                                    <th scope="col">Client</th>
+                                    <th scope="col">기간</th>
+                                    <th scope="col">사업명</th>
+                                    <th scope="col">유형</th>
+                                    <th scope="col">고객사</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>
-                                        2022.08 ~ Present
+                                        2022.08 ~ 현재
                                     </td>
                                     <td class="tab_left">
-                                        Enhancement and operation of LG Electronics' virtual asset wallet app
+                                        LG전자 가상자산 월렛 앱 고도화 및 운영
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        2022.05 ~ Present
+                                        2022.05 ~ 현재
                                     </td>
                                     <td class="tab_left">
-                                        Development and operation of LG CNS Quinoa Research Platform
+                                        LG CNS 퀴노아 리서치 플랫폼 구축 및 운영
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
                                         LG CNS
                                     </td>
@@ -527,11 +518,11 @@
                                         2021.01 ~ 2021.12
                                     </td>
                                     <td class="tab_left">
-                                        Development of HKMC AVN (Advanced Driver Assistance Systems) Software
+                                        HKMC AVN SW 개발
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>
                                 <tr>
@@ -539,9 +530,9 @@
                                         2018.09 ~ 2019.06
                                     </td>
                                     <td class="tab_left">
-                                        UI development for LG Electronics' VC Visualization System
+                                        LG전자 VC가시화 시스템 구성 UI 개발
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
                                         LG CNS
                                     </td>
@@ -551,9 +542,9 @@
                                         2017.06 ~ 2017.09
                                     </td>
                                     <td class="tab_left">
-                                        Participation in LG CNS IoT platform development project
+                                        LG CNS IoT플랫폼 개발 사업 참여
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
                                         LG CNS
                                     </td>
@@ -563,9 +554,9 @@
                                         2016.09 ~ 2016.10
                                     </td>
                                     <td class="tab_left">
-                                        LG U+ Elderly Protection Project
+                                        LG U+ 독거노인 보호 프로젝트
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
                                         LG U+
                                     </td>
@@ -575,9 +566,9 @@
                                         2016.08 ~ 2016.09
                                     </td>
                                     <td class="tab_left">
-                                        Development of Device SDK for oneM2M-based Connected Things Platform 2.0
+                                        oneM2M 기반 Connected Things 플랫폼 2.0 구축_Device SDK 개발
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
                                         LG U+
                                     </td>
@@ -587,13 +578,13 @@
                                         2015.10 ~ 2015.12
                                     </td>
                                     <td class="tab_left">
-                                        Awarded the Seoul Smart Grid Pilot Project
+                                        서울시 스마트그리드 시범 사업 수주
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Seoul City
+                                        서울시
                                     </td>
                                 </tr>
                                 <tr>
@@ -601,10 +592,10 @@
                                         2015.06 ~ 2015.12
                                     </td>
                                     <td class="tab_left">
-                                        Development of a cloud-based energy IoT solution (Argos)
+                                        클라우드 기반의 에너지 IoT 솔루션 개발 사업(Argos)
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
                                         I.O.L
@@ -615,13 +606,13 @@
                                         2015.06 ~ 2015.11
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of an LGE ESS (Energy Storage System) Usage Monitoring System
+                                        LGE ESS 사용량 모니터링 시스템 구축
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>
                                 <tr>
@@ -629,13 +620,13 @@
                                         2015.01 ~ 2015.03
                                     </td>
                                     <td class="tab_left">
-                                        Smart Home Mobile Development Project in Singapore
+                                        싱가폴 Smart Home 모바일 구축 프로젝트
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>
                                 <tr>
@@ -643,10 +634,10 @@
                                         2014.05 ~ 2014.11
                                     </td>
                                     <td class="tab_left">
-                                        Mobile app development for UTC (United Technologies Corporation)
+                                        UTC 모바일 앱 개발
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
                                         LG CNS
@@ -657,13 +648,13 @@
                                         2014.04 ~ 2014.11
                                     </td>
                                     <td class="tab_left">
-                                        Smart Home Mobile Development for LG HAUSYS (LG House & Healthcare)
+                                        LG하우시스 시스템하우스 스마트홈 모바일 개발
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        LG HAUSYS
+                                        LG하우시스
                                     </td>
                                 </tr>
                                 <tr>
@@ -671,28 +662,28 @@
                                         2013.07 ~ 2013.10
                                     </td>
                                     <td class="tab_left">
-                                        Android development project for LG Electronics' home networking solutions
+                                        LG전자 홈네트워킹 안드로이드 개발 프로젝트 수행
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>                             
                             </tbody>
                         </table>
                     </section>
                     <section class="totCase-table case3" data-aos="fade-up" data-aos-duration="1000">
-                        <h3 class="totCase-sub">Portal · Period System Business System</h3>
+                        <h3 class="totCase-sub">포털 · 기간계 업무시스템</h3>
                         <table class="table-style">
                             <!-- <colgroup><col style="width:25%"><col></colgroup> -->
                             <thead>
                                 <tr>
-                                    <th scope="col">Period</th>
-                                    <th scope="col">Project Name</th>
-                                    <th scope="col">Type</th>
-                                    <th scope="col">Client</th>
+                                    <th scope="col">기간</th>
+                                    <th scope="col">사업명</th>
+                                    <th scope="col">유형</th>
+                                    <th scope="col">고객사</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -701,11 +692,11 @@
                                         2021.12 ~  2022.04
                                     </td>
                                     <td class="tab_left">
-                                        Development of MY LG ID Unified Login System
+                                        MY LG ID 통합로그인  시스템 개발
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        S&I (Current D&O)
+                                        S&I(현D&O)
                                     </td>
                                 </tr>
                                 <tr>
@@ -713,9 +704,9 @@
                                         2020.10 ~  2021.12
                                     </td>
                                     <td class="tab_left">
-                                        Development and operation of LGU+ Unmanned Store IT System
+                                        LGU+ 언택매장 IT 시스템 개발 및 운영
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
                                         LGU+
                                     </td>
@@ -725,23 +716,22 @@
                                         2020.05 ~ 2020.08
                                     </td>
                                     <td class="tab_left">
-                                        Delivery of KT KBN Video Streaming Solution
+                                        KT KBN 동영상 스트리밍 솔루션 납품
                                     </td>
                                     <td>SpiderLive</td>
                                     <td>
-                                        KT
-                                    </td>
+                                        KT</td>
                                 </tr>
                                 <tr>
                                     <td>
                                         2020.03 ~  2021.04
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of Safety CM System, Quality Management System, and CS Business Information System
+                                        안전CM시스템, 품질관리시스템, CS업무 전산시스템  구축
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        POSCO ANC, ONM
+                                        포스코ANC,ONM
                                     </td>
                                 </tr>
                                 <tr>
@@ -749,7 +739,7 @@
                                         2017.03 ~ 2017.07
                                     </td>
                                     <td class="tab_left">
-                                        Construction of LG U+ Asset Management System
+                                        LG유플러스 자산관리시스템 구축사업
                                     </td>
                                     <td>SpiderView</td>
                                     <td>
@@ -761,11 +751,11 @@
                                         2018.07 ~ 2018.12
                                     </td>
                                     <td class="tab_left">
-                                        Development and operation of a web system for the international certification business of the Korean Standards Association
+                                        한국표준협회 국제인증업무 웹 시스템 개발 및 운영
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        Korean Standards<br>Association
+                                        한국표준협회
                                     </td>
                                 </tr>
                                 <tr>
@@ -773,11 +763,11 @@
                                         2018.02 ~ 2018.05
                                     </td>
                                     <td class="tab_left">
-                                        Construction of T-Top MRT Air Reservation System
+                                        토파스 MRT 항공예약시스템 구축
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        Hanjin Information<br>& Communication
+                                        한진정보통신
                                     </td>
                                 </tr>
                                 <tr>
@@ -785,13 +775,13 @@
                                         2017.10 ~ 2018.02
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of ANC Safety Inspection System
+                                        ANC 안전 감리시스템 구축
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        POSCO ICT
+                                        포스코ICT
                                     </td>
                                 </tr>
                                 <tr>
@@ -799,13 +789,13 @@
                                         2017.03 ~ 2017.07
                                     </td>
                                     <td class="tab_left">
-                                        Project for building NSK Dental Korea's A/S System
+                                        NSK 덴탈코리아  A/S시스템 구축 사업
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        NSK Dental Korea
+                                        NSK 덴탈코리아
                                     </td>
                                 </tr>
                                 <tr>
@@ -813,13 +803,13 @@
                                         2016.06 ~ 2016.10
                                     </td>
                                     <td class="tab_left">
-                                        Political Social Platform Project
+                                        정치 소셜 플랫폼 프로젝트
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        GL Soft
+                                        GL소프트
                                     </td>
                                 </tr>
                                 <tr>
@@ -827,13 +817,13 @@
                                         2016.03 ~ 2016.05
                                     </td>
                                     <td class="tab_left">
-                                        MOSAIC Video Service Platform Improvement Project
+                                        MOSAIC 동영상 서비스 플랫폼 개선 프로젝트
                                     </td>
                                     <td>
                                         SpiderLive
                                     </td>
                                     <td>
-                                        Samsung Electronics
+                                        삼성전자
                                     </td>
                                 </tr>
                                 <tr>
@@ -841,13 +831,13 @@
                                         2015.05 ~ 2015.06
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of Leader's Auction Video Streaming Solution
+                                        리더스옥션 동영상 스트리밍 솔루션 구축
                                     </td>
                                     <td>
                                         SpiderLive
                                     </td>
                                     <td>
-                                        Leader's Auction
+                                        리더스옥션
                                     </td>
                                 </tr>
                                 <tr>
@@ -855,13 +845,13 @@
                                         2014.12 ~ 2015.10
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of ERP System for Samyoung Ink & Paint Manufacturing Co., Ltd.
+                                        삼영 잉크페인트제조㈜ ERP 시스템 구축
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Samyoung Ink &<br>Paint Manufacturing
+                                        삼영잉크페인트제조
                                     </td>
                                 </tr>
                                 <tr>
@@ -869,13 +859,14 @@
                                         2014.08 ~ 2016.03
                                     </td>
                                     <td class="tab_left">
-                                        Development and operation of Baedal Minjok (Delivery Hero) Service
+                                        배달의민족 서비스 개발 및 운영
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Woowa Brothers
+                                        우아한형제들
+    
                                     </td>
                                 </tr>
                                 <tr>
@@ -883,13 +874,13 @@
                                         2013.02 ~ 2015.08
                                     </td>
                                     <td class="tab_left">
-                                        SK Telecom MyShop Project Execution
+                                        SKT 마이샵 프로젝트 수행
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        SK Telecom (SKT)
+                                        SKT
                                     </td>
                                 </tr>
                                 <tr>
@@ -897,10 +888,10 @@
                                         2014.11 ~ 2015.02
                                     </td>
                                     <td class="tab_left">
-                                        Integrated Store ADP Development for Telecommunication Companies
+                                        통신3사 통합스토어 ADP개발
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
                                         LGU+
@@ -911,13 +902,13 @@
                                         2014.07 ~ 2015.02
                                     </td>
                                     <td class="tab_left">
-                                        Development of KG Mobilians' Computer Systems
+                                        KG 모빌리언스 전산시스템 개발
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        KG Mobilians
+                                        KG모빌리언스
                                     </td>
                                 </tr>
                                 <tr>
@@ -925,13 +916,13 @@
                                         2013.09 ~ 2013.12
                                     </td>
                                     <td class="tab_left">
-                                        Future Integrated Project for Nanum Lotto : Portal Division
+                                        나눔로또 차기 통합프로젝트 : 포털 부문
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        Nanum Lotto
+                                        나눔로또
                                     </td>
                                 </tr>
                                 <tr>
@@ -939,13 +930,13 @@
                                         2013.05 ~ 2014.01 
                                     </td>
                                     <td class="tab_left">
-                                        Development and Operation of CJ Logistics System
+                                        CJ대한통운 물류시스템 개발 운영
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        CJ Systems
+                                        CJ시스템즈
                                     </td>
                                 </tr>
                                 <tr>
@@ -953,13 +944,13 @@
                                         2013.05 ~ 2013.10
                                     </td>
                                     <td class="tab_left">
-                                        LG Electronics Smart TV Development Project
+                                        LG전자 스마트TV 개발 프로젝트 수행
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>
                                 <tr>
@@ -967,13 +958,13 @@
                                         2012.12 ~ 2013.05
                                     </td>
                                     <td class="tab_left">
-                                        LG Electronics Procurement Portal Site Construction Project
+                                        LG전자 조달포털 사이트 구축 프로젝트 수행
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        LG Electronics
+                                        LG전자
                                     </td>
                                 </tr>
                                 <tr>
@@ -981,10 +972,10 @@
                                         2012.09 ~ 2012.12
                                     </td>
                                     <td class="tab_left">
-                                        LGU+ GDCB Project Execution
+                                        LGU+ GDCB 프로젝트 수행
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
                                         LGU+
@@ -994,15 +985,15 @@
                         </table>
                     </section>
                     <section class="totCase-table case4" data-aos="fade-up" data-aos-duration="1000">
-                        <h3 class="totCase-sub">Financial</h3>
+                        <h3 class="totCase-sub">금융권</h3>
                         <table class="table-style">
                             <!-- <colgroup><col style="width:25%"><col></colgroup> -->
                             <thead>
                                 <tr>
-                                    <th scope="col">Period</th>
-                                    <th scope="col">Project Name</th>
-                                    <th scope="col">Type</th>
-                                    <th scope="col">Client</th>
+                                    <th scope="col">기간</th>
+                                    <th scope="col">사업명</th>
+                                    <th scope="col">유형</th>
+                                    <th scope="col">고객사</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -1011,11 +1002,11 @@
                                         2021.06 ~ 2021.12
                                     </td>
                                     <td class="tab_left">
-                                        NH Investment & Securities CRM UI/UX Improvement
+                                        NH투자증권 CRM UI/UX 개선
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        NH Investment & Securities
+                                        NH투자증권
                                     </td>
                                 </tr>
                                 <tr>
@@ -1023,11 +1014,11 @@
                                         2016.07 ~ 2016.12
                                     </td>
                                     <td class="tab_left">
-                                        Development of a Mobile Platform for Early Childhood Education
+                                        유아교육 모바일 플랫폼 개발
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        Samsung Card
+                                        삼성카드
                                     </td>
                                 </tr>
                                 <tr>
@@ -1035,13 +1026,13 @@
                                         2015.03 ~ 2015.08
                                     </td>
                                     <td class="tab_left">
-                                        Development of Asset Management System for Hanwha Life
+                                        한화생명 자산관리시스템 개발
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Hanwha Life
+                                        한화생명
                                     </td>
                                 </tr>
                                 <tr>
@@ -1049,11 +1040,11 @@
                                         2014.03 ~ 2015.01
                                     </td>
                                     <td class="tab_left">
-                                        Development of Next-Generation System Interfaces for the Korea Electronic Financial Channel
+                                        한국전자금융 채널계 차세대시스템 인터페이스 개발
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        Korea Electronic<br>Finance
+                                        한국전자금융
                                     </td>
                                 </tr>
                                 <tr>
@@ -1061,13 +1052,13 @@
                                         2013.11 ~ 2014.01
                                     </td>
                                     <td class="tab_left">
-                                        Improvement and Enhancement of the Mobile App for the Korea Scholarship Foundation
+                                        한국장학재단 모바일 앱 개선화 수행
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Korea Scholarship<br>Foundation
+                                        한국장학재단
                                     </td>
                                 </tr>
                                 <tr>
@@ -1075,11 +1066,11 @@
                                         2013.04 ~ 2013.06
                                     </td>
                                     <td class="tab_left">
-                                        Execution of the Securities Exchange Account Opening Project
+                                        증권거래소 계좌개설 프로젝트 수행
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        Korea Exchange<br>(Korea Securities Exchange)
+                                        한국증권거래소
                                     </td>
                                 </tr>
                                 <tr>
@@ -1087,11 +1078,11 @@
                                         2012.07 ~ 2012.08
                                     </td>
                                     <td class="tab_left">
-                                        Additional Construction of Management Business System for Hyundai Capital
+                                        현대캐피탈 관리업무시스템 추가 구축
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        Hyundai Capital
+                                        현대캐피탈
                                     </td>
                                 </tr>
                                 <tr>
@@ -1099,28 +1090,28 @@
                                         2012.01 ~ 2012.04
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of Exchange Rate Information Business for Woori Bank's Smart TV
+                                        우리은행 스마트TV 환율정보 사업 구축
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Woori Bank
+                                        우리은행
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </section>
                     <section class="totCase-table case5" data-aos="fade-up" data-aos-duration="1000">
-                        <h3 class="totCase-sub">Institution</h3>
+                        <h3 class="totCase-sub">기관</h3>
                         <table class="table-style">
                             <!-- <colgroup><col style="width:25%"><col></colgroup> -->
                             <thead>
                                 <tr>
-                                    <th scope="col">Period</th>
-                                    <th scope="col">Project Name</th>
-                                    <th scope="col">Type</th>
-                                    <th scope="col">Client</th>
+                                    <th scope="col">기간</th>
+                                    <th scope="col">사업명</th>
+                                    <th scope="col">유형</th>
+                                    <th scope="col">고객사</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -1129,11 +1120,11 @@
                                         2019.09 ~ 2020.03
                                     </td>
                                     <td class="tab_left">
-                                        Ministry of Justice U-Guard Function Development Project (Crime Prevention)
+                                        법무부 U-Guard 기능 개발 사업 (성범죄 대응)
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        Ministry of<br>Justice
+                                        법무부
                                     </td>
                                 </tr>
                                 <tr>
@@ -1141,11 +1132,11 @@
                                         2019.05 ~ 2019.10
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of the Hotel Grading Management System for the Korea Tourism Organization
+                                        한국관광공사 호텔등급 관리시스템 구축
                                     </td>
-                                    <td>Development</td>
+                                    <td>개발</td>
                                     <td>
-                                        Korea Tourism<br>Organization(KTO)
+                                        한국관광공사
                                     </td>
                                 </tr>
                                 <tr>
@@ -1153,13 +1144,13 @@
                                         2018.07 ~ 2018.12
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of Streaming Services for Disabled Libraries
+                                        장애인도서관 스트리밍 서비스 구축
                                     </td>
                                     <td>
                                         SpiderLive
                                     </td>
                                     <td>
-                                        National Library<br>of Korea
+                                        국립중앙도서관
                                     </td>
                                 </tr>
                                 <tr>
@@ -1167,13 +1158,13 @@
                                         2018.05 ~ 2018.12
                                     </td>
                                     <td class="tab_left">
-                                        Construction of Groupware Mobile/Video Manual System
+                                        그룹웨어 모바일/동영상 매뉴얼 시스템 구축
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        National Health<br>Insurance Service
+                                        국민건강보험공단
                                     </td>
                                 </tr>
                                 <tr>
@@ -1181,13 +1172,13 @@
                                         2017.06 ~ 2017.12
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of the Korea Tourism Quality Certification System for Certification Assessment
+                                        한국관광품질인증제 인증심사 운영시스템 구축
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        Korea Tourism<br>Organization(KTO)
+                                        한국관광공사
                                     </td>
                                 </tr>
                                 <tr>
@@ -1195,13 +1186,13 @@
                                         2017.11 ~ 2017.12
                                     </td>
                                     <td class="tab_left">
-                                        Construction of a Mobile Website for Onnara Policy Research
+                                        온나라정책연구 모바일 홈페이지 구축
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        Onnara Policy<br>Research
+                                        온나라정책연구
                                     </td>
                                 </tr>
                                 <tr>
@@ -1209,13 +1200,13 @@
                                         2016.05 ~ 2016.12
                                     </td>
                                     <td class="tab_left">
-                                        Website Enhancement Project for the Ministry of Commerce Industry and Energy
+                                        산업통상자원부 홈페이지 고도화 사업 
                                     </td>
                                     <td>
                                         SpiderView
                                     </td>
                                     <td>
-                                        Ministry of Commerce<br>Industry and Energy
+                                        산업통상자원부
                                     </td>
                                 </tr>
                                 <tr>
@@ -1223,13 +1214,13 @@
                                         2015.10 ~ 2015.12
                                     </td>
                                     <td class="tab_left">
-                                        Awarded the Seoul Smart Grid Pilot Project
+                                        서울시 스마트그리드 시범 사업 수주
                                     </td>
                                     <td>
-                                        Development
+                                        개발
                                     </td>
                                     <td>
-                                        Seoul City
+                                        서울시
                                     </td>
                                 </tr>
                                 <tr>
@@ -1237,20 +1228,18 @@
                                         2014.10 ~ 2015.02
                                     </td>
                                     <td class="tab_left">
-                                        Establishment of the VOD Service System for Jeju Internet Broadcasting Station
+                                        제주인터넷 방송국 VOD 서비스 시스템 구축
                                     </td>
                                     <td>
                                         SpiderLive
                                     </td>
                                     <td>
-                                        Jeju Special<br>Self-Governing Province
+                                        제주특별자치도
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </section>
-    
-    
                 </div>
             </div>
         </div>
@@ -1284,23 +1273,25 @@
     <div id="footer">
         <div class="footer-center">
             <div class="footer-left">
-                <h2><img src="../img/logo-main.png"></h2>
+                <h2>
+                    <img src="img/logo-main.png">
+                </h2>
                 <ul class="smartee-info">
                     <li>(주)스마티이</li>
                     <li>대표 이우찬</li>
-                    <li>사업자 등록번호 123-45-67788</li>
+                    <li>사업자 등록번호 107-87-62050</li>
                 </ul>
                 <ul class="smartee-contract">
-                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
-                    <li>Tel ) 02-123-4567</li>
-                    <li>Fax ) 02-789-7991</li>
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25, 신승빌딩 3층</li>
+                    <li>Tel ) 02-783-2201</li>
+                    <li>Fax ) 02-783-2203</li>
                 </ul>
             </div>
             <div class="footer-right">
                 <ul class="footer-nav">
-                    <li><a href="#">스마티이 소개</a></li>
-                    <li><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">오시는 길</a></li>
+                    <li><img src="/resources/common/include/img/img_innobiz.png"></li>
+                    <li><img src="/resources/common/include/img/img_patent.png"></li>
+                    <li><img src="/resources/common/include/img/img_venture_02.png"></li>
                 </ul>
                 <div class="footer-copy">
                     <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
@@ -1378,7 +1369,6 @@
         </ul>
     </div>
     <!-- //ham-menu -->
-
     </script>
 </body>
 </html>

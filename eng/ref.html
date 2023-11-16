@@ -8,17 +8,19 @@
     <!-- 웹폰트 / 웹폰트아이콘 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/sub-index.css">
-    <link rel="stylesheet" href="../css/sub-index-new.css">
-    <link rel="stylesheet" href="../css/ref.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/sub-index-new.css">
+    <link rel="stylesheet" href="css/ref.css">
 
 
     <!-- script -->
-    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/subheader.js"></script>
+    <script src="js/subheader.js"></script>
+    <!-- <script src="js/solution-scroll.js"></script> -->
+
     <title>smartee.</title>
 </head>
 <body>
@@ -35,10 +37,10 @@
                 <li class="main1depth solution">
                     <a href="solution.html">Solution</a>
                     <ul class="sub2depth subSolution">
-                        <li class="subMenu"><a href="solution.html#sec1">Development Service</a></li>
-                        <li class="subMenu"><a href="solution.html#sec2">SpiderLive</a></li>
-                        <li class="subMenu"><a href="solution.html#sec3">SpiderView</a></li> 
-                        <li class="subMenu"><a href="solution.html#sec4">IT Outsourcing</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec1">개발 서비스</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="solution.html#sec3">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">스파이더 뷰</a></li> 
                     </ul>
                 </li>
                 <li class="main1depth solution">
@@ -60,7 +62,7 @@
                 </li>
                 <li class="main1depth solution">
                     <a href="ref.html">Case study</a>
-                    <ul class="sub2depth subSolution">
+                            <ul class="sub2depth subSolution">
                         <li class="subMenu">
                             <a href="ref.html">Portfolio</a>
                         </li>
@@ -69,6 +71,7 @@
                         </li>
                     </ul>
                 </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
                 <li class="main1depth solution">
                     <a href="customer.html">Customer</a>
                     <ul class="sub2depth subSolution">
@@ -89,20 +92,21 @@
                         <li class="subMenu"><a href="about-map.html">Location</a></li>   
                     </ul>
                 </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
             </ul>
             <!-- 언어 선택 영역 -->
             <div class="lang">
-                <p class="lang-btn">
+                <p class="lang-btn on">
                     <a href="index.html">KO</a>
                 </p>
                 <p>&#124;</p>
-                <p class="lang-btn on">
+                <p class="lang-btn">
                     <a href="eng/index.html">EN</a>
                 </p>
             </div>
             <!-- //언어 선택 영역 -->
             <!-- main-gnb -->
-            <div class="ham-menu"">
+            <div class="ham-menu">
                 <a href="#" class="menu-trigger">
                     <span></span>
                     <span></span>
@@ -154,19 +158,18 @@
             <div class="wrap reference">
                 <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
                     <div class="secInform">
-                        Introducing the companies<br>that have partnered with Smartee.
+                        스마티이와 함께한<br />기업들을 소개합니다.
                     </div>
                 </div>
                 <div class="referenceWrap" id="solution">
-
                     <div class="secRef" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                         <div class="secTitle">Reference</div>
                         <!-- ref 탭 부분 -->
                         <ul class="viewTab" data-aos="fade-up" data-aos-duration="1000">
-                            <li><a href="#" class="on">Large Enterprises</a></li>
-                            <li><a href="#">e-commerce Platforms</a></li>
-                            <li><a href="#">Public Projects</a></li>
-                            <li><a class="custom-fs" href="#">Smaller Businesses/Startups</a></li>
+                            <li><a href="#" class="on">대기업</a></li>
+                            <li><a href="#" class="li-custom">e-commerce<span>플랫폼</span></a></li>
+                            <li><a href="#">공공 프로젝트</a></li>
+                            <li><a href="#">중소/스타트업</a></li>
                         </ul>
                         <!-- ref 영역 탭 내용 노출부분 -->
                         <div class="refTab-content-wrap" data-aos="fade-up" data-aos-duration="1000">
@@ -177,220 +180,215 @@
                                 <ul>
                                     <!-- lg cns -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp_lgcns.png"></h2>
-                                        <h5>LG CNS Consumer Research Platform<br>Quinoa Service Development (Korea)</h5>
+                                        <h2><img src="img/ref/corp_lgcns.png"></h2>
+                                        <h5>소비자 리서치플랫폼 <span class="text-point">퀴노아</span><br>서비스 구축(한국)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/1.lgcns.svg">
+                                            <img src="img/ref-mockup/1.lgcns.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">A hybrid application developed with web (React) and backend (Java)</p>
+                                                <p class="check-text">웹 (React)과 백엔드(자바)로 개발된 하이브리드 어플리케이션</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">A Big Data survey platform that enables the creation and distribution of surveys through mobile apps or websites, conducting surveys, analyzing the results, and providing valuable market research data to customers.</p>
+                                                <p class="check-text">빅데이터 설문조사 플랫폼으로 설문조사를 앱이나 웹으로 생성하고 배포하여 설문조사를 시행하고 조사결과를 토대로 분석하여 고객에게 유용한 시장조사 데이터를 제공</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Providing comprehensive features for surveys and offering functionalities such as customer ratings, points, and events.</p>
+                                                <p class="check-text">설문조사에 필요한 전반적인 기능을 제공하고 고객 등급, 포인트, 이벤트등의 기능을 제공</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Period: May 2022 to Nov 2022 (7months)</p>
+                                                <p class="check-text">개발 기간 : 2022년 5월 ~ 11월 (7개월)</p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- lg전자 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-lgele.png"></h2>
-                                        <h5>LG Electronics Virtual Asset Wallet App<br>Software Development (Korea)</h5>
+                                        <h2><img src="img/ref/corp-lgele.png"></h2>
+                                        <h5>가상자산 월렛 앱 <span class="text-point">MR</span><br>SW 개발(한국)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/2.lgele.svg">
+                                            <img src="img/ref-mockup/2.lgele.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">A service developed with app (Flutter) and backend (Java). Development of the app and admin system.</p>
+                                                <p class="check-text">앱 (플루터) 와 백엔드 (자바) 로 개발된 서비스. 앱과 어드민 시스템 개발.</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">An electronic wallet app for efficiently managing virtual assets, providing users with convenience and security.</p>
+                                                <p class="check-text">가상자산을 효율적으로 관리하는 전자지갑 앱으로 사용자에게 편의성과 보안을 제공</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Key functions include sending and receiving funds, transaction history, notifications, and updates.</p>
+                                                <p class="check-text">주요기능으로 송금 및 수신, 거래기록, 알림 및 업데이트등을 제공</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Period : Jun 2022 to Dec 2023 (7months)</p>
+                                                <p class="check-text">개발 기간 : 2022년 6월 ~ 23년 12월 (7개월)</p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 롯데마트 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-ltmart.png"></h2>
-                                        <h5>LOTTE MART L Speed<br>Next-Generation Build (Vietnam)</h5>
+                                        <h2><img src="img/ref/corp-ltmart.png"></h2>
+                                        <h5>L 스피드<br>차세대 구축(베트남)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/3.lottemart.svg">
+                                            <img src="img/ref-mockup/3.lottemart.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">LOTTE MART L Speed Next-Generation Development Project in Vietnam</p>
+                                                <p class="check-text">베트남 롯데마트 L 스피드 차세대 구축 프로젝트</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Design and UI/UX Work</p>
+                                                <p class="check-text">디자인 및 UI/UX 작업</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">
-                                                    Key Functions : Master Data Management and Sales, Orders, Accounting, Reporting, and Delivery
+                                                <p class="check-text">주요기능 : 기준정보 관리 및 판매, 주문, 정산, 리포트, 배송 
                                                 </p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">
-                                                    Development Period : Sep 2022 to Apr 2023
+                                                <p class="check-text">개발 기간 : 22년 9월 ~ 23년 4월
                                                 </p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 롯데리아 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-ltlia.png"></h2>
-                                        <h5>LOTTERIA POS System<br>Development (Vietnam)</h5>
+                                        <h2><img src="img/ref/corp-ltlia.png"></h2>
+                                        <h5>롯데리아 POS시스템<br>구축(베트남)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/4.lottelia.svg">
+                                            <img src="img/ref-mockup/4.lottelia.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Languages : React/Java</p>
+                                                <p class="check-text">개발 언어 : React/Java</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development and Implementation of POS Devices, POS Systems, and ERP Systems</p>
+                                                <p class="check-text">POS 기기,  POS 시스템, ERP 시스템 개발 구축</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Key Functions : Sales/Discounts, Membership, Points</p>
+                                                <p class="check-text">주요기능 : 판매/할인, 멤버십, 포인트</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">
-                                                    Development Period: Feb 2021 to Dec 2022
+                                                <p class="check-text">개발 기간 : 21년 2월 ~ 22년 12월 
+    
                                                 </p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 세일즈포스 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-sales.png"></h2>
-                                        <h5>Salesforce Development and Operations<br>for a Large Cosmetics Company (Taiwan)</h5>
+                                        <h2><img src="img/ref/corp-sales.png"></h2>
+                                        <h5>대형 화장품 회사 세일즈 포스<br>개발 및 운영(대만)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/5.salesforce.svg">
+                                            <img src="img/ref-mockup/5.salesforce.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Languages : Java, Kotlin(App), Swift(iOS), JSP</p>
+                                                <p class="check-text">개발언어 : Java, kotlin App, Swift IOS, JSP</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Implementation of a Global Salesforce Platform, including Sales and Marketing Cloud, in Taiwan</p>
+                                                <p class="check-text">글로벌 플랫폼 세일즈포스를 서비스, 마케팅 클라우드 포함하여 대만에 구축</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Key Functions : Marketing Events, Reports, External Interfaces (Email, SMS, Line)</p>
+                                                <p class="check-text">주요기능 : 마케팅 이벤트, 리포트, 외부 인터페이스 (메일, SMS, Line)</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Period : Jun 2021 to Oct 2022</p>
+                                                <p class="check-text">개발 기간 : 21년 6월 ~ 22년 10월</p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 롯데백화점 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-ltep.png"></h2>
-                                        <h5>
-                                            Vietnam Lotte Department Store Integrated Membership (L.Point)<br>Service Development (Vietnam)
+                                        <h2><img src="img/ref/corp-ltep.png"></h2>
+                                        <h5>베트남 롯데백화점 통합 멤버쉽(L포인트)<br>서비스 구축(베트남)
                                         </h5>
                                         <div>
-                                            <img src="../img/ref-mockup/6.lpoint.svg">
+                                            <img src="img/ref-mockup/6.lpoint.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Language : Flutter</p>
+                                                <p class="check-text">개발 언어 : Flutter</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Mobile App Development for Hanoi Lotte Department Store Membership System Implementation</p>
+                                                <p class="check-text">하노이 롯데 백화점 멤버십 시스템 구축에 따른 모바일 App 개발</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Key Functions : Mobile App Development</p>
+                                                <p class="check-text">주요기능 : 모바일 개발</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Period : Dec 2022 to Jul 2023</p>
+                                                <p class="check-text">개발 기간 : 22년 12월 ~ 23년 7월</p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 롯데그룹 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-ltcor.png"></h2>
-                                        <h5>LOTTE Corporation Operation System Web<br>Product Standardization Project (Korea)</h5>
+                                        <h2><img src="img/ref/corp-ltcor.png"></h2>
+                                        <h5>운영 시스템 웹 화면<br>상품 표준화 프로젝트(한국)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/7.lottecorp.svg">
+                                            <img src="img/ref-mockup/7.lottecorp.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Languages : Java, Data Query</p>
+                                                <p class="check-text">개발 언어 : Java, Data Query</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Backend Development for Data Filtering and Analysis Using Data Query, in Compliance with Affiliate Requirements</p>
+                                                <p class="check-text">계열사 요청사항에 따른 Backend 개발 Data Query 로 자료 필터링 및 분석</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Key Functions : Establishment of Product Standardization System and Product Analysis through Data Query</p>
+                                                <p class="check-text">주요기능 : 상품 표준화 시스템 구축 및 Data query 를 통한  상품 분석</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Period : Development Period:  Jan 2023 to Jul 2023</p>
+                                                <p class="check-text">개발 기간 : 23년 1월 ~ 7월</p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 롯데 면세 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-ltdf.png"></h2>
-                                        <h5>LOTTE Duty-Free Online Mall<br>App Service Development (Singapore)</h5>
+                                        <h2><img src="img/ref/corp-ltdf.png"></h2>
+                                        <h5>롯데 면세점 온라인 몰<br>앱 서비스 구축(싱가폴)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/8.lotteDFSG.svg">
+                                            <img src="img/ref-mockup/8.lotteDFSG.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Languages : React, Java, and Flutter</p>
+                                                <p class="check-text">개발 언어 : React/Java & Flutter</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">
-                                                    Development and Implementation of Inventory and Sales Management for Kiosks, Duty-Free, and Cafe PoS, and ERP System
-                                                </p>
+                                                <p class="check-text">키오스크, 면세 & 카페 PoS의 재고 판매 관리, ERP 시스템 개발 구축
+                                                    </p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Key Functions : Inventory Management, Sales/Discounts, Membership, Points</p>
+                                                <p class="check-text">주요기능 : 재고 관리. 판매/할인, 멤버십, 포인트</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">
-                                                    Development Period : Dec 2022 to Dec 2023
+                                                <p class="check-text">개발 기간 : 22년 12월 ~ 23년 12월
                                                 </p>
                                             </li>
                                         </ul>
@@ -403,57 +401,55 @@
                                 <ul>
                                     <!-- 헬로네이처 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-hello.png"></h2>
-                                        <h5>e-Commerce Platform and<br>Logistics System Development (Korea)</h5>
+                                        <h2><img src="img/ref/corp-hello.png"></h2>
+                                        <h5>헬로네이처<br>e-Commerce 플랫폼 및 물류시스템 구축(한국)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/9.hellonature.svg">
+                                            <img src="img/ref-mockup/9.hellonature.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">
-                                                    Revamping an Aging e-Commerce Platform and Logistics System
+                                                <p class="check-text">노후화된 e-Commerce 플랫폼 및 물류시스템을 구축
                                                 </p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development of New Front Page for Web and Mobile Web</p>
+                                                <p class="check-text">웹과 모바일 웹의 Front Page를 신규 개발</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Implementation of a Food Online Mall Process</p>
+                                                <p class="check-text">식품 온라인몰 프로세스 적용</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Period : Dec 2020 to May 2021 (6months)</p>
+                                                <p class="check-text">개발 기간 : 2020년 12월 ~ 2021년 5월(6개월)</p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 홈인 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-lgu.png"></h2>
-                                        <h5>
-                                            LG Home-In Service<br>Platform Development (Korea)
+                                        <h2><img src="img/ref/corp-lgu.png"></h2>
+                                        <h5>LG 홈인 서비스<br>플랫폼 구축 (한국)
                                         </h5>
                                         <div>
-                                            <img src="../img/ref-mockup/10.lguplus.svg">
+                                            <img src="img/ref-mockup/10.lguplus.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Building the service on an MSA (Microservices Architecture) basis to allow flexible adaptation to business and IT technological changes.</p>
+                                                <p class="check-text">서비스를 MSA기반으로 구현하여 비즈니스 및 IT기술변화에 유연하게 대응할 수 있도록 구축</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Providing screens with excellent usability and readability.</p>
+                                                <p class="check-text">사용성과 가독성이 우수한 화면을 구성하여 제공</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Providing an information screen that facilitates the analysis of customer website visits, purchases, and consultation activities.</p>
+                                                <p class="check-text">고객의 사이트 방문, 구매, 상담 내용의 활동 기록을 데이터 분석이 용이하도록 정보화면을 제공</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Period : Jul 2020 to Jun 2021 (12months)</p>
+                                                <p class="check-text">개발 기간 : 2020년 7월 ~ 2021년 6월(12개월)</p>
                                             </li>
                                         </ul>
                                     </li>
@@ -465,88 +461,85 @@
                                 <ul>
                                     <!-- 나눔로또 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-lotto.png"></h2>
-                                        <h5>나눔Lotto (Nanum Lotto)<br> - South Korea</h5>
+                                        <h2><img src="img/ref/corp-lotto.png"></h2>
+                                        <h5>나눔 로또(한국)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/11.lotto.svg">
+                                            <img src="img/ref-mockup/11.lotto.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Integration of existing individual online lottery websites (Lotto, Annuity Lottery, Internet Lottery) into a single site.</p>
+                                                <p class="check-text">기존의 개별사이트로 구축되어 있던 온라인 복권 사이트(로또, 연금복권, 인터넷복권)를 하나의 사이트로 통합</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development of a Portal Website and Mobile Web, as well as a Hybrid Mobile App.</p>
+                                                <p class="check-text">포털 사이트 구축 및 모바일 웹, 모바일 앱(하이브리드) 개발</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">NanumLotto Next-Generation Integration Project – Portal Division (http://www.nlotto.co.kr)</p>
+                                                <p class="check-text">나눔로또 차기 통합 프로젝트 – 포털 부문(http://www.nlotto.co.kr)</p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 산업통상지원부 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-public.png"></h2>
-                                        <h5>
-                                            Ministry of Commerce Industry and Energy (South Korea)
+                                        <h2><img src="img/ref/corp-public.png"></h2>
+                                        <h5>산업통상자원부(한국)
                                         </h5>
                                         <div>
-                                            <img src="../img/ref-mockup/12.industry.svg">
+                                            <img src="img/ref-mockup/12.industry.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Application of a responsive web solution for the Ministry of Trade, Industry and Energy website upgrade, and development of mobile services.</p>
+                                                <p class="check-text">산업통상자원부 홈페이지 고도화에 따른 반응형 웹 솔루션을 적용. 모바일 서비스 구축</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Ministry of Trade, Industry and Energy Administrative Information System Revamp Service (Mobile Web) (http://www.motie.go.kr)</p>
+                                                <p class="check-text">산업부 행정정보시스템 개편용역(모바일웹) ( http://www.motie.go.kr )</p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 제주도특별자치도청 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-jeju.png"></h2>
-                                        <h5>Jeju Special Self-Governing Province Office<br>(South Korea)</h5>
+                                        <h2><img src="img/ref/corp-jeju.png"></h2>
+                                        <h5>제주도특별자치도청(한국)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/13.jeju.svg">
+                                            <img src="img/ref-mockup/13.jeju.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Establishing a video streaming solution to provide VOD services for news-related videos within the Jeju Special Self-Governing Province Office website.</p>
+                                                <p class="check-text">제주특별자치도청 홈페이지내의 동영상 관련 뉴스를 VOD서비스 할 수 있도록 동영상 스트리밍 솔루션을 구축 </p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">
-                                                    Establishment of a VOD Service System for Jeju Internet Broadcasting Station (http://www.jeju.go.kr/news/jeunews/today.htm)
+                                                <p class="check-text">제주인터넷 방송국 VOD서비스 시스템 구축( http://www.jeju.go.kr/news/jeunews/today.htm )
                                                 </p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 건강보험관리공단 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-health.png"></h2>
-                                        <h5>
-                                            National Health Insurance Service<br>(South Korea)
+                                        <h2><img src="img/ref/corp-health.png"></h2>
+                                        <h5>건강보험관리공단(한국)
                                         </h5>
                                         <div>
-                                            <img src="../img/ref-mockup/14.health.svg">
+                                            <img src="img/ref-mockup/14.health.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">A streaming service system within the National Health Insurance Service's internal groupware.</p>
+                                                <p class="check-text">건강보험 관리공단 내부 그룹웨어에서 스트리밍 서비스를 제공하는 시스템</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Encoding and uploading management of in-house business-related video content. Establishment of a system for distributing video content through streaming services.</p>
+                                                <p class="check-text">사내 업무 관련 동영상 컨텐츠 인코딩 및 업로드 관리. 동영상 스트리밍 서비스로 배포하는 시스템을 구축</p>
                                             </li>
                                         </ul>
                                     </li>
                                 </ul>
-
+    
                             </div>
                             <!-- 네번째 탭 내용 -->
                             <!-- 중소 스타트업 -->
@@ -554,62 +547,60 @@
                                 <ul>
                                     <!-- 청소서비스 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-jungri.png"></h2>
-                                        <h5>Cleaning Service Matching<br>Platform Development (South Korea)</h5>
+                                        <h2><img src="img/ref/corp-jungri.png"></h2>
+                                        <h5>청소 매칭 서비스<br>플랫폼 구축(한국)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/15.jungri.svg">
+                                            <img src="img/ref-mockup/15.jungri.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">A service developed with an app (Flutter) and backend (Java). Development of the app and admin system.</p>
+                                                <p class="check-text">앱(플루터)과 백엔드(자바)로 개발된 서비스. 앱 및 어드민 시스템 개발</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">A service platform connecting cleaning companies and customers.</p>
+                                                <p class="check-text">청소 업체와 고객을 연결하는 서비스 플랫폼</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Providing service inquiries, reservations, payments, points, membership management, push notifications, and review management. Providing customer feedback to the companies through review management.</p>
+                                                <p class="check-text">서비스 조회, 예약, 결제, 포인트, 회원관리, 푸쉬 등을 제공. 리뷰 관리를 통해 고객의 의견을 업체로 제공</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Period : Dec 2022 to Jan 2023 (2months)</p>
+                                                <p class="check-text">개발 기간 : 2022년 12월 ~ 2023년 1월(2개월)</p>
                                             </li>
                                         </ul>
                                     </li>
                                     <!-- 글로 -->
                                     <li class="item-box" data-aos="fade-up" data-aos-duration="1000">
-                                        <h2><img src="../img/ref/corp-glo.png"></h2>
-                                        <h5>Global Overseas Shipping<br>Platform Development (South Korea)</h5>
+                                        <h2><img src="img/ref/corp-glo.png"></h2>
+                                        <h5>글로벌 해외 배송<br>플랫폼 구축(한국)</h5>
                                         <div>
-                                            <img src="../img/ref-mockup/16.glo.svg">
+                                            <img src="img/ref-mockup/16.glo.svg">
                                         </div>
                                         <ul class="item-info">
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">A service developed with an app (Flutter) and backend (Java). Development of the app and admin system.</p>
+                                                <p class="check-text">앱(플루터)과 백엔드(자바)로 개발된 서비스. 앱 및 어드민 시스템 개발</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">A delivery application platform for overseas shipping company customers.</p>
+                                                <p class="check-text">해외배송 업체의 고객용 배송 신청 서비스 플랫폼</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Providing service browsing, reservation, payment, points, membership management, push notifications, and an interface with a driver app to provide delivery status and time information.</p>
+                                                <p class="check-text">서비스 조회, 예약, 결제, 포인트, 회원관리, 푸쉬 등을 제공. 기사 앱과의 인터페이스를 통하여 배송 상태 및 시간을 알려주는 기능 제공</p>
                                             </li>
                                             <li class="item-info-detail">
                                                 <p class="check-fig"></p>
-                                                <p class="check-text">Development Period : Oct 2022 to Dec 2022 (2 months)</p>
+                                                <p class="check-text">개발 기간 : 2022년 10월 ~ 2022년 12월 (2개월)</p>
                                             </li>
                                         </ul>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-    
-    
+                    </div> 
                 </div>
             </div>
         </div>
@@ -643,23 +634,25 @@
     <div id="footer">
         <div class="footer-center">
             <div class="footer-left">
-                <h2><img src="../img/logo-main.png"></h2>
+                <h2>
+                    <img src="img/logo-main.png">
+                </h2>
                 <ul class="smartee-info">
                     <li>(주)스마티이</li>
                     <li>대표 이우찬</li>
-                    <li>사업자 등록번호 123-45-67788</li>
+                    <li>사업자 등록번호 107-87-62050</li>
                 </ul>
                 <ul class="smartee-contract">
-                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
-                    <li>Tel ) 02-123-4567</li>
-                    <li>Fax ) 02-789-7991</li>
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25, 신승빌딩 3층</li>
+                    <li>Tel ) 02-783-2201</li>
+                    <li>Fax ) 02-783-2203</li>
                 </ul>
             </div>
             <div class="footer-right">
                 <ul class="footer-nav">
-                    <li><a href="#">스마티이 소개</a></li>
-                    <li><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">오시는 길</a></li>
+                    <li><img src="/resources/common/include/img/img_innobiz.png"></li>
+                    <li><img src="/resources/common/include/img/img_patent.png"></li>
+                    <li><img src="/resources/common/include/img/img_venture_02.png"></li>
                 </ul>
                 <div class="footer-copy">
                     <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
@@ -737,6 +730,7 @@
         </ul>
     </div>
     <!-- //ham-menu -->
+
     </script>
 </body>
 </html>

@@ -8,16 +8,16 @@
     <!-- 웹폰트 / 웹폰트아이콘 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/sub-index.css">
-    <link rel="stylesheet" href="../css/sub-index-new.css">
-    <link rel="stylesheet" href="../css/about-hello.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/sub-index-new.css">
+    <link rel="stylesheet" href="css/about-hello.css">
 
     <!-- script -->
-    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/subheader.js"></script>
+    <script src="js/subheader.js"></script>
     <title>smartee.</title>
 </head>
 <body>
@@ -26,7 +26,7 @@
         <div class="header-wrap">
             <h1 class="logo">
                 <a href="index.html" class="logo-img">
-                    <img src="../img/logo-main.png" alt="smartee">
+                    <img src="img/logo-main.png" alt="smartee">
                 </a>
             </h1>
             <!-- logo-img -->
@@ -34,10 +34,10 @@
                 <li class="main1depth solution">
                     <a href="solution.html">Solution</a>
                     <ul class="sub2depth subSolution">
-                        <li class="subMenu"><a href="solution.html#sec1">Development Service</a></li>
-                        <li class="subMenu"><a href="solution.html#sec2">SpiderLive</a></li>
-                        <li class="subMenu"><a href="solution.html#sec3">SpiderView</a></li> 
-                        <li class="subMenu"><a href="solution.html#sec4">IT Outsourcing</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec1">개발 서비스</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="solution.html#sec3">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">스파이더 뷰</a></li> 
                     </ul>
                 </li>
                 <li class="main1depth solution">
@@ -59,7 +59,7 @@
                 </li>
                 <li class="main1depth solution">
                     <a href="ref.html">Case study</a>
-                    <ul class="sub2depth subSolution">
+                            <ul class="sub2depth subSolution">
                         <li class="subMenu">
                             <a href="ref.html">Portfolio</a>
                         </li>
@@ -68,6 +68,7 @@
                         </li>
                     </ul>
                 </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
                 <li class="main1depth solution">
                     <a href="customer.html">Customer</a>
                     <ul class="sub2depth subSolution">
@@ -88,20 +89,21 @@
                         <li class="subMenu"><a href="about-map.html">Location</a></li>   
                     </ul>
                 </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
             </ul>
             <!-- 언어 선택 영역 -->
             <div class="lang">
-                <p class="lang-btn">
+                <p class="lang-btn on">
                     <a href="index.html">KO</a>
                 </p>
                 <p>&#124;</p>
-                <p class="lang-btn on">
+                <p class="lang-btn">
                     <a href="eng/index.html">EN</a>
                 </p>
             </div>
             <!-- //언어 선택 영역 -->
             <!-- main-gnb -->
-            <div class="ham-menu"">
+            <div class="ham-menu">
                 <a href="#" class="menu-trigger">
                     <span></span>
                     <span></span>
@@ -114,17 +116,17 @@
         </div>
     </div>
     <!-- sub header end -->
-    <div id="container" class="eng">
+    <div id="container">
         <div class="visual-head">
             <div class="location">
-                <a href="index.html" class="location-text">Home</a>
+                <a href="index.html" class="location-text">홈</a>
                 <span class="location-arrow"></span>
-                <a href="about-ceo.html" class="location-text">Introduction</a>
+                <a href="about-ceo.html" class="location-text">회사소개</a>
                 <span class="location-arrow"></span>
-                <a href="about-ceo.html" class="location-text">Greetings</a>
+                <a href="about-ceo.html" class="location-text">인사말</a>
             </div>
             <div class="visual-title-wrap">
-                <h2 class="title-main">Greetings</h2>
+                <h2 class="title-main">회사소개</h2>
                 <h5 class="title-sub">smart, everyday, everything</h5>
             </div>
 
@@ -132,10 +134,10 @@
         <!-- 서브메뉴  -->
         <div class="subMenuNav">        
             <ul class="sub-index-wrap">
-                <li class="sub-index"><a href="about-ceo.html" class="sub-index-menu on">Greetings</a></li>
-                <li class="sub-index"><a href="about-history.html" class="sub-index-menu">History</a></li>
-                <li class="sub-index"><a href="about-recruit.html" class="sub-index-menu">Recruit</a></li>
-                <li class="sub-index"><a href="about-map.html" class="sub-index-menu">Location</a></li>
+                <li class="sub-index"><a href="about-ceo.html" class="sub-index-menu on">인사말</a></li>
+                <li class="sub-index"><a href="about-history.html" class="sub-index-menu">연혁</a></li>
+                <li class="sub-index"><a href="about-recruit.html" class="sub-index-menu">채용</a></li>
+                <li class="sub-index"><a href="about-map.html" class="sub-index-menu">오시는길</a></li>
             </ul>
         </div>
         <!-- top 버튼 -->
@@ -149,46 +151,57 @@
                 </svg>
             </a>   
         </div>
+        <!-- request 버튼 -->
+        <!-- <a href="request.html" class="request-btn">
+            <svg class="icon_rq" x="0px" y="0px" width="26px" height="23px" viewBox="0 0 26 23" enable-background="new 0 0 26 23" xml:space="preserve">
+                <path fill="#fcfcfc" d="M10.55,22.929c-0.242,0-0.481-0.088-0.669-0.257l-5.022-4.521H3.941C1.769,18.152,0,16.383,0,14.21V4.013
+                    c0-2.173,1.769-3.942,3.941-3.942h18.117C24.231,0.071,26,1.839,26,4.013V14.21c0,2.173-1.769,3.942-3.941,3.942H11.55v3.777
+                    c0,0.395-0.232,0.753-0.593,0.914C10.826,22.901,10.688,22.929,10.55,22.929z M3.941,2.071C2.871,2.071,2,2.942,2,4.013V14.21
+                    c0,1.071,0.871,1.942,1.941,1.942h1.301c0.247,0,0.485,0.091,0.669,0.257l3.639,3.275v-2.532c0-0.552,0.447-1,1-1h11.509
+                    c1.07,0,1.941-0.871,1.941-1.942V4.013c0-1.071-0.871-1.942-1.941-1.942H3.941z"></path>
+            </svg>
+            <span>의뢰하기</span>
+        </a>   -->
         <!-- 인사말 내용 시작 -->
         <div class="contWrap">
             <div class="wrap">
                 <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
                     <h6 class="secTitle">about smartee</h6>
                     <!-- 큰 제목 -->
-                    <h3>Hello,</h3>
-                    <h3>we are Smartee,</h3>
-                    <h3>a forward-thinking leader<br>in the future IT world.</h3>
+                    <h3>안녕하세요,</h3>
+                    <h3>미래 IT 세상의 앞서가는 리더</h3>
+                    <h3>새로운 생각의 스마티이입니다.</h3>
                 </div>
 
                 <!-- 내용 -->
                 <div class="hello-wrap">
                     <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        In the upcoming future, the world will see an increasing integration of Smart Services,<br/>
-                        and IT changes will lead the evolution of human life.
+                        다가올 미래의 세상은 점점 더 Smart Service가 접목화 될 것이며,<br/>
+                        IT 변화는 인류 생활의 진화를 리딩할 것입니다.
                     </p>
                     <p class="text-enter"></p>
-                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                        Smartee aims to be a leading global IT company of the future,<span></span>
-                        possessing core technical capabilities<span></span>
-                        to address the forward-looking environments and requirements of diverse customers.<span></span>
-                        Based on this, our goal is to drive the evolution of various technologies for a better IT world.<span></span>
-                        As it stands today, Smartee is an IT Total Solution specialist company<span></span>
-                        that has grown based on mobile responsive web solutions.
+                    <p data-aos="fade-up" data-aos-duration="1000">
+                        스마티이는 미래의 Global IT 선도기업을 목표로,<span></span>
+                        다양한 고객의 미래지향적 환경과 요구에 대응할 수 있는 핵심 기술력을 보유하고,<span></span>
+                        이를 기반으로 더 나은 IT 세상을 위한 다양한 기술의 진화를 목표하고 있습니다.<span></span>
+                        현재의 스마티이는 모바일 반응형 웹 솔루션을 기반으로 성장한<span></span>
+                        IT Total Solution 전문기업 입니다.
                     </p>
                     <p class="text-enter"></p>
-                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                        Smartee takes pride in its corporate philosophy of always prioritizing customers and employees<span></span>
-                        Its core values of talent, technology, and ongoing investments in service to provide high-level IT serviceside high-level IT services.
+                    <p data-aos="fade-up" data-aos-duration="1000">
+                        언제나 고객과 임직원을 최우선으로 생각하는 스마티이의 기업 이념과<span></span>
+                        차원 높은 IT 서비스를 제공하기 위한 핵심 가치인 인재와 기술 그리고 서비스에 대한 지속적인 투자가<span></span>
+                        현재의 스마티이임을 자부하고 있습니다.
                     </p>
                     <p class="text-enter"></p>
-                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
-                        In the future, smartee will continue to become a leading leader in the future IT world<span></span>
-                        by realizing IT improvement for customers with<span></span>
-                        competent talent, high-quality technology, endless spirit of challenge and passion.
+                    <p data-aos="fade-up" data-aos-duration="1000">
+                        앞으로도 스마티이는 역량 있는 인재, 수준 높은 기술력, 끝없는 도전정신과 열정으로<span></span>
+                        고객의 IT 개선을 실현하며<span></span>
+                        미래 IT 세상의 앞서나가는 리더가 되겠습니다.
                     </p>    
                     <p class="text-enter"></p>
-                    <p class="text-right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-                        Thank you.
+                    <p class="text-right" data-aos="fade-up" data-aos-duration="1000">
+                        감사합니다.
                     </p>
 
                 </div>
@@ -200,51 +213,25 @@
     <div id="footer">
         <div class="footer-center">
             <div class="footer-left">
-                <h2><img src="img/logo-dark.png"></h2>
+                <h2>
+                    <img src="img/logo-main.png">
+                </h2>
                 <ul class="smartee-info">
                     <li>(주)스마티이</li>
                     <li>대표 이우찬</li>
-                    <li>사업자 등록번호 123-45-67788</li>
+                    <li>사업자 등록번호 107-87-62050</li>
                 </ul>
                 <ul class="smartee-contract">
-                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
-                    <li>Tel ) 02-123-4567</li>
-                    <li>Fax ) 02-789-7991</li>
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25, 신승빌딩 3층</li>
+                    <li>Tel ) 02-783-2201</li>
+                    <li>Fax ) 02-783-2203</li>
                 </ul>
             </div>
             <div class="footer-right">
                 <ul class="footer-nav">
-                    <li><a href="#">스마티이 소개</a></li>
-                    <li><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">오시는 길</a></li>
-                </ul>
-                <div class="footer-copy">
-                    <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- sub footer start -->
-    <div id="footer">
-        <div class="footer-center">
-            <div class="footer-left">
-                <h2><img src="../img/logo-main.png"></h2>
-                <ul class="smartee-info">
-                    <li>(주)스마티이</li>
-                    <li>대표 이우찬</li>
-                    <li>사업자 등록번호 123-45-67788</li>
-                </ul>
-                <ul class="smartee-contract">
-                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
-                    <li>Tel ) 02-123-4567</li>
-                    <li>Fax ) 02-789-7991</li>
-                </ul>
-            </div>
-            <div class="footer-right">
-                <ul class="footer-nav">
-                    <li><a href="#">스마티이 소개</a></li>
-                    <li><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">오시는 길</a></li>
+                    <li><img src="/resources/common/include/img/img_innobiz.png"></li>
+                    <li><img src="/resources/common/include/img/img_patent.png"></li>
+                    <li><img src="/resources/common/include/img/img_venture_02.png"></li>
                 </ul>
                 <div class="footer-copy">
                     <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
@@ -253,7 +240,6 @@
         </div>
     </div>
     <!-- sub footer end -->
-    <!-- ham-munu -->
     <div id="ham-area" class="ham-wrap">
         <a href="#" class="close-btn"></a>
         <div class="hamTop">
@@ -321,6 +307,6 @@
             <!-- //about-ham -->
         </ul>
     </div>
-    <!-- //ham-menu -->
+    <!-- ham-area -->
 </body>
 </html>

@@ -8,16 +8,16 @@
     <!-- 웹폰트 / 웹폰트아이콘 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/sub-index.css">
-    <link rel="stylesheet" href="../css/sub-index-new.css">
-    <link rel="stylesheet" href="../css/about-recruit.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/sub-index-new.css">
+    <link rel="stylesheet" href="css/about-recruit.css">
 
     <!-- script -->
-    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/subheader.js"></script>
+    <script src="js/subheader.js"></script>
     <title>smartee.</title>
 </head>
 <body>
@@ -34,10 +34,10 @@
                 <li class="main1depth solution">
                     <a href="solution.html">Solution</a>
                     <ul class="sub2depth subSolution">
-                        <li class="subMenu"><a href="solution.html#sec1">Development Service</a></li>
-                        <li class="subMenu"><a href="solution.html#sec2">SpiderLive</a></li>
-                        <li class="subMenu"><a href="solution.html#sec3">SpiderView</a></li> 
-                        <li class="subMenu"><a href="solution.html#sec4">IT Outsourcing</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec1">개발 서비스</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="solution.html#sec3">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">스파이더 뷰</a></li> 
                     </ul>
                 </li>
                 <li class="main1depth solution">
@@ -59,7 +59,7 @@
                 </li>
                 <li class="main1depth solution">
                     <a href="ref.html">Case study</a>
-                    <ul class="sub2depth subSolution">
+                            <ul class="sub2depth subSolution">
                         <li class="subMenu">
                             <a href="ref.html">Portfolio</a>
                         </li>
@@ -68,6 +68,7 @@
                         </li>
                     </ul>
                 </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
                 <li class="main1depth solution">
                     <a href="customer.html">Customer</a>
                     <ul class="sub2depth subSolution">
@@ -88,20 +89,21 @@
                         <li class="subMenu"><a href="about-map.html">Location</a></li>   
                     </ul>
                 </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
             </ul>
             <!-- 언어 선택 영역 -->
             <div class="lang">
-                <p class="lang-btn">
+                <p class="lang-btn on">
                     <a href="index.html">KO</a>
                 </p>
                 <p>&#124;</p>
-                <p class="lang-btn on">
+                <p class="lang-btn">
                     <a href="eng/index.html">EN</a>
                 </p>
             </div>
             <!-- //언어 선택 영역 -->
             <!-- main-gnb -->
-            <div class="ham-menu"">
+            <div class="ham-menu">
                 <a href="#" class="menu-trigger">
                     <span></span>
                     <span></span>
@@ -117,14 +119,14 @@
     <div id="container">
         <div class="visual-head">
             <div class="location">
-                <a href="index.html" class="location-text">Home</a>
+                <a href="index.html" class="location-text">홈</a>
                 <span class="location-arrow"></span>
-                <a href="about-ceo.html" class="location-text">Introduction</a>
+                <a href="about-ceo.html" class="location-text">회사소개</a>
                 <span class="location-arrow"></span>
-                <a href="about-recruit.html" class="location-text">Recruit</a>
+                <a href="about-recruit.html" class="location-text">채용</a>
             </div>
             <div class="visual-title-wrap">
-                <h2 class="title-main">Recruit</h2>
+                <h2 class="title-main">채용 안내</h2>
                 <h5 class="title-sub">IT Specialist Group Smartee</h5>
             </div>
 
@@ -132,10 +134,10 @@
         <!-- 서브메뉴  -->
         <div class="subMenuNav">        
             <ul class="sub-index-wrap">
-                <li class="sub-index"><a href="about-ceo.html" class="sub-index-menu">Greetings</a></li>
-                <li class="sub-index"><a href="about-history.html" class="sub-index-menu">History</a></li>
-                <li class="sub-index"><a href="about-recruit.html" class="sub-index-menu on">Recruit</a></li>
-                <li class="sub-index"><a href="about-map.html" class="sub-index-menu">Location</a></li>
+                <li class="sub-index"><a href="about-ceo.html" class="sub-index-menu">인사말</a></li>
+                <li class="sub-index"><a href="about-history.html" class="sub-index-menu">연혁</a></li>
+                <li class="sub-index"><a href="about-recruit.html" class="sub-index-menu on">채용</a></li>
+                <li class="sub-index"><a href="about-map.html" class="sub-index-menu">오시는길</a></li>
             </ul>
         </div>
         <!-- top 버튼 -->
@@ -165,73 +167,74 @@
                 <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
                     <h6 class="secTitle">recruit</h6>
                     <div class="secInform">
-                        Employment information<br/>                
+                        채용 안내<br/>                
                     </div>
                 </div>
                 <div class="recruit-wrap"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <div>
-                        <span class="r-th">Job positions</span>
+                        <span class="r-th">모집분야</span>
                         <span class="r-td">
                             <ul>
-                                <li>Mobile Planner,</li>
-                                <li>Mobile Developer,</li>
-                                <li>Java Developer,</li>
-                                <li>Project Manager - PM,</li>
-                                <li>Analysis and Design Specialist,</li>
-                                <li>Java Web and Server Developer,</li>
-                                <li>Android/iOS Mobile App Developer</li>
-                            </ul>
-                        </span>
-                    </div>
-                    <div>
-                        <span class="r-th">Job Posting<br>Details</span>
-                        <span class="r-td">
-                            Permanent Position, Temporary Employment
-                        </span>
-                    </div>
-                    <div>
-                        <span class="r-th">Vacancies</span>
-                        <span class="r-td">
-                            0 positions
-                        </span>
-                    </div>
-                    <div>
-                        <span class="r-th">Application<br>Period</span>
-                        <span class="r-td">
-                            Open
-                        </span>
-                    </div>
-                    <div>
-                        <span class="r-th">Requirements</span>
-                        <span class="r-td">
-                            Experienced Developers
-                        </span>
-                    </div>
-                    <div>
-                        <span class="r-th">Required<br>Documents</span>
-                        <span class="r-td">
-                            Resume and Curriculum Vitae (CV)
-                        </span>
-                    </div>
-                    <div>
-                        <span class="r-th">Recruitment<br>Process</span>
-                        <span class="r-td">
-                            <ul>
-                                <li class="no-width">Application Form Submission</li>
-                                <li class="no-width"><span class="r-arrow"></span></li>
-                                <li class="no-width">Application Review</li>
-                                <li class="no-width"><span class="r-arrow"></span></li>
-                                <li class="no-width">Interview</li>
-                                <li class="no-width"><span class="r-arrow"></span></li>
-                                <li class="no-width">Employment</li>
+                                <li>모바일 기획자</li>
+                                <li>모바일 개발자</li>
+                                <li>자바 개발자</li>
+                                <li>PM(프로젝트 관리)</li>
+                                <li>분석/설계 가능자</li>
+                                <li>자바 웹, 서버 개발자</li>
+                                <li>안드로이드/iOS 모바일앱 개발자</li>
 
                             </ul>
                         </span>
                     </div>
                     <div>
-                        <span class="r-th">Apply</span>
+                        <span class="r-th">모집요강</span>
                         <span class="r-td">
-                            Open Until Filled / hr@smartee.co.kr
+                            정규직, 계약직
+                        </span>
+                    </div>
+                    <div>
+                        <span class="r-th">모집인원</span>
+                        <span class="r-td">
+                            0 명
+                        </span>
+                    </div>
+                    <div>
+                        <span class="r-th">전형기간</span>
+                        <span class="r-td">
+                            상시
+                        </span>
+                    </div>
+                    <div>
+                        <span class="r-th">자격요건</span>
+                        <span class="r-td">
+                            개발 경력 보유자
+                        </span>
+                    </div>
+                    <div>
+                        <span class="r-th">제출서류</span>
+                        <span class="r-td">
+                            이력서 및 경력서
+                        </span>
+                    </div>
+                    <div>
+                        <span class="r-th">전형절차</span>
+                        <span class="r-td">
+                            <ul>
+                                <li class="no-width">지원서 작성</li>
+                                <li class="no-width"><span class="r-arrow"></span></li>
+                                <li class="no-width">서류 전형</li>
+                                <li class="no-width"><span class="r-arrow"></span></li>
+                                <li class="no-width">면 접</li>
+                                <li class="no-width"><span class="r-arrow"></span></li>
+                                <li class="no-width">채 용</li>
+
+                            </ul>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="r-th">지원</span>
+                        <span class="r-td">
+                            충원시까지 접수 / hr@smartee.co.kr
                         </span>
                     </div>
                 </div>    
@@ -243,23 +246,25 @@
     <div id="footer">
         <div class="footer-center">
             <div class="footer-left">
-                <h2><img src="../img/logo-main.png"></h2>
+                <h2>
+                    <img src="img/logo-main.png">
+                </h2>
                 <ul class="smartee-info">
                     <li>(주)스마티이</li>
                     <li>대표 이우찬</li>
-                    <li>사업자 등록번호 123-45-67788</li>
+                    <li>사업자 등록번호 107-87-62050</li>
                 </ul>
                 <ul class="smartee-contract">
-                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
-                    <li>Tel ) 02-123-4567</li>
-                    <li>Fax ) 02-789-7991</li>
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25, 신승빌딩 3층</li>
+                    <li>Tel ) 02-783-2201</li>
+                    <li>Fax ) 02-783-2203</li>
                 </ul>
             </div>
             <div class="footer-right">
                 <ul class="footer-nav">
-                    <li><a href="#">스마티이 소개</a></li>
-                    <li><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">오시는 길</a></li>
+                    <li><img src="/resources/common/include/img/img_innobiz.png"></li>
+                    <li><img src="/resources/common/include/img/img_patent.png"></li>
+                    <li><img src="/resources/common/include/img/img_venture_02.png"></li>
                 </ul>
                 <div class="footer-copy">
                     <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
@@ -268,7 +273,6 @@
         </div>
     </div>
     <!-- sub footer end -->
-    <!-- ham-munu -->
     <div id="ham-area" class="ham-wrap">
         <a href="#" class="close-btn"></a>
         <div class="hamTop">
@@ -336,6 +340,6 @@
             <!-- //about-ham -->
         </ul>
     </div>
-    <!-- //ham-menu -->
+    <!-- ham-area -->
 </body>
 </html>

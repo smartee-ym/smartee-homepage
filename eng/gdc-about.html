@@ -8,16 +8,16 @@
     <!-- 웹폰트 / 웹폰트아이콘 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/sub-index.css">
-    <link rel="stylesheet" href="../css/sub-index-new.css">
-    <link rel="stylesheet" href="../css/gdc-intro.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub-index.css">
+    <link rel="stylesheet" href="css/sub-index-new.css">
+    <link rel="stylesheet" href="css/gdc-intro.css">
 
     <!-- script -->
-    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/subheader.js"></script>
+    <script src="js/subheader.js"></script>
     <title>smartee.</title>
 </head>
 <body>
@@ -34,10 +34,10 @@
                 <li class="main1depth solution">
                     <a href="solution.html">Solution</a>
                     <ul class="sub2depth subSolution">
-                        <li class="subMenu"><a href="solution.html#sec1">Development Service</a></li>
-                        <li class="subMenu"><a href="solution.html#sec2">SpiderLive</a></li>
-                        <li class="subMenu"><a href="solution.html#sec3">SpiderView</a></li> 
-                        <li class="subMenu"><a href="solution.html#sec4">IT Outsourcing</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec1">개발 서비스</a></li>
+                        <li class="subMenu"><a href="solution.html#sec2">IT 아웃소싱 관리</a></li>
+                        <li class="subMenu"><a href="solution.html#sec3">스파이더 라이브</a></li> 
+                        <li class="subMenu"><a href="solution.html#sec4">스파이더 뷰</a></li> 
                     </ul>
                 </li>
                 <li class="main1depth solution">
@@ -59,7 +59,7 @@
                 </li>
                 <li class="main1depth solution">
                     <a href="ref.html">Case study</a>
-                    <ul class="sub2depth subSolution">
+                            <ul class="sub2depth subSolution">
                         <li class="subMenu">
                             <a href="ref.html">Portfolio</a>
                         </li>
@@ -68,6 +68,7 @@
                         </li>
                     </ul>
                 </li>
+                <li class="main1depth news"><a href="news.html">News</a></li>
                 <li class="main1depth solution">
                     <a href="customer.html">Customer</a>
                     <ul class="sub2depth subSolution">
@@ -88,20 +89,21 @@
                         <li class="subMenu"><a href="about-map.html">Location</a></li>   
                     </ul>
                 </li>
+                <!-- <li class="main1depth request"><a href="request.html">Request</a></li> -->
             </ul>
             <!-- 언어 선택 영역 -->
             <div class="lang">
-                <p class="lang-btn">
+                <p class="lang-btn on">
                     <a href="index.html">KO</a>
                 </p>
                 <p>&#124;</p>
-                <p class="lang-btn on">
+                <p class="lang-btn">
                     <a href="eng/index.html">EN</a>
                 </p>
             </div>
             <!-- //언어 선택 영역 -->
             <!-- main-gnb -->
-            <div class="ham-menu"">
+            <div class="ham-menu">
                 <a href="#" class="menu-trigger">
                     <span></span>
                     <span></span>
@@ -114,14 +116,14 @@
         </div>
     </div>
     <!-- sub header end -->
-    <div id="container" class="eng">
+    <div id="container">
         <div class="visual-head">
             <div class="location">
-                <a href="index.html" class="location-text">Home</a>
+                <a href="index.html" class="location-text">홈</a>
                 <span class="location-arrow"></span>
                 <a href="about-ceo.html" class="location-text">GDC</a>
                 <span class="location-arrow"></span>
-                <a href="about-ceo.html" class="location-text">About</a>
+                <a href="about-ceo.html" class="location-text">Introduce</a>
             </div>
             <div class="visual-title-wrap">
                 <h2 class="title-main">GDC</h2>
@@ -156,33 +158,31 @@
                 <div class="secTitle-wrap" data-aos="fade-up" data-aos-duration="1000">
                     <h6 class="secTitle">introduce</h6>
                     <!-- 큰 제목 -->
-                    <h3>Introducing </h3>
-                    <h3>Global Development Center</h3>
-                    <h3>of smartee.</h3>
+                    <h3>스마티이의 </h3>
+                    <h3>Global Development Center를</h3>
+                    <h3>소개합니다.</h3>
                 </div>
                 <div class="secGdc">
                     <div class="gdcTitle" data-aos="fade-up"  data-aos-duration="1000">
-                        Introduction to the Global Development Center
+                        Global Development Center 소개
                     </div>
                     <section class="gdcWrap">
                         <!-- 비전과 목표 -->                        
                         <div class="gdc-about"  data-aos="fade-right" data-aos-duration="1000">
                             <h2 class="gdc-about-title">Vision & Target</h2>
                             <figure>
-                                <img class="gdc-about1-img" src="../img/gdc/1-vision.png">
+                                <img class="gdc-about1-img" src="img/gdc/1-vision.png">
                             </figure>
-                            <h5 class="gdc-sub-title">
-                                Providing High-Quality Software Solutions<br>
-                                to Global Enterprises.
+                            <h5 class="gdc-sub-title">글로벌 기업들에게<br>
+                                고품질 SW 솔루션제공
                             </h5>
                             <p class="gdc-about-detail">
-                                The Global Development Center<br>
-                                aims to provide high-quality software solutions<br>
-                                to global enterprises, enhance customer satisfaction,<br>
-                                and build long-term partnerships.<br>
-                                Our vision is to become<br>
-                                a globally competitive offshore system development company<br>
-                                and take market leadership.                                  
+                                Global Development Center는 글로벌 기업들에<span class="custom-br"></span>
+                                고품질 소프트웨어 솔루션을 제공하고, 고객 만족도를 향상시키며<span class="custom-br"></span>
+                                장기적인 파트너십을 구축하는 것을 목표로 합니다.<span class="custom-br"></span>
+                                우리의 비전은 세계적으로 경쟁력 있는<span class="custom-br"></span>
+                                Offshore 시스템 개발 회사로서<span class="custom-br"></span>
+                                시장 리더십을 차지하는 것입니다.  
                             </p>  
                         </div>
                         <!-- // 비전과 목표 -->
@@ -191,20 +191,18 @@
                         <div class="gdc-about" data-aos="fade-left" data-aos-duration="1000">
                             <h2 class="gdc-about-title">Service</h2>
                             <figure>
-                                <img class="gdc-about1-img" src="../img/gdc/1-service.png">
+                                <img class="gdc-about1-img" src="img/gdc/1-service.png">
                             </figure>
-                            <h5 class="gdc-sub-title">
-                                Collaboration with developers with<br>
-                                diverse skills and capabilities.
+                            <h5 class="gdc-sub-title">다양한 기술과 역량을 갖춘<br>
+                                개발자들과 협력
                             </h5>
                             <p class="gdc-about-detail">
-                                Smartee collaborates with developers<br>
-                                possessing diverse skills and capabilities<br>
-                                to undertake a variety of projects.<br>
-                                We have a wide-ranging portfolio that spans across<br>
-                                web, applications, ERP systems, and APIs.<br>
-                                Furthermore, we actively embrace the latest technological trends<br>
-                                to provide innovative solutions to our customers.
+                                스마티이는 다양한 기술 및 역량을 갖춘<span class="custom-br"></span>
+                                개발자들과 협력하여 다양한 프로젝트를 수행합니다.<span class="custom-br"></span>
+                                웹, 애플리케이션, ERP 시스템 그리고 API까지.<span class="custom-br"></span>
+                                광대한 범위에 걸쳐 여러 포토폴리오를 가지고 있습니다.<span class="custom-br"></span> 
+                                또한 우리는 최신 기술 동향을 적극적으로 수용하여<span class="custom-br"></span>
+                                고객들에게 혁신적인 솔루션을 제공합니다.  
                             </p>  
                         </div>
                         <!-- //서비스 -->
@@ -216,68 +214,65 @@
             <div class="secGdc offshore">
                 <div class="offshoreWrap">
                     <div class="gdcTitle" data-aos="fade-up"  data-aos-duration="1000">
-                        Guide to Selecting Offshore System Development Countries
+                        Offshore 시스템 개발 국가 선택 가이드
                     </div>
                     <section class="offshoreBox" data-aos="fade-up"  data-aos-duration="1000">
                         <div class="offshore-item">
                             <div class="offshore-item-head">
                                 <div>*</div>
                                 <h3>
-                                    Technical capabilities
+                                    기술 역량
                                 </h3>
                             </div>
 
                             <p>
-                                When selecting a country for offshore system development, the country's technical capabilities are of utmost importance.
-                                <br>
-                                A country with an excellent software development and technical education system would be preferred.
+                                Offshore 시스템 개발 국가를 선택할 때에는 그 나라의 기술 역량이 매우 중요합니다.<br>뛰어난 소프트웨어 개발 및 기술 교육 시스템을 가진 국가가 선호될 것입니다.
                             </p>
                         </div>
                         <div class="offshore-item">
                             <div class="offshore-item-head">
                                 <div>*</div>
                                 <h3>
-                                    Language and<span class="enterStyle">cultural fit</span>
+                                    언어 및<span class="enterStyle">문화 적합성</span>
                                 </h3>
                             </div>
 
                             <p>
-                                Effective communication can impact the success of a project, so it's essential to consider the alignment of the chosen country's language and business culture.
+                                원활한 커뮤니케이션은 프로젝트 성패에 영향을 미치므로, 선택한 국가의 언어 및 비즈니스 문화와의 적합성을 고려해야 합니다.
                             </p>
                         </div>
                         <div class="offshore-item">
                             <div class="offshore-item-head">
                                 <div>*</div>
                                 <h3>
-                                    legal requirements<span class="enterStyle"> & business environment</span>
+                                    법적 요건과<span class="enterStyle">비즈니스 환경</span>
                                 </h3>
                             </div>
 
                             <p>
-                                The business environment and legal requirements of the development country are crucial factors during project execution.<br>You should consider factors such as stability and intellectual property protection.
+                                개발 국가의 비즈니스 환경과 법적 요건은 프로젝트 진행 시 중요한 요소입니다.<br>안정성, 지적 재산권 보호 등을 고려해야 합니다.
                             </p>
                         </div>
                         <div class="offshore-item">
                             <div class="offshore-item-head">
                                 <div>*</div>
                                 <h3>
-                                    Time difference &<span class="enterStyle">geographical distance</span>
+                                    시차 및<span class="enterStyle">지리적 거리</span>
                                 </h3>
                             </div>  
                             <p>
-                                To enhance project efficiency, it is essential to take into account the time difference and geographical distance with the development country.
-                                <br>This is to facilitate communication and collaboration.
+                                프로젝트 효율성을 위해 개발 국가와의 시차 및 지리적 거리를 고려해야 합니다.<br>커뮤니케이션과 협업을 원활하게 하기 위함입니다.
                             </p>
                         </div>
                         <div class="offshore-item">
                             <div class="offshore-item-head">
                                 <div>*</div>
                                 <h3>
-                                    Cost-effectiveness
+                                    비용 효율성
                                 </h3>
                             </div>
                             <p>
-                                One of the goals of offshore system development is to enhance cost-effectiveness.<br>You should take into account the cost structure and economic aspects of the development country.
+                                Offshore 시스템 개발의 목표 중 하나는 비용 효율성 향상입니다.<br>개발 국가의 비용 구조와 경제적 측면을 고려해야 합니다.
                             </p>
                         </div>
                     </section>
@@ -290,7 +285,7 @@
             <div class="wrap success">
                 <div class="secGdc">
                     <div class="gdcTitle" data-aos="fade-up"  data-aos-duration="1000">
-                        Introduction to the Global Development Center
+                        Global Development Center 소개
                     </div>
                     <section class="success-ex" data-aos="fade-up"  data-aos-duration="1000">
                         <div class="ex-item">
@@ -299,13 +294,13 @@
                             </h3>
                             <dl>
                                 <dt>
-                                    PHP-based project
+                                    PHP 기반 프로젝트
                                 </dt>
                                 <dd>
-                                    We have successfully completed various PHP-based projects through collaboration with Amore Pacific.
+                                    Amore Pacific과의 협업으로 다양한 PHP 기반 프로젝트를 성공적으로 완료하였습니다.
                                 </dd>
                                 <dd>
-                                    This has demonstrated our software development and customized solution delivery capabilities.
+                                    이를 통해 소프트웨어 개발 및 맞춤형 솔루션 제공 능력을 입증했습니다.
                                 </dd>
                             </dl>
 
@@ -316,13 +311,13 @@
                             </h3>
                             <dl>
                                 <dt>
-                                    Java & JSP technology
+                                    Java & JSP 기술
                                 </dt>
                                 <dd>
-                                    We have experience in various API development projects and ERP system development.
+                                    다양한 API 개발 프로젝트와 ERP 시스템 개발 경험이 있습니다.
                                 </dd>
                                 <dd>
-                                    With this experience, we have a highly skilled development team in Java & JSP technology.
+                                    이 경험으로 Java & JSP 기술의 뛰어난 역량을 갖춘 개발팀을 갖추고 있습니다.
                                 </dd>
                             </dl>
 
@@ -333,13 +328,13 @@
                             </h3>
                             <dl>
                                 <dt>
-                                    Mobile app using Flutter
+                                    Flutter를 활용한 모바일 앱
                                 </dt>
                                 <dd>
-                                    We have successfully completed mobile app development using Flutter through collaboration with Lotte Group.
+                                    Lotte Group과의 협업을 통해 Flutter를 사용한 모바일 앱 개발을 성공적으로 완료하였습니다.
                                 </dd>
                                 <dd>
-                                    This has demonstrated our innovative app development capabilities tailored to meet customer requirements.
+                                    이를 통해 고객의 요구에 맞는 혁신적인 앱 개발 능력을 입증했습니다.
                                 </dd>
                             </dl>
 
@@ -350,13 +345,13 @@
                             </h3>
                             <dl>
                                 <dt>
-                                    JavaScript-based project
+                                    JavaScript 기반 프로젝트
                                 </dt>
                                 <dd>
-                                    We have successfully completed various web projects using React JS, Node JS, and Next JS.
+                                    React JS, Node JS, Next JS를 활용한 다양한 웹 프로젝트를 성공적으로 완료하였습니다.
                                 </dd>
                                 <dd>
-                                    This has demonstrated our ability to provide innovative web solutions to our clients using these technologies.
+                                    이러한 기술을 활용하여 고객들에게 혁신적인 웹 솔루션을 제공하는 능력을 입증했습니다.
                                 </dd>
                             </dl>
 
@@ -370,13 +365,13 @@
                                     
                                 </dt>
                                 <dd>
-                                    GCRM of AmorePacific, KCRM of AmorePacific, Sales Management System of H-Card
+                                    GCRM of AmorePacific, KCRM of AmorePacific, SalesManagementSystem of H-Card 등 
                                 </dd>
                                 <dd>
-                                    We have successfully completed various projects using Salesforce.
+                                    Salesforce를 활용한 다양한 프로젝트를 성공적으로 완료하였습니다. 
                                 </dd>
                                 <dd>
-                                    This has demonstrated our Salesforce development capabilities tailored to meet customer requirements.
+                                    이를 통해 고객의 요구에 맞는 Salesforce 개발 능력을 입증했습니다.
                                 </dd>
                             </dl>
 
@@ -393,23 +388,25 @@
     <div id="footer">
         <div class="footer-center">
             <div class="footer-left">
-                <h2><img src="../img/logo-main.png"></h2>
+                <h2>
+                    <img src="img/logo-main.png">
+                </h2>
                 <ul class="smartee-info">
                     <li>(주)스마티이</li>
                     <li>대표 이우찬</li>
-                    <li>사업자 등록번호 123-45-67788</li>
+                    <li>사업자 등록번호 107-87-62050</li>
                 </ul>
                 <ul class="smartee-contract">
-                    <li>(우)04382 서울특별시 용산구 한강대로54길 25 3층</li>
-                    <li>Tel ) 02-123-4567</li>
-                    <li>Fax ) 02-789-7991</li>
+                    <li>(우)04382 서울특별시 용산구 한강대로54길 25, 신승빌딩 3층</li>
+                    <li>Tel ) 02-783-2201</li>
+                    <li>Fax ) 02-783-2203</li>
                 </ul>
             </div>
             <div class="footer-right">
                 <ul class="footer-nav">
-                    <li><a href="#">스마티이 소개</a></li>
-                    <li><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">오시는 길</a></li>
+                    <li><img src="/resources/common/include/img/img_innobiz.png"></li>
+                    <li><img src="/resources/common/include/img/img_patent.png"></li>
+                    <li><img src="/resources/common/include/img/img_venture_02.png"></li>
                 </ul>
                 <div class="footer-copy">
                     <span>Copyrights ⓒ smartee. All Rights Reserved.</span>
@@ -418,7 +415,6 @@
         </div>
     </div>
     <!-- sub footer end -->
-    <!-- ham-munu -->
     <div id="ham-area" class="ham-wrap">
         <a href="#" class="close-btn"></a>
         <div class="hamTop">
@@ -486,6 +482,6 @@
             <!-- //about-ham -->
         </ul>
     </div>
-    <!-- //ham-menu -->
+    <!-- ham-area -->
 </body>
 </html>
